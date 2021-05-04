@@ -1,8 +1,11 @@
-- **FIXM**
+- **Candidate inputs to docs.fixm.aero**
   - [FIXM Examples](fixm/Example.md)
-  - [FIXM UML in mermaid](fixm/FIXM_UML_in_mermaid.md)
+
   
-  
+- **Testing docsify capabilities**  
+  - [FIXM UML in mermaid](fixm/FIXM_UML_in_mermaid.md)  
+
+
 - **OTHER**
   
   
