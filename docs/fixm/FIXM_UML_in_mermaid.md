@@ -7,29 +7,19 @@ class TelecomNetworkType
 TelecomNetworkType : AFTN
 TelecomNetworkType : INTERNET
 link TelecomNetworkType "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TelecomNetworkTypeType.html" "Go to XML definition"
-class TextCountryCode
-link TextCountryCode "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TextCountryCodeType.html" "Go to XML definition"
-class TextCity
-link TextCity "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TextCityType.html" "Go to XML definition"
-class TextCountryName
-link TextCountryName "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TextCountryNameType.html" "Go to XML definition"
-class TextAddress
-link TextAddress "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TextAddressType.html" "Go to XML definition"
-class TextPhone
-link TextPhone "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TextPhoneType.html" "Go to XML definition"
 class PostalAddress
 PostalAddress : TextName [0..1]+administrativeArea
 PostalAddress : PostalAddressExtension [0..*]+extension
-PostalAddress --> TextCity : [0..1]+city
-PostalAddress --> TextCountryCode : [0..1]+countryCode
-PostalAddress --> TextCountryName : [0..1]+countryName
-PostalAddress --> TextAddress : [0..1]+deliveryPoint
+PostalAddress : TextCity [0..1]+city
+PostalAddress : TextCountryCode [0..1]+countryCode
+PostalAddress : TextCountryName [0..1]+countryName
+PostalAddress : TextAddress [0..1]+deliveryPoint
 PostalAddress : TextName [0..1]+postalCode
 link PostalAddress "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_PostalAddressType.html" "Go to XML definition"
 class OnlineContact
 OnlineContact : OnlineContactExtension [0..*]+extension
-OnlineContact --> TextAddress : [0..1]+email
-OnlineContact --> TextAddress : [0..1]+linkage
+OnlineContact : TextAddress [0..1]+email
+OnlineContact : TextAddress [0..1]+linkage
 OnlineContact --> NetworkChoice : [0..1]+network
 link OnlineContact "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_OnlineContactType.html" "Go to XML definition"
 class ContactInformation
@@ -42,19 +32,14 @@ ContactInformation : TextName [0..1]+title
 link ContactInformation "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_ContactInformationType.html" "Go to XML definition"
 class TelephoneContact
 TelephoneContact : TelephoneContactExtension [0..*]+extension
-TelephoneContact --> TextPhone : [0..1]+facsimile
-TelephoneContact --> TextPhone : [0..1]+voice
+TelephoneContact : TextPhone [0..1]+facsimile
+TelephoneContact : TextPhone [0..1]+voice
 link TelephoneContact "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TelephoneContactType.html" "Go to XML definition"
 class NetworkChoice
 <<choice>> NetworkChoice
 NetworkChoice : CharacterString +other
 NetworkChoice --> TelecomNetworkType : +type
 link NetworkChoice "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_NetworkChoiceType.html" "Go to XML definition"
-<<CharacterString>>TextCountryCode
-<<TextName>>TextCity
-<<TextName>>TextCountryName
-<<CharacterString>>TextAddress
-<<CharacterString>>TextPhone
 ```
 
 ## AeronauticalReference - ATS Routes references
@@ -64,15 +49,11 @@ classDiagram
 class SidStarReference
 SidStarReference : HypertextReference [0..1]+href
 SidStarReference : SidStarReferenceExtension [0..*]+extension
-SidStarReference --> SidStarAbbreviatedDesignator : [0..1]+abbreviatedDesignator
-SidStarReference --> SidStarDesignator : [0..1]+designator
+SidStarReference : SidStarAbbreviatedDesignator [0..1]+abbreviatedDesignator
+SidStarReference : SidStarDesignator [0..1]+designator
 link SidStarReference "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_SidStarReferenceType.html" "Go to XML definition"
 class RestrictedRouteDesignator
 link RestrictedRouteDesignator "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RestrictedRouteDesignatorType.html" "Go to XML definition"
-class SidStarAbbreviatedDesignator
-link SidStarAbbreviatedDesignator "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_SidStarAbbreviatedDesignatorType.html" "Go to XML definition"
-class SidStarDesignator
-link SidStarDesignator "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_SidStarDesignatorType.html" "Go to XML definition"
 class RouteDesignator
 RouteDesignator : HypertextReference [0..1]+href
 link RouteDesignator "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RouteDesignatorType.html" "Go to XML definition"
@@ -82,8 +63,6 @@ class RunwayDirectionDesignator
 RunwayDirectionDesignator : HypertextReference [0..1]+href
 link RunwayDirectionDesignator "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RunwayDirectionDesignatorType.html" "Go to XML definition"
 <<CharacterString>>RestrictedRouteDesignator
-<<CharacterString>>SidStarAbbreviatedDesignator
-<<CharacterString>>SidStarDesignator
 RestrictedRouteDesignator <|-- RouteDesignator
 <<CharacterString>>RestrictedRunwayDirectionDesignator
 RestrictedRunwayDirectionDesignator <|-- RunwayDirectionDesignator
@@ -107,48 +86,38 @@ link RestrictedAirspaceDesignator "https://www.fixm.aero/releases/FIXM-4.2.0/doc
 class AirspaceDesignator
 AirspaceDesignator : HypertextReference [0..1]+href
 link AirspaceDesignator "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_AirspaceDesignatorType.html" "Go to XML definition"
-class AtcUnitName
-link AtcUnitName "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_AtcUnitNameType.html" "Go to XML definition"
 class AtcUnitReference
 AtcUnitReference : TextName [0..1]+atcUnitNameOrAlternate
 AtcUnitReference --> AirspaceDesignator : [0..1]+controlSectorDesignator
 AtcUnitReference : AtcUnitReferenceExtension [0..*]+extension
-AtcUnitReference --> LocationIndicator : [0..1]+locationIndicator
+AtcUnitReference : LocationIndicator [0..1]+locationIndicator
 AtcUnitReference --> GeographicalPosition : [0..1]+position
 AtcUnitReference : HypertextReference [0..1]+href
 link AtcUnitReference "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_AtcUnitReferenceType.html" "Go to XML definition"
-class LocationIndicator
-link LocationIndicator "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_LocationIndicatorType.html" "Go to XML definition"
 LatLongPosList <|-- LatLongPos
 <<Measure>>Longitude
 <<CharacterString>>RestrictedAirspaceDesignator
 RestrictedAirspaceDesignator <|-- AirspaceDesignator
-<<CharacterString>>AtcUnitName
-<<CharacterString>>LocationIndicator
 ```
 
 ## AeronauticalReference - SignificantPoint
 
 ```mermaid
 classDiagram
-class NavaidDesignator
-link NavaidDesignator "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_NavaidDesignatorType.html" "Go to XML definition"
 class DesignatedPoint
 DesignatedPoint : DesignatedPointExtension [0..*]+extension
 DesignatedPoint : HypertextReference [0..1]+href
-DesignatedPoint --> DesignatedPointDesignator : +designator
+DesignatedPoint : DesignatedPointDesignator +designator
 DesignatedPoint --> GeographicalPosition : [0..1]+position
 link DesignatedPoint "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_DesignatedPointType.html" "Go to XML definition"
-class LatLongPos
-link LatLongPos "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_LatLongPosType.html" "Go to XML definition"
 class GeographicalPosition
-GeographicalPosition --> LatLongPos : +pos
+GeographicalPosition : LatLongPos +pos
 GeographicalPosition : fixed#61;urn#58;ogc#58;def#58;crs#58;EPSG#58;#58;4326 +srsName
 GeographicalPosition : GeographicalPositionExtension [0..*]+extension
 link GeographicalPosition "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_GeographicalPositionType.html" "Go to XML definition"
 class Navaid
 Navaid : NavaidExtension [0..*]+extension
-Navaid --> NavaidDesignator : +designator
+Navaid : NavaidDesignator +designator
 Navaid : HypertextReference [0..1]+href
 Navaid --> NavaidServiceType : [0..1]+navaidServiceType
 Navaid --> GeographicalPosition : [0..1]+position
@@ -191,43 +160,23 @@ NavaidServiceType : VORTAC
 link NavaidServiceType "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_NavaidServiceTypeType.html" "Go to XML definition"
 class AerodromeReference
 AerodromeReference : AerodromeReferenceExtension [0..*]+extension
-AerodromeReference --> IataAerodromeDesignator : [0..1]+iataDesignator
-AerodromeReference --> LocationIndicator : [0..1]+locationIndicator
-AerodromeReference --> AerodromeName : [0..1]+name
+AerodromeReference : IataAerodromeDesignator [0..1]+iataDesignator
+AerodromeReference : LocationIndicator [0..1]+locationIndicator
+AerodromeReference : AerodromeName [0..1]+name
 AerodromeReference --> GeographicalPosition : [0..1]+referencePoint
 AerodromeReference : HypertextReference [0..1]+href
 link AerodromeReference "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_AerodromeReferenceType.html" "Go to XML definition"
-class AerodromeName
-link AerodromeName "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_AerodromeNameType.html" "Go to XML definition"
-class IataAerodromeDesignator
-link IataAerodromeDesignator "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_IataAerodromeDesignatorType.html" "Go to XML definition"
-class LocationIndicator
-link LocationIndicator "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_LocationIndicatorType.html" "Go to XML definition"
-class DesignatedPointDesignator
-link DesignatedPointDesignator "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_DesignatedPointDesignatorType.html" "Go to XML definition"
-<<CharacterString>>NavaidDesignator
-LatLongPosList <|-- LatLongPos
-<<TextName>>AerodromeName
-<<CharacterString>>IataAerodromeDesignator
-<<CharacterString>>LocationIndicator
-<<CharacterString>>DesignatedPointDesignator
 ```
 
 ## Aircraft
 
 ```mermaid
 classDiagram
-class FormationCount
-link FormationCount "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_FormationCountType.html" "Go to XML definition"
 class AircraftType
 AircraftType : CountPositive [0..1]+numberOfAircraft
 AircraftType : AircraftTypeExtension [0..*]+extension
 AircraftType --> AircraftTypeChoice : [0..1]+type
 link AircraftType "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_AircraftTypeType.html" "Go to XML definition"
-class AircraftAddress
-link AircraftAddress "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_AircraftAddressType.html" "Go to XML definition"
-class AircraftRegistration
-link AircraftRegistration "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_AircraftRegistrationType.html" "Go to XML definition"
 class WakeTurbulenceCategory
 <<enumeration>> WakeTurbulenceCategory
 WakeTurbulenceCategory : L
@@ -251,12 +200,12 @@ AircraftTypeChoice : CharacterString +otherAircraftType
 link AircraftTypeChoice "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_AircraftTypeChoiceType.html" "Go to XML definition"
 class Aircraft
 Aircraft : CharacterString [0..1]+coloursAndMarkings
-Aircraft --> AircraftAddress : [0..1]+aircraftAddress
+Aircraft : AircraftAddress [0..1]+aircraftAddress
 Aircraft --> AircraftApproachCategory : [0..1]+aircraftApproachCategory
 Aircraft --> AircraftType : [0..*]+aircraftType
 Aircraft --> FlightCapabilities : [0..1]+capabilities
-Aircraft --> FormationCount : [0..1]+formationCount
-Aircraft --> "<List>" AircraftRegistration : [0..1]+registration
+Aircraft : FormationCount [0..1]+formationCount
+Aircraft : AircraftRegistrationList [0..1]+registration
 Aircraft --> WakeTurbulenceCategory : [0..1]+wakeTurbulence
 Aircraft : AircraftExtension [0..*]+extension
 link Aircraft "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_AircraftType.html" "Go to XML definition"
@@ -268,9 +217,6 @@ FlightCapabilities : StandardCapabilitiesIndicator [0..1]+standardCapabilities
 FlightCapabilities : SurveillanceCapabilities [0..1]+surveillance
 FlightCapabilities : SurvivalCapabilities [0..1]+survival
 link FlightCapabilities "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_FlightCapabilitiesType.html" "Go to XML definition"
-<<Count>>FormationCount
-<<CharacterString>>AircraftAddress
-<<CharacterString>>AircraftRegistration
 ```
 
 ## Arrival
@@ -417,24 +363,27 @@ class FlightCapabilities
 FlightCapabilities : FlightCapabilitiesExtension [0..*]+extension
 FlightCapabilities --> CommunicationCapabilities : [0..1]+communication
 FlightCapabilities --> NavigationCapabilities : [0..1]+navigation
-FlightCapabilities --> StandardCapabilitiesIndicator : [0..1]+standardCapabilities
+FlightCapabilities : StandardCapabilitiesIndicator [0..1]+standardCapabilities
 FlightCapabilities --> SurveillanceCapabilities : [0..1]+surveillance
 FlightCapabilities : SurvivalCapabilities [0..1]+survival
 link FlightCapabilities "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_FlightCapabilitiesType.html" "Go to XML definition"
-class StandardCapabilitiesIndicator
-<<enumeration>> StandardCapabilitiesIndicator
-StandardCapabilitiesIndicator : STANDARD
-link StandardCapabilitiesIndicator "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_StandardCapabilitiesIndicatorType.html" "Go to XML definition"
 ```
 
 ## Capability - Survival
 
 ```mermaid
 classDiagram
+class Dinghies
+Dinghies : CharacterString [0..1]+colour
+Dinghies : Count [0..1]+number
+Dinghies : CountPositive [0..1]+totalCapacity
+Dinghies : DinghiesExtension [0..*]+extension
+Dinghies --> DinghyCoverIndicator : [0..1]+covered
+link Dinghies "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_DinghiesType.html" "Go to XML definition"
 class SurvivalCapabilities
 SurvivalCapabilities : CharacterString [0..1]+survivalEquipmentRemarks
 SurvivalCapabilities : SurvivalCapabilitiesExtension [0..*]+extension
-SurvivalCapabilities : Dinghies [0..1]+dinghyInformation
+SurvivalCapabilities --> Dinghies : [0..1]+dinghyInformation
 SurvivalCapabilities --> "<List>" EmergencyRadioCapabilityType : [0..1]+emergencyRadioCapabilityType
 SurvivalCapabilities --> "<List>" LifeJacketType : [0..1]+lifeJacketType
 SurvivalCapabilities --> "<List>" SurvivalEquipmentType : [0..1]+survivalEquipmentType
@@ -536,6 +485,82 @@ LevelConstraint --> LevelCondition : [0..1]+condition
 link LevelConstraint "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_LevelConstraintType.html" "Go to XML definition"
 ```
 
+## Dangerous Goods
+
+```mermaid
+classDiagram
+class DangerousGoods
+DangerousGoods : DangerousGoodsExtension [0..*]+extension
+DangerousGoods : CharacterString [0..1]+onboardLocation
+DangerousGoods --> AircraftDangerousGoodsLimitation : [0..1]+aircraftLimitation
+DangerousGoods : AirWaybillNumber [0..1]+airWaybillNumber
+DangerousGoods --> DangerousGoodsPackageGroup : [0..*]+packageGroup
+DangerousGoods --> ShippingInformation : [0..1]+shippingInformation
+link DangerousGoods "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_DangerousGoodsType.html" "Go to XML definition"
+class ShippingInformation
+ShippingInformation : ShippingInformationExtension [0..*]+extension
+ShippingInformation : CharacterString [0..1]+shipmentAuthorizations
+ShippingInformation : CharacterString [0..1]+subsidiaryHazardClassAndDivision
+link ShippingInformation "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_ShippingInformationType.html" "Go to XML definition"
+class DangerousGoodsPackageGroup
+DangerousGoodsPackageGroup : DangerousGoodsPackageGroupExtension [0..*]+extension
+DangerousGoodsPackageGroup --> DangerousGoodsPackage : [0..*]+dangerousGoodsPackage
+DangerousGoodsPackageGroup --> DangerousGoodsDimensions : [0..1]+shipmentDimensions
+link DangerousGoodsPackageGroup "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_DangerousGoodsPackageGroupType.html" "Go to XML definition"
+class AircraftDangerousGoodsLimitation
+<<enumeration>> AircraftDangerousGoodsLimitation
+AircraftDangerousGoodsLimitation : CARGO_AIRCRAFT_ONLY
+AircraftDangerousGoodsLimitation : PASSENGER_AND_CARGO_AIRCRAFT
+link AircraftDangerousGoodsLimitation "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_AircraftDangerousGoodsLimitationType.html" "Go to XML definition"
+class DangerousGoodsPackage
+DangerousGoodsPackage : CountPositive [0..1]+dangerousGoodsQuantity
+DangerousGoodsPackage : DangerousGoodsPackageExtension [0..*]+extension
+DangerousGoodsPackage --> AllPackedInOne : [0..1]+allPackedInOne
+DangerousGoodsPackage : CompatibilityGroup [0..1]+compatibilityGroup
+DangerousGoodsPackage --> AircraftDangerousGoodsLimitation : [0..1]+dangerousGoodsLimitation
+DangerousGoodsPackage --> HazardClass : [0..1]+hazardClass
+DangerousGoodsPackage --> PackingGroup : [0..1]+packingGroup
+DangerousGoodsPackage --> RadioactiveMaterial : [0..1]+radioactiveMaterials
+DangerousGoodsPackage --> DangerousGoodsDimensions : [0..1]+shipmentDimensions
+DangerousGoodsPackage --> HazardClass : [0..2]+subsidiaryHazardClass
+DangerousGoodsPackage : UnNumber [0..1]+unNumber
+DangerousGoodsPackage : CharacterString [0..1]+properShippingName
+link DangerousGoodsPackage "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_DangerousGoodsPackageType.html" "Go to XML definition"
+class DangerousGoodsDimensions
+DangerousGoodsDimensions : Weight [0..1]+grossWeight
+DangerousGoodsDimensions : Weight [0..1]+netWeight
+DangerousGoodsDimensions : Volume [0..1]+volume
+DangerousGoodsDimensions : DangerousGoodsDimensionsExtension [0..*]+extension
+link DangerousGoodsDimensions "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_DangerousGoodsDimensionsType.html" "Go to XML definition"
+class AllPackedInOne
+AllPackedInOne : CountPositive [0..1]+numberOfPackages
+AllPackedInOne : AllPackedInOneExtension [0..*]+extension
+link AllPackedInOne "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_AllPackedInOneType.html" "Go to XML definition"
+class HazardClass
+HazardClass : HazardClassExtension [0..*]+extension
+HazardClass : RestrictedHazardClass [0..1]+class
+HazardClass : HazardDivision [0..1]+division
+link HazardClass "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_HazardClassType.html" "Go to XML definition"
+class RadioactiveMaterial
+RadioactiveMaterial : RadioactiveMaterialExtension [0..*]+extension
+RadioactiveMaterial --> RadioactiveMaterialCategory : [0..1]+category
+RadioactiveMaterial : CriticalSafetyIndex [0..1]+criticalSafetyIndex
+RadioactiveMaterial : TransportIndex [0..1]+transportIndex
+link RadioactiveMaterial "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RadioactiveMaterialType.html" "Go to XML definition"
+class PackingGroup
+<<enumeration>> PackingGroup
+PackingGroup : I
+PackingGroup : II
+PackingGroup : III
+link PackingGroup "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_PackingGroupType.html" "Go to XML definition"
+class RadioactiveMaterialCategory
+<<enumeration>> RadioactiveMaterialCategory
+RadioactiveMaterialCategory : I_WHITE
+RadioactiveMaterialCategory : III_YELLOW
+RadioactiveMaterialCategory : II_YELLOW
+link RadioactiveMaterialCategory "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RadioactiveMaterialCategoryType.html" "Go to XML definition"
+```
+
 ## Departure
 
 ```mermaid
@@ -625,6 +650,197 @@ EnRoute : ModeACode [0..1]+currentModeACode
 EnRoute : EnRouteExtension [0..*]+extension
 EnRoute --> BoundaryCrossing : [0..1]+boundaryCrossingCoordination
 link EnRoute "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_EnRouteType.html" "Go to XML definition"
+```
+
+## FlightData
+
+```mermaid
+classDiagram
+class Flight
+Flight : PersonOrOrganization [0..1]+flightPlanOriginator
+Flight : PersonOrOrganization [0..1]+flightPlanSubmitter
+Flight : UniversallyUniqueIdentifier [0..1]+gufi
+Flight : PersonOrOrganization [0..1]+gufiOriginator
+Flight : AircraftOperator [0..1]+operator
+Flight : FlightExtension [0..*]+extension
+Flight : CharacterString [0..1]+remarks
+Flight --> Aircraft : [0..1]+aircraft
+Flight --> Arrival : [0..1]+arrival
+Flight --> DangerousGoods : [0..*]+dangerousGoods
+Flight --> Departure : [0..1]+departure
+Flight : FlightEmergency [0..1]+emergency
+Flight --> EnRoute : [0..1]+enRoute
+Flight --> FlightConstraint : [0..*]+flightConstraint
+Flight --> FlightIdentification : [0..1]+flightIdentification
+Flight --> TypeOfFlight : [0..1]+flightType
+Flight : RadioCommunicationFailure [0..1]+radioCommunicationFailure
+Flight --> RouteTrajectoryGroupContainer : [0..1]+routeTrajectoryGroup
+Flight --> "<List>" SpecialHandlingReasonCode : [0..1]+specialHandling
+Flight --> SupplementaryData : [0..1]+supplementaryData
+link Flight "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_FlightType.html" "Go to XML definition"
+class Departure
+Departure : Time [0..1]+actualTimeOfDeparture
+Departure : AerodromeReference [0..1]+aerodrome
+Departure : Time [0..1]+estimatedOffBlockTime
+Departure : RunwayDirectionDesignator [0..1]+runwayDirection
+Departure : AerodromeReference [0..*]+takeoffAlternateAerodrome
+Departure : AirportSlotIdentification [0..1]+airportSlotIdentification
+Departure : DepartureExtension [0..*]+extension
+Departure : AerodromeReference [0..1]+aerodromePrevious
+Departure : Time [0..1]+estimatedOffBlockTimePrevious
+Departure : AirfileIndicator [0..1]+airfileIndicator
+link Departure "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_DepartureType.html" "Go to XML definition"
+class Aircraft
+Aircraft : CharacterString [0..1]+coloursAndMarkings
+Aircraft : AircraftAddress [0..1]+aircraftAddress
+Aircraft : AircraftApproachCategory [0..1]+aircraftApproachCategory
+Aircraft : AircraftType [0..*]+aircraftType
+Aircraft : FlightCapabilities [0..1]+capabilities
+Aircraft : FormationCount [0..1]+formationCount
+Aircraft : AircraftRegistrationList [0..1]+registration
+Aircraft : WakeTurbulenceCategory [0..1]+wakeTurbulence
+Aircraft : AircraftExtension [0..*]+extension
+link Aircraft "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_AircraftType.html" "Go to XML definition"
+class SupplementaryData
+SupplementaryData : Duration [0..1]+fuelEndurance
+SupplementaryData : Count [0..1]+personsOnBoard
+SupplementaryData : PersonOrOrganization [0..1]+pilotInCommand
+SupplementaryData : SupplementaryDataExtension [0..*]+extension
+SupplementaryData --> SupplementaryDataSourceChoice : [0..1]+supplementaryDataSource
+link SupplementaryData "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_SupplementaryDataType.html" "Go to XML definition"
+class TypeOfFlight
+<<enumeration>> TypeOfFlight
+TypeOfFlight : M
+TypeOfFlight : G
+TypeOfFlight : N
+TypeOfFlight : S
+TypeOfFlight : X
+link TypeOfFlight "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TypeOfFlightType.html" "Go to XML definition"
+class FlightIdentification
+FlightIdentification : AircraftIdentification [0..1]+aircraftIdentification
+FlightIdentification : FlightIdentificationExtension [0..*]+extension
+FlightIdentification : AircraftIdentification [0..1]+aircraftIdentificationPrevious
+link FlightIdentification "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_FlightIdentificationType.html" "Go to XML definition"
+class SpecialHandlingReasonCode
+<<enumeration>> SpecialHandlingReasonCode
+SpecialHandlingReasonCode : ALTRV
+SpecialHandlingReasonCode : ATFMX
+SpecialHandlingReasonCode : FFR
+SpecialHandlingReasonCode : FLTCK
+SpecialHandlingReasonCode : HAZMAT
+SpecialHandlingReasonCode : HEAD
+SpecialHandlingReasonCode : HOSP
+SpecialHandlingReasonCode : HUM
+SpecialHandlingReasonCode : MARSA
+SpecialHandlingReasonCode : MEDEVAC
+SpecialHandlingReasonCode : NONRVSM
+SpecialHandlingReasonCode : SAR
+SpecialHandlingReasonCode : STATE
+link SpecialHandlingReasonCode "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_SpecialHandlingReasonCodeType.html" "Go to XML definition"
+class DangerousGoods
+DangerousGoods : DangerousGoodsExtension [0..*]+extension
+DangerousGoods : CharacterString [0..1]+onboardLocation
+DangerousGoods : AircraftDangerousGoodsLimitation [0..1]+aircraftLimitation
+DangerousGoods : AirWaybillNumber [0..1]+airWaybillNumber
+DangerousGoods : DangerousGoodsPackageGroup [0..*]+packageGroup
+DangerousGoods : ShippingInformation [0..1]+shippingInformation
+link DangerousGoods "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_DangerousGoodsType.html" "Go to XML definition"
+class EnRoute
+EnRoute : AerodromeReference [0..*]+alternateAerodrome
+EnRoute : ModeACode [0..1]+currentModeACode
+EnRoute : EnRouteExtension [0..*]+extension
+EnRoute : BoundaryCrossing [0..1]+boundaryCrossingCoordination
+link EnRoute "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_EnRouteType.html" "Go to XML definition"
+class RankedTrajectory
+RankedTrajectory : RankedTrajectoryExtension [0..*]+extension
+RankedTrajectory : Count [0..1]+seqNum
+RankedTrajectory : RankedTrajectoryIdentifier [0..1]+identifier
+RankedTrajectory --> RouteTrajectoryGroup : [0..1]+routeTrajectory
+link RankedTrajectory "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RankedTrajectoryType.html" "Go to XML definition"
+class Arrival
+Arrival : Time [0..1]+actualTimeOfArrival
+Arrival : RunwayDirectionDesignator [0..1]+runwayDirection
+Arrival : AerodromeReference [0..1]+arrivalAerodrome
+Arrival : AerodromeReference [0..1]+destinationAerodrome
+Arrival : AerodromeReference [0..2]+destinationAerodromeAlternate
+Arrival : AirportSlotIdentification [0..1]+airportSlotIdentification
+Arrival : ArrivalExtension [0..*]+extension
+Arrival : AerodromeReference [0..1]+destinationAerodromePrevious
+Arrival : ReclearanceInFlight [0..1]+reclearanceInFlight
+link Arrival "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_ArrivalType.html" "Go to XML definition"
+class SupplementaryDataSourceChoice
+<<choice>> SupplementaryDataSourceChoice
+SupplementaryDataSourceChoice : PersonOrOrganization +personOrOrganization
+SupplementaryDataSourceChoice : AtcUnitReference +unit
+link SupplementaryDataSourceChoice "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_SupplementaryDataSourceChoiceType.html" "Go to XML definition"
+class FlightConstraint
+FlightConstraint : RestrictionReference [0..1]+restrictionReference
+FlightConstraint : CharacterString [0..1]+applicability
+FlightConstraint : CharacterString [0..1]+impact
+FlightConstraint : FlightConstraintExtension [0..*]+extension
+link FlightConstraint "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_FlightConstraintType.html" "Go to XML definition"
+class RouteTrajectoryGroupContainer
+RouteTrajectoryGroupContainer : RouteTrajectoryGroupContainerExtension [0..*]+extension
+RouteTrajectoryGroupContainer --> RouteTrajectoryGroup : [0..1]+agreed
+RouteTrajectoryGroupContainer --> RouteTrajectoryGroup : [0..1]+current
+RouteTrajectoryGroupContainer --> RouteTrajectoryGroup : [0..1]+desired
+RouteTrajectoryGroupContainer --> RouteTrajectoryGroup : [0..1]+filed
+RouteTrajectoryGroupContainer --> RouteTrajectoryGroup : [0..1]+negotiating
+RouteTrajectoryGroupContainer --> RankedTrajectory : [0..*]+ranked
+link RouteTrajectoryGroupContainer "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RouteTrajectoryGroupContainerType.html" "Go to XML definition"
+class RouteTrajectoryGroup
+RouteTrajectoryGroup : Mass [0..1]+takeoffMass
+RouteTrajectoryGroup : PerformanceProfile [0..1]+climbProfile
+RouteTrajectoryGroup : SpeedSchedule [0..1]+climbSchedule
+RouteTrajectoryGroup : PerformanceProfile [0..1]+descentProfile
+RouteTrajectoryGroup : SpeedSchedule [0..1]+descentSchedule
+RouteTrajectoryGroup : RouteTrajectoryElement [0..*]+element
+RouteTrajectoryGroup : RouteTrajectoryGroupExtension [0..*]+extension
+RouteTrajectoryGroup : FlightRouteInformation [0..1]+routeInformation
+link RouteTrajectoryGroup "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RouteTrajectoryGroupType.html" "Go to XML definition"
+```
+
+## FlightData - Emergency
+
+```mermaid
+classDiagram
+class Flight
+Flight : PersonOrOrganization [0..1]+flightPlanOriginator
+Flight : PersonOrOrganization [0..1]+flightPlanSubmitter
+Flight : UniversallyUniqueIdentifier [0..1]+gufi
+Flight : PersonOrOrganization [0..1]+gufiOriginator
+Flight : AircraftOperator [0..1]+operator
+Flight : FlightExtension [0..*]+extension
+Flight : CharacterString [0..1]+remarks
+Flight : Aircraft [0..1]+aircraft
+Flight : Arrival [0..1]+arrival
+Flight : DangerousGoods [0..*]+dangerousGoods
+Flight : Departure [0..1]+departure
+Flight --> FlightEmergency : [0..1]+emergency
+Flight : EnRoute [0..1]+enRoute
+Flight : FlightConstraint [0..*]+flightConstraint
+Flight : FlightIdentification [0..1]+flightIdentification
+Flight : TypeOfFlight [0..1]+flightType
+Flight --> RadioCommunicationFailure : [0..1]+radioCommunicationFailure
+Flight : RouteTrajectoryGroupContainer [0..1]+routeTrajectoryGroup
+Flight : SpecialHandlingReasonCodeList [0..1]+specialHandling
+Flight : SupplementaryData [0..1]+supplementaryData
+link Flight "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_FlightType.html" "Go to XML definition"
+class FlightEmergency
+FlightEmergency : CharacterString [0..1]+actionTaken
+FlightEmergency : CharacterString [0..1]+emergencyDescription
+FlightEmergency : AtcUnitReference [0..1]+originator
+FlightEmergency : CharacterString [0..1]+otherInformation
+FlightEmergency : FlightEmergencyExtension [0..*]+extension
+FlightEmergency : LastContact [0..1]+lastContact
+FlightEmergency : EmergencyPhase [0..1]+phase
+link FlightEmergency "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_FlightEmergencyType.html" "Go to XML definition"
+class RadioCommunicationFailure
+RadioCommunicationFailure : CharacterString [0..1]+radioFailureRemarks
+RadioCommunicationFailure : CharacterString [0..1]+remainingComCapability
+RadioCommunicationFailure : RadioCommunicationFailureExtension [0..*]+extension
+RadioCommunicationFailure : LastContact [0..1]+contact
+link RadioCommunicationFailure "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RadioCommunicationFailureType.html" "Go to XML definition"
 ```
 
 ## Measures - Angles
@@ -893,6 +1109,61 @@ ContactInformation : TelephoneContact [0..1]+phoneFax
 ContactInformation : TextName [0..1]+title
 link ContactInformation "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_ContactInformationType.html" "Go to XML definition"
 <<CharacterString>>AircraftOperatorDesignator
+```
+
+## RangesAndChoices
+
+```mermaid
+classDiagram
+class TimeRange
+TimeRange --> Time : [0..1]+earliest
+TimeRange --> Time : [0..1]+latest
+TimeRange : TimeRangeExtension [0..*]+extension
+link TimeRange "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TimeRangeType.html" "Go to XML definition"
+class TimeChoice
+<<choice>> TimeChoice
+TimeChoice --> TimeRange : +timeRange
+TimeChoice --> Time : +timeValue
+link TimeChoice "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TimeChoiceType.html" "Go to XML definition"
+class Time
+link Time "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TimeType.html" "Go to XML definition"
+class TrueAirspeed
+TrueAirspeed : UomAirspeed +uom
+link TrueAirspeed "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TrueAirspeedType.html" "Go to XML definition"
+class TrueAirspeedRange
+TrueAirspeedRange --> TrueAirspeed : [0..1]+lowerSpeed
+TrueAirspeedRange --> TrueAirspeed : [0..1]+upperSpeed
+TrueAirspeedRange : TrueAirspeedRangeExtension [0..*]+extension
+link TrueAirspeedRange "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TrueAirspeedRangeType.html" "Go to XML definition"
+class TrueAirspeedChoice
+<<choice>> TrueAirspeedChoice
+TrueAirspeedChoice --> TrueAirspeedRange : +airspeedRange
+TrueAirspeedChoice --> TrueAirspeed : +airspeedValue
+link TrueAirspeedChoice "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TrueAirspeedChoiceType.html" "Go to XML definition"
+class FlightLevel
+FlightLevel : UomFlightLevel +uom
+link FlightLevel "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_FlightLevelType.html" "Go to XML definition"
+class Altitude
+Altitude : UomAltitude +uom
+link Altitude "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_AltitudeType.html" "Go to XML definition"
+class FlightLevelOrAltitudeChoice
+<<choice>> FlightLevelOrAltitudeChoice
+FlightLevelOrAltitudeChoice --> Altitude : +altitude
+FlightLevelOrAltitudeChoice --> FlightLevel : +flightLevel
+link FlightLevelOrAltitudeChoice "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_FlightLevelOrAltitudeChoiceType.html" "Go to XML definition"
+class FlightLevelOrAltitudeOrRangeChoice
+<<choice>> FlightLevelOrAltitudeOrRangeChoice
+FlightLevelOrAltitudeOrRangeChoice --> VerticalRange : +flightLevelOrAltitudeRange
+FlightLevelOrAltitudeOrRangeChoice --> FlightLevelOrAltitudeChoice : +flightLevelOrAltitudeValue
+link FlightLevelOrAltitudeOrRangeChoice "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_FlightLevelOrAltitudeOrRangeChoiceType.html" "Go to XML definition"
+class VerticalRange
+VerticalRange : VerticalRangeExtension [0..*]+extension
+VerticalRange --> FlightLevelOrAltitudeChoice : [0..1]+lowerBound
+VerticalRange --> FlightLevelOrAltitudeChoice : [0..1]+upperBound
+link VerticalRange "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_VerticalRangeType.html" "Go to XML definition"
+<<RestrictedTrueAirspeed>>TrueAirspeed
+<<VerticalDistance>>FlightLevel
+<<VerticalDistance>>Altitude
 ```
 
 ## RankedTrajectory
@@ -1241,60 +1512,5 @@ MeteorologicalData : WindDirection [0..1]+windDirection
 MeteorologicalData : WindSpeed [0..1]+windSpeed
 MeteorologicalData : MeteorologicalDataExtension [0..*]+extension
 link MeteorologicalData "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_MeteorologicalDataType.html" "Go to XML definition"
-```
-
-## RangesAndChoices
-
-```mermaid
-classDiagram
-class TimeRange
-TimeRange --> Time : [0..1]+earliest
-TimeRange --> Time : [0..1]+latest
-TimeRange : TimeRangeExtension [0..*]+extension
-link TimeRange "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TimeRangeType.html" "Go to XML definition"
-class TimeChoice
-<<choice>> TimeChoice
-TimeChoice --> TimeRange : +timeRange
-TimeChoice --> Time : +timeValue
-link TimeChoice "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TimeChoiceType.html" "Go to XML definition"
-class Time
-link Time "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TimeType.html" "Go to XML definition"
-class TrueAirspeed
-TrueAirspeed : UomAirspeed +uom
-link TrueAirspeed "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TrueAirspeedType.html" "Go to XML definition"
-class TrueAirspeedRange
-TrueAirspeedRange --> TrueAirspeed : [0..1]+lowerSpeed
-TrueAirspeedRange --> TrueAirspeed : [0..1]+upperSpeed
-TrueAirspeedRange : TrueAirspeedRangeExtension [0..*]+extension
-link TrueAirspeedRange "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TrueAirspeedRangeType.html" "Go to XML definition"
-class TrueAirspeedChoice
-<<choice>> TrueAirspeedChoice
-TrueAirspeedChoice --> TrueAirspeedRange : +airspeedRange
-TrueAirspeedChoice --> TrueAirspeed : +airspeedValue
-link TrueAirspeedChoice "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TrueAirspeedChoiceType.html" "Go to XML definition"
-class FlightLevel
-FlightLevel : UomFlightLevel +uom
-link FlightLevel "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_FlightLevelType.html" "Go to XML definition"
-class Altitude
-Altitude : UomAltitude +uom
-link Altitude "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_AltitudeType.html" "Go to XML definition"
-class FlightLevelOrAltitudeChoice
-<<choice>> FlightLevelOrAltitudeChoice
-FlightLevelOrAltitudeChoice --> Altitude : +altitude
-FlightLevelOrAltitudeChoice --> FlightLevel : +flightLevel
-link FlightLevelOrAltitudeChoice "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_FlightLevelOrAltitudeChoiceType.html" "Go to XML definition"
-class FlightLevelOrAltitudeOrRangeChoice
-<<choice>> FlightLevelOrAltitudeOrRangeChoice
-FlightLevelOrAltitudeOrRangeChoice --> VerticalRange : +flightLevelOrAltitudeRange
-FlightLevelOrAltitudeOrRangeChoice --> FlightLevelOrAltitudeChoice : +flightLevelOrAltitudeValue
-link FlightLevelOrAltitudeOrRangeChoice "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_FlightLevelOrAltitudeOrRangeChoiceType.html" "Go to XML definition"
-class VerticalRange
-VerticalRange : VerticalRangeExtension [0..*]+extension
-VerticalRange --> FlightLevelOrAltitudeChoice : [0..1]+lowerBound
-VerticalRange --> FlightLevelOrAltitudeChoice : [0..1]+upperBound
-link VerticalRange "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_VerticalRangeType.html" "Go to XML definition"
-<<RestrictedTrueAirspeed>>TrueAirspeed
-<<VerticalDistance>>FlightLevel
-<<VerticalDistance>>Altitude
 ```
 
