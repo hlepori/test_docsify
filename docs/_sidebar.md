@@ -1,5 +1,5 @@
 - **Candidate inputs to docs.fixm.aero**
-  - [FIXM Examples](fixm/Example.md)
+  - [Example Data](fixm/Example.md)
 
   
 - **Testing docsify capabilities**  
