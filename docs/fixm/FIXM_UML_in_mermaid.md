@@ -1,4 +1,4 @@
-## Address
+## Base.Address
 
 ```mermaid
 classDiagram
@@ -42,7 +42,7 @@ NetworkChoice --> TelecomNetworkType : +type
 link NetworkChoice "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_NetworkChoiceType.html" "Go to XML definition"
 ```
 
-## AeronauticalReference - ATS Routes references
+## Base.AeronauticalReference - ATS Routes references
 
 ```mermaid
 classDiagram
@@ -68,19 +68,15 @@ RestrictedRouteDesignator <|-- RouteDesignator
 RestrictedRunwayDirectionDesignator <|-- RunwayDirectionDesignator
 ```
 
-## AeronauticalReference - Other
+## Base.AeronauticalReference - Other
 
 ```mermaid
 classDiagram
 class GeographicalPosition
-GeographicalPosition --> LatLongPos : +pos
+GeographicalPosition : LatLongPos +pos
 GeographicalPosition : fixed#61;urn#58;ogc#58;def#58;crs#58;EPSG#58;#58;4326 +srsName
 GeographicalPosition : GeographicalPositionExtension [0..*]+extension
 link GeographicalPosition "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_GeographicalPositionType.html" "Go to XML definition"
-class LatLongPos
-link LatLongPos "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_LatLongPosType.html" "Go to XML definition"
-class Longitude
-link Longitude "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_LongitudeType.html" "Go to XML definition"
 class RestrictedAirspaceDesignator
 link RestrictedAirspaceDesignator "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RestrictedAirspaceDesignatorType.html" "Go to XML definition"
 class AirspaceDesignator
@@ -94,13 +90,11 @@ AtcUnitReference : LocationIndicator [0..1]+locationIndicator
 AtcUnitReference --> GeographicalPosition : [0..1]+position
 AtcUnitReference : HypertextReference [0..1]+href
 link AtcUnitReference "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_AtcUnitReferenceType.html" "Go to XML definition"
-LatLongPosList <|-- LatLongPos
-<<Measure>>Longitude
 <<CharacterString>>RestrictedAirspaceDesignator
 RestrictedAirspaceDesignator <|-- AirspaceDesignator
 ```
 
-## AeronauticalReference - SignificantPoint
+## Base.AeronauticalReference - SignificantPoint
 
 ```mermaid
 classDiagram
@@ -168,7 +162,330 @@ AerodromeReference : HypertextReference [0..1]+href
 link AerodromeReference "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_AerodromeReferenceType.html" "Go to XML definition"
 ```
 
-## Aircraft
+## Base.Measures - Angles
+
+```mermaid
+classDiagram
+class Angle
+Angle --> UomAngle : +uom
+link Angle "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_AngleType.html" "Go to XML definition"
+class Bearing
+Bearing --> ZeroBearingType : +zeroBearingType
+link Bearing "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_BearingType.html" "Go to XML definition"
+class WindDirection
+link WindDirection "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_WindDirectionType.html" "Go to XML definition"
+class ZeroBearingType
+<<enumeration>> ZeroBearingType
+ZeroBearingType : TRUE_NORTH
+ZeroBearingType : MAGNETIC_NORTH
+link ZeroBearingType "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_ZeroBearingTypeType.html" "Go to XML definition"
+class RestrictedAngle
+link RestrictedAngle "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RestrictedAngleType.html" "Go to XML definition"
+class UomAngle
+<<enumeration>> UomAngle
+UomAngle : DEG
+link UomAngle "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_UomAngleType.html" "Go to XML definition"
+RestrictedAngle <|-- Angle
+Angle <|-- Bearing
+Angle <|-- WindDirection
+<<Measure>>RestrictedAngle
+```
+
+## Base.Measures - Other
+
+```mermaid
+classDiagram
+class Pressure
+Pressure --> UomPressure : +uom
+link Pressure "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_PressureType.html" "Go to XML definition"
+class Temperature
+Temperature --> UomTemperature : +uom
+link Temperature "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TemperatureType.html" "Go to XML definition"
+class RestrictedFrequency
+link RestrictedFrequency "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RestrictedFrequencyType.html" "Go to XML definition"
+class RestrictedLength
+link RestrictedLength "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RestrictedLengthType.html" "Go to XML definition"
+class RestrictedWeight
+link RestrictedWeight "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RestrictedWeightType.html" "Go to XML definition"
+class RestrictedVolume
+link RestrictedVolume "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RestrictedVolumeType.html" "Go to XML definition"
+class RestrictedPressure
+link RestrictedPressure "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RestrictedPressureType.html" "Go to XML definition"
+class RestrictedMass
+link RestrictedMass "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RestrictedMassType.html" "Go to XML definition"
+class Mass
+Mass --> UomMass : +uom
+link Mass "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_MassType.html" "Go to XML definition"
+class UomLength
+<<enumeration>> UomLength
+UomLength : CM
+UomLength : FT
+UomLength : IN
+UomLength : KM
+UomLength : M
+UomLength : MI
+UomLength : MM
+UomLength : NM
+link UomLength "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_UomLengthType.html" "Go to XML definition"
+class UomPressure
+<<enumeration>> UomPressure
+UomPressure : ATM
+UomPressure : BAR
+UomPressure : HPA
+UomPressure : INHG
+UomPressure : MBAR
+UomPressure : PA
+UomPressure : PSI
+UomPressure : TORR
+link UomPressure "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_UomPressureType.html" "Go to XML definition"
+class UomTemperature
+<<enumeration>> UomTemperature
+UomTemperature : C
+UomTemperature : F
+UomTemperature : K
+UomTemperature : R
+link UomTemperature "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_UomTemperatureType.html" "Go to XML definition"
+class UomVolume
+<<enumeration>> UomVolume
+UomVolume : US_GAL
+UomVolume : L
+link UomVolume "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_UomVolumeType.html" "Go to XML definition"
+class UomFrequency
+<<enumeration>> UomFrequency
+UomFrequency : KHZ
+UomFrequency : MHZ
+link UomFrequency "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_UomFrequencyType.html" "Go to XML definition"
+class UomMass
+<<enumeration>> UomMass
+UomMass : KG
+UomMass : LB
+link UomMass "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_UomMassType.html" "Go to XML definition"
+class UomWeight
+<<enumeration>> UomWeight
+UomWeight : KG
+UomWeight : LB
+link UomWeight "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_UomWeightType.html" "Go to XML definition"
+class Volume
+Volume --> UomVolume : +uom
+link Volume "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_VolumeType.html" "Go to XML definition"
+class Distance
+link Distance "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_DistanceType.html" "Go to XML definition"
+class Frequency
+Frequency --> UomFrequency : +uom
+link Frequency "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_FrequencyType.html" "Go to XML definition"
+class Length
+Length --> UomLength : +uom
+link Length "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_LengthType.html" "Go to XML definition"
+class Weight
+Weight --> UomWeight : +uom
+link Weight "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_WeightType.html" "Go to XML definition"
+RestrictedPressure <|-- Pressure
+<<Measure>>Temperature
+<<Measure>>RestrictedFrequency
+<<Measure>>RestrictedLength
+<<Measure>>RestrictedWeight
+<<Measure>>RestrictedVolume
+<<Measure>>RestrictedPressure
+<<Measure>>RestrictedMass
+RestrictedMass <|-- Mass
+RestrictedVolume <|-- Volume
+Length <|-- Distance
+RestrictedFrequency <|-- Frequency
+RestrictedLength <|-- Length
+RestrictedWeight <|-- Weight
+```
+
+## Base.Measures - Speed Types
+
+```mermaid
+classDiagram
+class Speed
+link Speed "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_SpeedType.html" "Go to XML definition"
+class GroundSpeed
+GroundSpeed --> UomGroundSpeed : +uom
+link GroundSpeed "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_GroundSpeedType.html" "Go to XML definition"
+class IndicatedAirspeed
+IndicatedAirspeed --> UomAirspeed : +uom
+link IndicatedAirspeed "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_IndicatedAirspeedType.html" "Go to XML definition"
+class TrueAirspeed
+TrueAirspeed --> UomAirspeed : +uom
+link TrueAirspeed "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TrueAirspeedType.html" "Go to XML definition"
+class VerticalRate
+VerticalRate --> UomVerticalRate : +uom
+link VerticalRate "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_VerticalRateType.html" "Go to XML definition"
+class WindSpeed
+WindSpeed --> UomWindSpeed : +uom
+link WindSpeed "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_WindSpeedType.html" "Go to XML definition"
+class RestrictedGroundSpeed
+link RestrictedGroundSpeed "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RestrictedGroundSpeedType.html" "Go to XML definition"
+class RestrictedIndicatedAirspeed
+link RestrictedIndicatedAirspeed "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RestrictedIndicatedAirspeedType.html" "Go to XML definition"
+class RestrictedTrueAirspeed
+link RestrictedTrueAirspeed "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RestrictedTrueAirspeedType.html" "Go to XML definition"
+class RestrictedWindSpeed
+link RestrictedWindSpeed "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RestrictedWindSpeedType.html" "Go to XML definition"
+class UomWindSpeed
+<<enumeration>> UomWindSpeed
+UomWindSpeed : KM_H
+UomWindSpeed : KT
+UomWindSpeed : M_SEC
+UomWindSpeed : MPH
+link UomWindSpeed "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_UomWindSpeedType.html" "Go to XML definition"
+class UomAirspeed
+<<enumeration>> UomAirspeed
+UomAirspeed : KM_H
+UomAirspeed : KT
+UomAirspeed : MACH
+link UomAirspeed "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_UomAirspeedType.html" "Go to XML definition"
+class UomGroundSpeed
+<<enumeration>> UomGroundSpeed
+UomGroundSpeed : KM_H
+UomGroundSpeed : KT
+link UomGroundSpeed "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_UomGroundSpeedType.html" "Go to XML definition"
+class UomVerticalRate
+<<enumeration>> UomVerticalRate
+UomVerticalRate : FT_MIN
+UomVerticalRate : M_SEC
+link UomVerticalRate "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_UomVerticalRateType.html" "Go to XML definition"
+<<Measure>>Speed
+RestrictedGroundSpeed <|-- GroundSpeed
+RestrictedIndicatedAirspeed <|-- IndicatedAirspeed
+RestrictedTrueAirspeed <|-- TrueAirspeed
+Speed <|-- VerticalRate
+RestrictedWindSpeed <|-- WindSpeed
+Speed <|-- RestrictedGroundSpeed
+Speed <|-- RestrictedIndicatedAirspeed
+Speed <|-- RestrictedTrueAirspeed
+Speed <|-- RestrictedWindSpeed
+```
+
+## Base.Measures - Vertical Distances
+
+```mermaid
+classDiagram
+class UomHeight
+<<enumeration>> UomHeight
+UomHeight : FT
+UomHeight : M
+link UomHeight "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_UomHeightType.html" "Go to XML definition"
+class VerticalDistance
+link VerticalDistance "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_VerticalDistanceType.html" "Go to XML definition"
+class Altitude
+Altitude --> UomAltitude : +uom
+link Altitude "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_AltitudeType.html" "Go to XML definition"
+class FlightLevel
+FlightLevel --> UomFlightLevel : +uom
+link FlightLevel "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_FlightLevelType.html" "Go to XML definition"
+class Height
+Height --> UomHeight : +uom
+Height --> VerticalReference : +ref
+link Height "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_HeightType.html" "Go to XML definition"
+class VerticalReference
+<<enumeration>> VerticalReference
+VerticalReference : SFC
+VerticalReference : W84
+link VerticalReference "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_VerticalReferenceType.html" "Go to XML definition"
+class UomAltitude
+<<enumeration>> UomAltitude
+UomAltitude : FT
+UomAltitude : M
+link UomAltitude "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_UomAltitudeType.html" "Go to XML definition"
+class UomFlightLevel
+<<enumeration>> UomFlightLevel
+UomFlightLevel : FL
+UomFlightLevel : SM
+link UomFlightLevel "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_UomFlightLevelType.html" "Go to XML definition"
+<<Measure>>VerticalDistance
+VerticalDistance <|-- Altitude
+VerticalDistance <|-- FlightLevel
+VerticalDistance <|-- Height
+```
+
+## Base.Organization
+
+```mermaid
+classDiagram
+class AircraftOperatorDesignator
+link AircraftOperatorDesignator "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_AircraftOperatorDesignatorType.html" "Go to XML definition"
+class AircraftOperator
+AircraftOperator : AircraftOperatorExtension [0..*]+extension
+AircraftOperator --> AircraftOperatorDesignator : [0..1]+designatorIcao
+AircraftOperator --> PersonOrOrganization : [0..1]+operatingOrganization
+link AircraftOperator "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_AircraftOperatorType.html" "Go to XML definition"
+class PersonOrOrganization
+PersonOrOrganization : CharacterString [0..1]+identifier
+PersonOrOrganization : TextName [0..1]+name
+PersonOrOrganization : PersonOrOrganizationExtension [0..*]+extension
+PersonOrOrganization : CharacterString [0..1]+identifierDomain
+PersonOrOrganization --> ContactInformation : [0..1]+contact
+link PersonOrOrganization "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_PersonOrOrganizationType.html" "Go to XML definition"
+class ContactInformation
+ContactInformation : TextName [0..1]+name
+ContactInformation : ContactInformationExtension [0..*]+extension
+ContactInformation : PostalAddress [0..1]+address
+ContactInformation : OnlineContact [0..*]+onlineContact
+ContactInformation : TelephoneContact [0..1]+phoneFax
+ContactInformation : TextName [0..1]+title
+link ContactInformation "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_ContactInformationType.html" "Go to XML definition"
+<<CharacterString>>AircraftOperatorDesignator
+```
+
+## Base.RangesAndChoices
+
+```mermaid
+classDiagram
+class TimeRange
+TimeRange --> Time : [0..1]+earliest
+TimeRange --> Time : [0..1]+latest
+TimeRange : TimeRangeExtension [0..*]+extension
+link TimeRange "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TimeRangeType.html" "Go to XML definition"
+class TimeChoice
+<<choice>> TimeChoice
+TimeChoice --> TimeRange : +timeRange
+TimeChoice --> Time : +timeValue
+link TimeChoice "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TimeChoiceType.html" "Go to XML definition"
+class Time
+link Time "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TimeType.html" "Go to XML definition"
+class TrueAirspeed
+TrueAirspeed : UomAirspeed +uom
+link TrueAirspeed "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TrueAirspeedType.html" "Go to XML definition"
+class TrueAirspeedRange
+TrueAirspeedRange --> TrueAirspeed : [0..1]+lowerSpeed
+TrueAirspeedRange --> TrueAirspeed : [0..1]+upperSpeed
+TrueAirspeedRange : TrueAirspeedRangeExtension [0..*]+extension
+link TrueAirspeedRange "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TrueAirspeedRangeType.html" "Go to XML definition"
+class TrueAirspeedChoice
+<<choice>> TrueAirspeedChoice
+TrueAirspeedChoice --> TrueAirspeedRange : +airspeedRange
+TrueAirspeedChoice --> TrueAirspeed : +airspeedValue
+link TrueAirspeedChoice "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TrueAirspeedChoiceType.html" "Go to XML definition"
+class FlightLevel
+FlightLevel : UomFlightLevel +uom
+link FlightLevel "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_FlightLevelType.html" "Go to XML definition"
+class Altitude
+Altitude : UomAltitude +uom
+link Altitude "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_AltitudeType.html" "Go to XML definition"
+class FlightLevelOrAltitudeChoice
+<<choice>> FlightLevelOrAltitudeChoice
+FlightLevelOrAltitudeChoice --> Altitude : +altitude
+FlightLevelOrAltitudeChoice --> FlightLevel : +flightLevel
+link FlightLevelOrAltitudeChoice "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_FlightLevelOrAltitudeChoiceType.html" "Go to XML definition"
+class FlightLevelOrAltitudeOrRangeChoice
+<<choice>> FlightLevelOrAltitudeOrRangeChoice
+FlightLevelOrAltitudeOrRangeChoice --> VerticalRange : +flightLevelOrAltitudeRange
+FlightLevelOrAltitudeOrRangeChoice --> FlightLevelOrAltitudeChoice : +flightLevelOrAltitudeValue
+link FlightLevelOrAltitudeOrRangeChoice "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_FlightLevelOrAltitudeOrRangeChoiceType.html" "Go to XML definition"
+class VerticalRange
+VerticalRange : VerticalRangeExtension [0..*]+extension
+VerticalRange --> FlightLevelOrAltitudeChoice : [0..1]+lowerBound
+VerticalRange --> FlightLevelOrAltitudeChoice : [0..1]+upperBound
+link VerticalRange "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_VerticalRangeType.html" "Go to XML definition"
+<<RestrictedTrueAirspeed>>TrueAirspeed
+<<VerticalDistance>>FlightLevel
+<<VerticalDistance>>Altitude
+```
+
+## Flight.Aircraft
 
 ```mermaid
 classDiagram
@@ -219,7 +536,7 @@ FlightCapabilities : SurvivalCapabilities [0..1]+survival
 link FlightCapabilities "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_FlightCapabilitiesType.html" "Go to XML definition"
 ```
 
-## Arrival
+## Flight.Arrival
 
 ```mermaid
 classDiagram
@@ -241,7 +558,7 @@ ReclearanceInFlight : ReclearanceInFlightExtension [0..*]+extension
 link ReclearanceInFlight "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_ReclearanceInFlightType.html" "Go to XML definition"
 ```
 
-## Capability - CNS
+## Flight.Capability - CNS
 
 ```mermaid
 classDiagram
@@ -369,7 +686,7 @@ FlightCapabilities : SurvivalCapabilities [0..1]+survival
 link FlightCapabilities "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_FlightCapabilitiesType.html" "Go to XML definition"
 ```
 
-## Capability - Survival
+## Flight.Capability - Survival
 
 ```mermaid
 classDiagram
@@ -422,7 +739,7 @@ FlightCapabilities --> SurvivalCapabilities : [0..1]+survival
 link FlightCapabilities "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_FlightCapabilitiesType.html" "Go to XML definition"
 ```
 
-## Constraints
+## Flight.Constraints
 
 ```mermaid
 classDiagram
@@ -485,7 +802,7 @@ LevelConstraint --> LevelCondition : [0..1]+condition
 link LevelConstraint "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_LevelConstraintType.html" "Go to XML definition"
 ```
 
-## Dangerous Goods
+## Flight.Dangerous Goods
 
 ```mermaid
 classDiagram
@@ -561,7 +878,7 @@ RadioactiveMaterialCategory : II_YELLOW
 link RadioactiveMaterialCategory "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RadioactiveMaterialCategoryType.html" "Go to XML definition"
 ```
 
-## Departure
+## Flight.Departure
 
 ```mermaid
 classDiagram
@@ -583,7 +900,7 @@ Departure --> AirfileIndicator : [0..1]+airfileIndicator
 link Departure "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_DepartureType.html" "Go to XML definition"
 ```
 
-## Emergency
+## Flight.Emergency
 
 ```mermaid
 classDiagram
@@ -623,7 +940,7 @@ FlightEmergency --> EmergencyPhase : [0..1]+phase
 link FlightEmergency "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_FlightEmergencyType.html" "Go to XML definition"
 ```
 
-## EnRoute
+## Flight.EnRoute
 
 ```mermaid
 classDiagram
@@ -652,7 +969,7 @@ EnRoute --> BoundaryCrossing : [0..1]+boundaryCrossingCoordination
 link EnRoute "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_EnRouteType.html" "Go to XML definition"
 ```
 
-## FlightData
+## Flight.FlightData
 
 ```mermaid
 classDiagram
@@ -800,7 +1117,7 @@ RouteTrajectoryGroup : FlightRouteInformation [0..1]+routeInformation
 link RouteTrajectoryGroup "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RouteTrajectoryGroupType.html" "Go to XML definition"
 ```
 
-## FlightData - Emergency
+## Flight.FlightData - Emergency
 
 ```mermaid
 classDiagram
@@ -843,330 +1160,7 @@ RadioCommunicationFailure : LastContact [0..1]+contact
 link RadioCommunicationFailure "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RadioCommunicationFailureType.html" "Go to XML definition"
 ```
 
-## Measures - Angles
-
-```mermaid
-classDiagram
-class Angle
-Angle --> UomAngle : +uom
-link Angle "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_AngleType.html" "Go to XML definition"
-class Bearing
-Bearing --> ZeroBearingType : +zeroBearingType
-link Bearing "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_BearingType.html" "Go to XML definition"
-class WindDirection
-link WindDirection "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_WindDirectionType.html" "Go to XML definition"
-class ZeroBearingType
-<<enumeration>> ZeroBearingType
-ZeroBearingType : TRUE_NORTH
-ZeroBearingType : MAGNETIC_NORTH
-link ZeroBearingType "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_ZeroBearingTypeType.html" "Go to XML definition"
-class RestrictedAngle
-link RestrictedAngle "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RestrictedAngleType.html" "Go to XML definition"
-class UomAngle
-<<enumeration>> UomAngle
-UomAngle : DEG
-link UomAngle "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_UomAngleType.html" "Go to XML definition"
-RestrictedAngle <|-- Angle
-Angle <|-- Bearing
-Angle <|-- WindDirection
-<<Measure>>RestrictedAngle
-```
-
-## Measures - Other
-
-```mermaid
-classDiagram
-class Pressure
-Pressure --> UomPressure : +uom
-link Pressure "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_PressureType.html" "Go to XML definition"
-class Temperature
-Temperature --> UomTemperature : +uom
-link Temperature "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TemperatureType.html" "Go to XML definition"
-class RestrictedFrequency
-link RestrictedFrequency "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RestrictedFrequencyType.html" "Go to XML definition"
-class RestrictedLength
-link RestrictedLength "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RestrictedLengthType.html" "Go to XML definition"
-class RestrictedWeight
-link RestrictedWeight "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RestrictedWeightType.html" "Go to XML definition"
-class RestrictedVolume
-link RestrictedVolume "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RestrictedVolumeType.html" "Go to XML definition"
-class RestrictedPressure
-link RestrictedPressure "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RestrictedPressureType.html" "Go to XML definition"
-class RestrictedMass
-link RestrictedMass "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RestrictedMassType.html" "Go to XML definition"
-class Mass
-Mass --> UomMass : +uom
-link Mass "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_MassType.html" "Go to XML definition"
-class UomLength
-<<enumeration>> UomLength
-UomLength : CM
-UomLength : FT
-UomLength : IN
-UomLength : KM
-UomLength : M
-UomLength : MI
-UomLength : MM
-UomLength : NM
-link UomLength "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_UomLengthType.html" "Go to XML definition"
-class UomPressure
-<<enumeration>> UomPressure
-UomPressure : ATM
-UomPressure : BAR
-UomPressure : HPA
-UomPressure : INHG
-UomPressure : MBAR
-UomPressure : PA
-UomPressure : PSI
-UomPressure : TORR
-link UomPressure "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_UomPressureType.html" "Go to XML definition"
-class UomTemperature
-<<enumeration>> UomTemperature
-UomTemperature : C
-UomTemperature : F
-UomTemperature : K
-UomTemperature : R
-link UomTemperature "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_UomTemperatureType.html" "Go to XML definition"
-class UomVolume
-<<enumeration>> UomVolume
-UomVolume : US_GAL
-UomVolume : L
-link UomVolume "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_UomVolumeType.html" "Go to XML definition"
-class UomFrequency
-<<enumeration>> UomFrequency
-UomFrequency : KHZ
-UomFrequency : MHZ
-link UomFrequency "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_UomFrequencyType.html" "Go to XML definition"
-class UomMass
-<<enumeration>> UomMass
-UomMass : KG
-UomMass : LB
-link UomMass "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_UomMassType.html" "Go to XML definition"
-class UomWeight
-<<enumeration>> UomWeight
-UomWeight : KG
-UomWeight : LB
-link UomWeight "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_UomWeightType.html" "Go to XML definition"
-class Volume
-Volume --> UomVolume : +uom
-link Volume "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_VolumeType.html" "Go to XML definition"
-class Distance
-link Distance "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_DistanceType.html" "Go to XML definition"
-class Frequency
-Frequency --> UomFrequency : +uom
-link Frequency "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_FrequencyType.html" "Go to XML definition"
-class Length
-Length --> UomLength : +uom
-link Length "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_LengthType.html" "Go to XML definition"
-class Weight
-Weight --> UomWeight : +uom
-link Weight "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_WeightType.html" "Go to XML definition"
-RestrictedPressure <|-- Pressure
-<<Measure>>Temperature
-<<Measure>>RestrictedFrequency
-<<Measure>>RestrictedLength
-<<Measure>>RestrictedWeight
-<<Measure>>RestrictedVolume
-<<Measure>>RestrictedPressure
-<<Measure>>RestrictedMass
-RestrictedMass <|-- Mass
-RestrictedVolume <|-- Volume
-Length <|-- Distance
-RestrictedFrequency <|-- Frequency
-RestrictedLength <|-- Length
-RestrictedWeight <|-- Weight
-```
-
-## Measures - Speed Types
-
-```mermaid
-classDiagram
-class Speed
-link Speed "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_SpeedType.html" "Go to XML definition"
-class GroundSpeed
-GroundSpeed --> UomGroundSpeed : +uom
-link GroundSpeed "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_GroundSpeedType.html" "Go to XML definition"
-class IndicatedAirspeed
-IndicatedAirspeed --> UomAirspeed : +uom
-link IndicatedAirspeed "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_IndicatedAirspeedType.html" "Go to XML definition"
-class TrueAirspeed
-TrueAirspeed --> UomAirspeed : +uom
-link TrueAirspeed "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TrueAirspeedType.html" "Go to XML definition"
-class VerticalRate
-VerticalRate --> UomVerticalRate : +uom
-link VerticalRate "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_VerticalRateType.html" "Go to XML definition"
-class WindSpeed
-WindSpeed --> UomWindSpeed : +uom
-link WindSpeed "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_WindSpeedType.html" "Go to XML definition"
-class RestrictedGroundSpeed
-link RestrictedGroundSpeed "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RestrictedGroundSpeedType.html" "Go to XML definition"
-class RestrictedIndicatedAirspeed
-link RestrictedIndicatedAirspeed "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RestrictedIndicatedAirspeedType.html" "Go to XML definition"
-class RestrictedTrueAirspeed
-link RestrictedTrueAirspeed "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RestrictedTrueAirspeedType.html" "Go to XML definition"
-class RestrictedWindSpeed
-link RestrictedWindSpeed "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RestrictedWindSpeedType.html" "Go to XML definition"
-class UomWindSpeed
-<<enumeration>> UomWindSpeed
-UomWindSpeed : KM_H
-UomWindSpeed : KT
-UomWindSpeed : M_SEC
-UomWindSpeed : MPH
-link UomWindSpeed "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_UomWindSpeedType.html" "Go to XML definition"
-class UomAirspeed
-<<enumeration>> UomAirspeed
-UomAirspeed : KM_H
-UomAirspeed : KT
-UomAirspeed : MACH
-link UomAirspeed "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_UomAirspeedType.html" "Go to XML definition"
-class UomGroundSpeed
-<<enumeration>> UomGroundSpeed
-UomGroundSpeed : KM_H
-UomGroundSpeed : KT
-link UomGroundSpeed "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_UomGroundSpeedType.html" "Go to XML definition"
-class UomVerticalRate
-<<enumeration>> UomVerticalRate
-UomVerticalRate : FT_MIN
-UomVerticalRate : M_SEC
-link UomVerticalRate "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_UomVerticalRateType.html" "Go to XML definition"
-<<Measure>>Speed
-RestrictedGroundSpeed <|-- GroundSpeed
-RestrictedIndicatedAirspeed <|-- IndicatedAirspeed
-RestrictedTrueAirspeed <|-- TrueAirspeed
-Speed <|-- VerticalRate
-RestrictedWindSpeed <|-- WindSpeed
-Speed <|-- RestrictedGroundSpeed
-Speed <|-- RestrictedIndicatedAirspeed
-Speed <|-- RestrictedTrueAirspeed
-Speed <|-- RestrictedWindSpeed
-```
-
-## Measures - Vertical Distances
-
-```mermaid
-classDiagram
-class UomHeight
-<<enumeration>> UomHeight
-UomHeight : FT
-UomHeight : M
-link UomHeight "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_UomHeightType.html" "Go to XML definition"
-class VerticalDistance
-link VerticalDistance "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_VerticalDistanceType.html" "Go to XML definition"
-class Altitude
-Altitude --> UomAltitude : +uom
-link Altitude "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_AltitudeType.html" "Go to XML definition"
-class FlightLevel
-FlightLevel --> UomFlightLevel : +uom
-link FlightLevel "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_FlightLevelType.html" "Go to XML definition"
-class Height
-Height --> UomHeight : +uom
-Height --> VerticalReference : +ref
-link Height "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_HeightType.html" "Go to XML definition"
-class VerticalReference
-<<enumeration>> VerticalReference
-VerticalReference : SFC
-VerticalReference : W84
-link VerticalReference "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_VerticalReferenceType.html" "Go to XML definition"
-class UomAltitude
-<<enumeration>> UomAltitude
-UomAltitude : FT
-UomAltitude : M
-link UomAltitude "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_UomAltitudeType.html" "Go to XML definition"
-class UomFlightLevel
-<<enumeration>> UomFlightLevel
-UomFlightLevel : FL
-UomFlightLevel : SM
-link UomFlightLevel "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_UomFlightLevelType.html" "Go to XML definition"
-<<Measure>>VerticalDistance
-VerticalDistance <|-- Altitude
-VerticalDistance <|-- FlightLevel
-VerticalDistance <|-- Height
-```
-
-## Organization
-
-```mermaid
-classDiagram
-class AircraftOperatorDesignator
-link AircraftOperatorDesignator "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_AircraftOperatorDesignatorType.html" "Go to XML definition"
-class AircraftOperator
-AircraftOperator : AircraftOperatorExtension [0..*]+extension
-AircraftOperator --> AircraftOperatorDesignator : [0..1]+designatorIcao
-AircraftOperator --> PersonOrOrganization : [0..1]+operatingOrganization
-link AircraftOperator "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_AircraftOperatorType.html" "Go to XML definition"
-class PersonOrOrganization
-PersonOrOrganization : CharacterString [0..1]+identifier
-PersonOrOrganization : TextName [0..1]+name
-PersonOrOrganization : PersonOrOrganizationExtension [0..*]+extension
-PersonOrOrganization : CharacterString [0..1]+identifierDomain
-PersonOrOrganization --> ContactInformation : [0..1]+contact
-link PersonOrOrganization "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_PersonOrOrganizationType.html" "Go to XML definition"
-class ContactInformation
-ContactInformation : TextName [0..1]+name
-ContactInformation : ContactInformationExtension [0..*]+extension
-ContactInformation : PostalAddress [0..1]+address
-ContactInformation : OnlineContact [0..*]+onlineContact
-ContactInformation : TelephoneContact [0..1]+phoneFax
-ContactInformation : TextName [0..1]+title
-link ContactInformation "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_ContactInformationType.html" "Go to XML definition"
-<<CharacterString>>AircraftOperatorDesignator
-```
-
-## RangesAndChoices
-
-```mermaid
-classDiagram
-class TimeRange
-TimeRange --> Time : [0..1]+earliest
-TimeRange --> Time : [0..1]+latest
-TimeRange : TimeRangeExtension [0..*]+extension
-link TimeRange "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TimeRangeType.html" "Go to XML definition"
-class TimeChoice
-<<choice>> TimeChoice
-TimeChoice --> TimeRange : +timeRange
-TimeChoice --> Time : +timeValue
-link TimeChoice "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TimeChoiceType.html" "Go to XML definition"
-class Time
-link Time "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TimeType.html" "Go to XML definition"
-class TrueAirspeed
-TrueAirspeed : UomAirspeed +uom
-link TrueAirspeed "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TrueAirspeedType.html" "Go to XML definition"
-class TrueAirspeedRange
-TrueAirspeedRange --> TrueAirspeed : [0..1]+lowerSpeed
-TrueAirspeedRange --> TrueAirspeed : [0..1]+upperSpeed
-TrueAirspeedRange : TrueAirspeedRangeExtension [0..*]+extension
-link TrueAirspeedRange "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TrueAirspeedRangeType.html" "Go to XML definition"
-class TrueAirspeedChoice
-<<choice>> TrueAirspeedChoice
-TrueAirspeedChoice --> TrueAirspeedRange : +airspeedRange
-TrueAirspeedChoice --> TrueAirspeed : +airspeedValue
-link TrueAirspeedChoice "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_TrueAirspeedChoiceType.html" "Go to XML definition"
-class FlightLevel
-FlightLevel : UomFlightLevel +uom
-link FlightLevel "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_FlightLevelType.html" "Go to XML definition"
-class Altitude
-Altitude : UomAltitude +uom
-link Altitude "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_AltitudeType.html" "Go to XML definition"
-class FlightLevelOrAltitudeChoice
-<<choice>> FlightLevelOrAltitudeChoice
-FlightLevelOrAltitudeChoice --> Altitude : +altitude
-FlightLevelOrAltitudeChoice --> FlightLevel : +flightLevel
-link FlightLevelOrAltitudeChoice "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_FlightLevelOrAltitudeChoiceType.html" "Go to XML definition"
-class FlightLevelOrAltitudeOrRangeChoice
-<<choice>> FlightLevelOrAltitudeOrRangeChoice
-FlightLevelOrAltitudeOrRangeChoice --> VerticalRange : +flightLevelOrAltitudeRange
-FlightLevelOrAltitudeOrRangeChoice --> FlightLevelOrAltitudeChoice : +flightLevelOrAltitudeValue
-link FlightLevelOrAltitudeOrRangeChoice "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_FlightLevelOrAltitudeOrRangeChoiceType.html" "Go to XML definition"
-class VerticalRange
-VerticalRange : VerticalRangeExtension [0..*]+extension
-VerticalRange --> FlightLevelOrAltitudeChoice : [0..1]+lowerBound
-VerticalRange --> FlightLevelOrAltitudeChoice : [0..1]+upperBound
-link VerticalRange "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_VerticalRangeType.html" "Go to XML definition"
-<<RestrictedTrueAirspeed>>TrueAirspeed
-<<VerticalDistance>>FlightLevel
-<<VerticalDistance>>Altitude
-```
-
-## RankedTrajectory
+## Flight.RankedTrajectory
 
 ```mermaid
 classDiagram
@@ -1191,7 +1185,7 @@ link RankedTrajectory "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_docu
 <<CharacterString>>RankedTrajectoryIdentifier
 ```
 
-## RouteChanges
+## Flight.RouteChanges
 
 ```mermaid
 classDiagram
@@ -1228,7 +1222,7 @@ CruisingSpeedChange --> Activation : [0..1]+activation
 link CruisingSpeedChange "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_CruisingSpeedChangeType.html" "Go to XML definition"
 ```
 
-## RouteTrajectory - FlightRouteInformation
+## Flight.RouteTrajectory - FlightRouteInformation
 
 ```mermaid
 classDiagram
@@ -1273,7 +1267,7 @@ FlightRulesCategory : Z
 link FlightRulesCategory "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_FlightRulesCategoryType.html" "Go to XML definition"
 ```
 
-## RouteTrajectory - Performance Profile and Speed Schedule
+## Flight.RouteTrajectory - Performance Profile and Speed Schedule
 
 ```mermaid
 classDiagram
@@ -1306,7 +1300,7 @@ SpeedSchedule : SpeedScheduleExtension [0..*]+extension
 link SpeedSchedule "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_SpeedScheduleType.html" "Go to XML definition"
 ```
 
-## RouteTrajectory - Route Trajectory Element
+## Flight.RouteTrajectory - Route Trajectory Element
 
 ```mermaid
 classDiagram
@@ -1386,7 +1380,7 @@ OtherRouteDesignator : LAST_POINT
 link OtherRouteDesignator "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_OtherRouteDesignatorType.html" "Go to XML definition"
 ```
 
-## RouteTrajectory - Route Trajectory Element - other Indicators
+## Flight.RouteTrajectory - Route Trajectory Element - other Indicators
 
 ```mermaid
 classDiagram
@@ -1415,7 +1409,7 @@ RouteTruncationIndicator : ROUTE_TRUNCATION
 link RouteTruncationIndicator "https://www.fixm.aero/releases/FIXM-4.2.0/doc/schema_documentation/Fixm_RouteTruncationIndicatorType.html" "Go to XML definition"
 ```
 
-## RouteTrajectory - Route Trajectory Element - Point 4D
+## Flight.RouteTrajectory - Route Trajectory Element - Point 4D
 
 ```mermaid
 classDiagram
