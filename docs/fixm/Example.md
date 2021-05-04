@@ -3,7 +3,7 @@
 This page explains how the route/trajectory example from the FF-ICE/R1 Implementation Guidance Manual (Appendix E-3.7) is concretely encoded in FIXM. 
 The FPL Item 15c reads `DCT HGR V268 EMI DCT`
 
-![Image](./map.png)
+![Image](.//media/example_route.png)
 
 ## Content of `<fx:departure>`
 
