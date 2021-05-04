@@ -153,4 +153,9 @@ g.classGroup rect {
 	overflow-y: scroll;
 }
 
+.classLabel .label {
+    fill: $nodeBorder;
+    font-size: 12px;
+}
+
 }
