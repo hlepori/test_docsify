@@ -1,9 +1,10 @@
 - **Candidate inputs to docs.fixm.aero**
-  - [Example Data](fixm/Example.md)
-
+  - [RouteTrajectory - Business Rules](fixm/RouteTrajectory.md)
+  - [RouteTrajectory - Example Data](fixm/Example.md)
+  - [FIXM Change Management Charter](fixm/charter.md)
   
 - **Testing docsify capabilities**  
-  - [FIXM UML in mermaid](fixm/FIXM_UML_in_mermaid.md)  
+  - [UML class diagrams using docsify/mermaid](fixm/FIXM_UML_in_mermaid.md)  
 
 
 - **OTHER**
