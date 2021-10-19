@@ -7,7 +7,7 @@ This page formalizes the organization of the FIXM community and its operating pr
 
 ## Article 1 – Objective
 
-1.1 The evolution of the Flight Information Exchange Model (FIXM) shall be managed in the interest of the largest number of FIXM stakeholders, including the accommodation of necessary extensions.
+1.1 The evolution of the Flight Information Exchange Model (FIXM) shall be managed in the interest of the largest number of `FIXM Stakeholders`, including the accommodation of necessary extensions.
 
 1.2 A Change Control Board (`FIXM CCB`) with international participation is therefore established and will act under the provision of this Change Management Charter (“Charter”). The purpose of the `FIXM CCB` is to ensure that the strategic objectives for FIXM, described in the FIXM Strategy [1], are satisfied.
 
@@ -15,14 +15,14 @@ This page formalizes the organization of the FIXM community and its operating pr
 
 ## Article 2 – The Change Control Board (`FIXM CCB`)
 
-### `FIXM CCB` Roles & Scope
+### FIXM CCB Roles & Scope
 
 2.1 The `FIXM CCB` is the body that decides on the evolution of FIXM. This includes:
 - a) The FIXM Strategy.
 - b) The FIXM Change Management Charter (this document).
 - c) The FIXM Release Plan.
 - d) The FIXM components described in the FIXM Strategy [1], chapter 2.2.
-- e) Any communication materials about FIXM issued on behalf of the FIXM community, including, but not limited to, Information Papers about FIXM for ICAO, materials supporting FIXM seminars and workshops etc.
+- e) Any communication materials about FIXM issued on behalf of the `FIXM Community`, including, but not limited to, Information Papers about FIXM for ICAO, materials supporting FIXM seminars and workshops etc.
 - f) The content of the www.FIXM.aero web site that is globally applicable.
 Note: www.FIXM.aero may contain additional pages capturing information relevant to individual stakeholder’s activities related to FIXM. Those pages will be clearly separated from the core part.
 
@@ -31,26 +31,26 @@ Note: www.FIXM.aero may contain additional pages capturing information relevant 
 - b) Has overall responsibility for the evolution of FIXM to ensure alignment with the relevant ICAO requirements and consistency with the FIXM Strategy.
 - c) Schedules the FIXM versions and manages the changes to be included in new versions.
 - d) Endorses, or rejects, proposals for FIXM. Chapter 2.1 provides the detailed list of FIXM items subject to `FIXM CCB` endorsement.
-- e) Considers proposals for inclusion in FIXM and decides whether elements are included in the FIXM core, in coordination with the ATMRPP.
+- e) Considers proposals for inclusion in FIXM and decides whether elements are included in the FIXM core, in coordination with the `ICAO ATMRPP`.
 - f) Maintains the catalogue of third-parties FIXM Applications and FIXM Extensions with the objectives of:
     - (i) Raising awareness about on-going FIXM related developments;
-    - (ii) Reconciling, to the extent possible, the content of overlapping extensions and applications developed by different FIXM Stakeholders which would cover equivalent business needs;
+    - (ii) Reconciling, to the extent possible, the content of overlapping extensions and applications developed by different `FIXM Stakeholders` which would cover equivalent business needs;
     - (iii) Optimising the movement of data elements between FIXM core and extensions.
 - g) Endorses, or rejects, proposals for physical representations of the FIXM Logical Model to be recognised for common use.
 - h) Aims to ensure the transparency of change management for all Stakeholders.
-- i) Provides ICAO ATMRPP with support for collecting candidate operational drivers for FIXM that would stem from FIXM Stakeholders.
-- j) Arbitrates the integration of the different FIXM Stakeholders’ needs and views.
+- i) Provides `ICAO ATMRPP` with support for collecting candidate operational drivers for FIXM that would stem from `FIXM Stakeholders`.
+- j) Arbitrates the integration of the different `FIXM Stakeholders`’ needs and views.
 - k) If and when needed, prioritises FIXM Change Proposals and change activities.
 - l) When needed, issues mapping guidelines on changes between versions - in particular when changes to the model result in major restructuring of concept elements.
 - m) When needed, includes the release of formal conformance testing specifications, which enable an implementer to check and gain compliance with a FIXM version.
 - n) Establishes and maintains relations with similar groups, or bodies, that are responsible for the other ATM information domain models (AIM, MET, etc.) and for the ATM Information Reference Model (AIRM).
-- o) Reports regularly to ICAO ATMRPP on the progress of core developments and extensions, and consults on proposals for changes.
+- o) Reports regularly to `ICAO ATMRPP` on the progress of core developments and extensions, and consults on proposals for changes.
 - p) Monitors the evolutions in the ATM domain in order to trigger appropriate changes to FIXM.
 
 
-### `FIXM CCB` Membership
+### FIXM CCB Membership
 
-2.3	The `FIXM CCB` is composed of member organisations. The `FIXM CCB` member organisations, as set up under this charter, provide the change management necessary for FIXM to evolve.
+2.3	The `FIXM CCB` is composed of member organisations. The `FIXM CCB member organisations`, as set up under this charter, provide the change management necessary for FIXM to evolve.
 
 2.4	Participation in the `FIXM CCB` is provided on a voluntary basis for the purpose of mutual, and wider, ATM benefit.
 
@@ -59,9 +59,9 @@ Note: www.FIXM.aero may contain additional pages capturing information relevant 
 - b) Until the first FIXM version is released that fully realises FF-ICE/R1, `FIXM CCB` membership may be expanded only to new organisations that are in a position to provide direct sponsorship, including, but not limited to providing: resources to build the FIXM components over time; operational inputs to drive the FIXM development; and, improved synergies with relevant ATM communities of interest, particularly those identified in chapter 2.4 of the FIXM Strategy.
 - c) Once the first FIXM version is released that fully realises FF-ICE/R1, `FIXM CCB` membership may be expanded, upon request, to any organisations that have a verifiable interest in the content and use of FIXM.
 
-2.6	Each `FIXM CCB` member organisation is represented by an individual, playing the role of `FIXM CCB Member`. A `FIXM CCB Member` may be supported by technical advisers playing the role of `FIXM CCB Contributor`. The term `FIXM CCB Participants` collectively designates all the individuals playing the role of `FIXM CCB Member` or `FIXM CCB Contributor` within the `FIXM CCB`.
+2.6	Each `FIXM CCB member organisation` is represented by an individual, playing the role of `FIXM CCB Member`. A `FIXM CCB Member` may be supported by technical advisers playing the role of `FIXM CCB Contributor`. The term `FIXM CCB Participants` collectively designates all the individuals playing the role of `FIXM CCB Member` or `FIXM CCB Contributor` within the `FIXM CCB`.
 
-2.7	The list of `FIXM CCB` member organisations and corresponding `FIXM CCB Participants` is defined and maintained on the FIXM Work Area. A `FIXM CCB` member organisation can revisit the list of its `FIXM CCB Participants at any time. For instance, a `FIXM CCB` member organisation can decide at any time to replace its `FIXM CCB Member`.
+2.7	The list of `FIXM CCB member organisations` and corresponding `FIXM CCB Participants` is defined and maintained on the FIXM Work Area. A `FIXM CCB member organisation` can revisit the list of its `FIXM CCB Participants at any time. For instance, a `FIXM CCB member organisation` can decide at any time to replace its `FIXM CCB Member`.
 
 2.8	The `FIXM CCB` may include individuals playing the role of `Liaison` with other communities of interests or bodies identified in chapter 2.4 of the FIXM Strategy. A `Liaison` acts as observer within the `FIXM CCB` facilitating the coordination, but does not take part in the Decision Making Process for FIXM. Appointment of a `Liaison` is subject to `FIXM CCB` endorsement.
 Note: an individual playing the role of `FIXM CCB Participant` may concurrently play a role of `Liaison`.
@@ -87,7 +87,7 @@ Note: The `AIRM liaison` is established following the planned Q4-2021 availabili
 
 ### Decision making process
 
-2.14	`FIXM CCB` Members aim to actively support FIXM evolution activities and thus, `FIXM CCB` Members agree to participate in supporting the decision-making processes.
+2.14	`FIXM CCB Members` aim to actively support FIXM evolution activities and thus, `FIXM CCB Members` agree to participate in supporting the decision-making processes.
 
 2.15	Decisions will be made during `FIXM CCB` meetings (see 2.21 & 2.22).
 
@@ -103,7 +103,7 @@ Note: Consensus is defined as “group decision making process that seeks the co
 2.18	In the absence of consensus, the `FIXM CCB` will escalate the problem to the `ICAO ATMRPP` for resolution.
 
 
-### `FIXM CCB` Procedures
+### FIXM CCB Procedures
 
 2.19	The working language of `FIXM CCB` is (Oxford Dictionary) English.
 
@@ -122,7 +122,7 @@ Note: Consensus is defined as “group decision making process that seeks the co
 
 ## Article 3 – The CCB Secretariat (`FIXM CCBS`)
 
-### `FIXM CCBS` Roles & Scope
+### FIXM CCBS Roles & Scope
 
 3.1	The role of the `FIXM CCBS` is to support the `FIXM CCB` and FIXM evolution activities. The `FIXM CCBS` will provide the technical and human resources for:
 - a) The management of FIXM Change Proposals;
@@ -137,13 +137,13 @@ Note: Consensus is defined as “group decision making process that seeks the co
 - e) Track the progress of FIXM change activities against strategy, and track other FIXM relevant ATM domain activities, in order to support the `FIXM CCB` role of monitoring and triggering appropriate changes to FIXM.
 
 
-### `FIXM CCBS` Membership
+### FIXM CCBS Membership
 
 3.3	`FIXM CCBS` activities are currently being performed, voluntarily, by the FAA and EUROCONTROL. However, the `FIXM CCBS` activities may be further supported by other members, or rotated amongst the FIXM stakeholders, subject to availability of financial and human resources.
 
 ## Article 4 – The FIXM Community of Interest (`FIXM CoI`)
 
-### `FIXM CoI` Roles & Scope
+### FIXM CoI Roles & Scope
 
 4.1	The `FIXM CoI` designates the collaborative group of `FIXM Stakeholders` having an interest in FIXM and contributing to its evolution.
 
