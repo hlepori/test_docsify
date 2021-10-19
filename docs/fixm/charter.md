@@ -24,7 +24,8 @@ This page formalizes the organization of the FIXM community and its operating pr
 - d) The FIXM components described in the FIXM Strategy [1], chapter 2.2.
 - e) Any communication materials about FIXM issued on behalf of the `FIXM Community`, including, but not limited to, Information Papers about FIXM for ICAO, materials supporting FIXM seminars and workshops etc.
 - f) The content of the www.FIXM.aero web site that is globally applicable.
-Note: www.FIXM.aero may contain additional pages capturing information relevant to individual stakeholder’s activities related to FIXM. Those pages will be clearly separated from the core part.
+
+?> Note: www.FIXM.aero may contain additional pages capturing information relevant to individual stakeholder’s activities related to FIXM. Those pages will be clearly separated from the core part.
 
 2.2 The `FIXM CCB`:
 - a) Sets the main principles that will guide the FIXM development as described in the FIXM Strategy.
@@ -64,10 +65,12 @@ Note: www.FIXM.aero may contain additional pages capturing information relevant 
 2.7	The list of `FIXM CCB member organisations` and corresponding `FIXM CCB Participants` is defined and maintained on the FIXM Work Area. A `FIXM CCB member organisation` can revisit the list of its `FIXM CCB Participants` at any time. For instance, a `FIXM CCB member organisation` can decide at any time to replace its `FIXM CCB Member`.
 
 2.8	The `FIXM CCB` may include individuals playing the role of `Liaison` with other communities of interests or bodies identified in chapter 2.4 of the FIXM Strategy. A `Liaison` acts as observer within the `FIXM CCB` facilitating the coordination, but does not take part in the Decision Making Process for FIXM. Appointment of a `Liaison` is subject to `FIXM CCB` endorsement.
-Note: an individual playing the role of `FIXM CCB Participant` may concurrently play a role of `Liaison`.
+
+?> Note: an individual playing the role of `FIXM CCB Participant` may concurrently play a role of `Liaison`.
 
 2.9	The `Liaisons` may include in particular an `AIRM Liaison` representing the `AIRM CCB` within the `FIXM CCB`. The `AIRM Liaison` communicates the AIRM work- and release plan to the `FIXM CCB`, informs the `FIXM CCB` about any AIRM-related work potentially relevant to FIXM, and coordinates with the `FIXM CCB` so that FIXM-related change proposals to the AIRM are acknowledged by the `FIXM CCB`, and subsequently informs the `AIRM CCB` thereof.
-Note: The `AIRM liaison` is established following the planned Q4-2021 availability date of the draft PANS-IM provisions and in anticipation of the Q4-2024 applicability date of the expected PANS-IM provisions.
+
+?> Note: The `AIRM liaison` is established following the planned Q4-2021 availability date of the draft PANS-IM provisions and in anticipation of the Q4-2024 applicability date of the expected PANS-IM provisions.
 
 ### Code of conduct
 
@@ -96,7 +99,7 @@ Note: The `AIRM liaison` is established following the planned Q4-2021 availabili
 - b) Unanimous consent by `FIXM CCB Members` who have spoken and silence by the others;
 - c) Recording of a decision as a formal action with its associated due date. Lack of response by the due date is deemed concurrence.
 
-Note: Consensus is defined as “group decision making process that seeks the consent, not necessarily the agreement of participants and the resolution of objections”
+?> Note: Consensus is defined as “group decision making process that seeks the consent, not necessarily the agreement of participants and the resolution of objections”
 
 2.17	Objections shall be supported by clear arguments, in particular for business impacts, in order that other `FIXM CCB Members` may understand the objections and issues to be resolved. Current and immediate term operational reality should be considered as the prevailing arguments for the adoption of change proposals. Those that reflect future operational concepts will be subject to consideration of the operational needs and expectations, and may require further supporting evidence of concept agreement, or validation, for applicability at the international level. In such a case, the use of extensions as described in [1] should be considered as mitigation.
 
@@ -152,7 +155,7 @@ Note: Consensus is defined as “group decision making process that seeks the co
 4.3	The `FIXM CoI` can request `FIXM CCB` advice on any FIXM matters, at any time.
 
 
-### `FIXM CoI` Membership
+### FIXM CoI Membership
 
 4.4	The `FIXM CoI` is open to any organisation or individual having a verifiable interest in FIXM.  Joining the `FIXM CoI` is achieved by registering to the FIXM Work Area.
 
