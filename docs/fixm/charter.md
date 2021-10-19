@@ -61,7 +61,7 @@ Note: www.FIXM.aero may contain additional pages capturing information relevant 
 
 2.6	Each `FIXM CCB member organisation` is represented by an individual, playing the role of `FIXM CCB Member`. A `FIXM CCB Member` may be supported by technical advisers playing the role of `FIXM CCB Contributor`. The term `FIXM CCB Participants` collectively designates all the individuals playing the role of `FIXM CCB Member` or `FIXM CCB Contributor` within the `FIXM CCB`.
 
-2.7	The list of `FIXM CCB member organisations` and corresponding `FIXM CCB Participants` is defined and maintained on the FIXM Work Area. A `FIXM CCB member organisation` can revisit the list of its `FIXM CCB Participants at any time. For instance, a `FIXM CCB member organisation` can decide at any time to replace its `FIXM CCB Member`.
+2.7	The list of `FIXM CCB member organisations` and corresponding `FIXM CCB Participants` is defined and maintained on the FIXM Work Area. A `FIXM CCB member organisation` can revisit the list of its `FIXM CCB Participants` at any time. For instance, a `FIXM CCB member organisation` can decide at any time to replace its `FIXM CCB Member`.
 
 2.8	The `FIXM CCB` may include individuals playing the role of `Liaison` with other communities of interests or bodies identified in chapter 2.4 of the FIXM Strategy. A `Liaison` acts as observer within the `FIXM CCB` facilitating the coordination, but does not take part in the Decision Making Process for FIXM. Appointment of a `Liaison` is subject to `FIXM CCB` endorsement.
 Note: an individual playing the role of `FIXM CCB Participant` may concurrently play a role of `Liaison`.
