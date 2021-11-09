@@ -1,12 +1,9 @@
-***
-
-- **STRATEGIC DOCUMENTS**
+- **STRATEGIC FIXM DOCUMENTS**
   - [Strategy](fixm/strategy.md)
   - [Change Management Charter](fixm/charter.md)
   - [Versioning Policy](fixm/versioning.md)
   - [Release Plan](fixm/releasePlan.md)
-  
-***
+
   
 - **FIXM COMPONENTS**
   -  [Introduction](fixm/strategy.md)
