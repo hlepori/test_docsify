@@ -169,20 +169,21 @@ Therefore, `FIXM` shall ensure it retains and releases content that remains comp
 However, whilst needing to retain compatibility with the ATS Message content, `FIXM` shall ensure it is not constrained to just meeting such message-based needs and is thus also able to provide the additional and enhanced content needs for the evolving ATM needs, in line with ICAO requirements.
 
 ## 4	References
-[1]	Global Air Traffic Management Operational Concept (First Edition - 2005), ICAO Doc 9854
-[2]	Manual on Air Traffic Management System Requirements (First Edition – 2007), ICAO Doc 9882
-[3]	Global Air Navigation Plan (Fourth Edition – 2013), ICAO Doc 9750
-[4]	Manual on Global Performance of the Air Navigation System (First Edition – 2008), ICAO Doc 9883
-[5]	Manual on Collaborative Air Traffic Flow Management (First Edition – 2012), ICAO Doc 9971
-[6]	Manual on Flight and Flow Information for a Collaborative Environment (First Edition – 2012), ICAO Doc 9965
-[7]	ASBU Working Document, (Edition 2, Version 3)
-[8]	Procedures for Air Navigation Services: Air Traffic Management, ICAO Doc 4444, 15th Ed
-[9]	Introduction to Aeronautical Information Exchange Model (AIXM) / Weather Information Exchange Model (WXXM) / FIXM Extensions, ICAO ATMRPP WP520
-[10]	FIXM Change Management Charter, version 1.1
-[11]	Manual On System Wide Information Management (SWIM) Concept, (Advanced Edition – 2015), ICAO Doc 10039
-[12]	ATM Information Reference Model 
-[13]	EUROCONTROL Specification on SWIM Information Definition
-[14]	ICAO Doc 9965 Ed2 Volume II “FF-ICE/R1 Implementation Guidance Manual” v.0.95 (draft)
+
+- [1]	Global Air Traffic Management Operational Concept (First Edition - 2005), ICAO Doc 9854
+- [2]	Manual on Air Traffic Management System Requirements (First Edition – 2007), ICAO Doc 9882
+- [3]	Global Air Navigation Plan (Fourth Edition – 2013), ICAO Doc 9750
+- [4]	Manual on Global Performance of the Air Navigation System (First Edition – 2008), ICAO Doc 9883
+- [5]	Manual on Collaborative Air Traffic Flow Management (First Edition – 2012), ICAO Doc 9971
+- [6]	Manual on Flight and Flow Information for a Collaborative Environment (First Edition – 2012), ICAO Doc 9965
+- [7]	ASBU Working Document, (Edition 2, Version 3)
+- [8]	Procedures for Air Navigation Services: Air Traffic Management, ICAO Doc 4444, 15th Ed
+- [9]	Introduction to Aeronautical Information Exchange Model (AIXM) / Weather Information Exchange Model (WXXM) / FIXM Extensions, ICAO ATMRPP WP520
+- [10]	FIXM Change Management Charter, version 1.1
+- [11]	Manual On System Wide Information Management (SWIM) Concept, (Advanced Edition – 2015), ICAO Doc 10039
+- [12]	ATM Information Reference Model 
+- [13]	EUROCONTROL Specification on SWIM Information Definition
+- [14]	ICAO Doc 9965 Ed2 Volume II “FF-ICE/R1 Implementation Guidance Manual” v.0.95 (draft)
 
 ## 5	Abbreviations
 
