@@ -19,11 +19,11 @@ CHARTER-.  formalizes<br>change management and<br>operating procedures<br>for .-
 VERSIONING-. describes<br>versioning policy<br>for .-> FIXM
 RELEASEPLAN-. describes<br>roadmap<br>for .-> FIXM
 
-style STRATEGY fill:#F0FFFF,stroke:#333,stroke-width:3px
-style CHARTER fill:#F0FFFF,stroke:#333,stroke-width:3px
-style VERSIONING fill:#F0FFFF,stroke:#333,stroke-width:3px
-style RELEASEPLAN fill:#F0FFFF,stroke:#333,stroke-width:3px
-style RELEASEPLAN fill:#F0FFFF,stroke:#333,stroke-width:3px
+%% style STRATEGY fill:#F0FFFF,stroke:#333,stroke-width:3px
+%% style CHARTER fill:#F0FFFF,stroke:#333,stroke-width:3px
+%% style VERSIONING fill:#F0FFFF,stroke:#333,stroke-width:3px
+%% style RELEASEPLAN fill:#F0FFFF,stroke:#333,stroke-width:3px
+%% style RELEASEPLAN fill:#F0FFFF,stroke:#333,stroke-width:3px
 
 click STRATEGY "https://ost.eurocontrol.int/sites/FIXM/Lists/Bug%20reports/AllItems.aspx" "Browse the FIXM Strategy"
 ```
