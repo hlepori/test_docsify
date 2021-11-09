@@ -1,9 +1,8 @@
 # FIXM Change Management Charter
 
+> v.2.1 (xx-xx-2021)
+
 This page formalizes the organization of the FIXM community and its operating procedures.
-
-> UNDER EVALUATION : content is based on v.2.0 (23-Sept-2021) of the charter, with editorial changes to leverage the capabilities of markdown.
-
 
 ## Article 1 – Objective
 
