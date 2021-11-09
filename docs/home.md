@@ -15,7 +15,7 @@ RELEASEPLAN{{FIXM<br>Release Plan}}
 end
 
 STRATEGY-. defines<br>strategic requirements<br>for .-> FIXM
-CHARTER-.  formalizes<br>change management and<br>operating procedures<br>for .-> FIXM
+CHARTER-.  formalizes<br>change management and<br>operating procedures for .-> FIXM
 VERSIONING-. describes<br>versioning policy<br>for .-> FIXM
 RELEASEPLAN-. describes<br>roadmap<br>for .-> FIXM
 
