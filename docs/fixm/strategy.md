@@ -1,6 +1,7 @@
 # FIXM Strategy
 
-> Version 2.0.x (xx-xx-2021) 
+> Version 2.0.x (xx-xx-2021)
+> Download [as pdf]()
 
 ## 1	Introduction
 
