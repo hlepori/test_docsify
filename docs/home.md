@@ -6,8 +6,9 @@ The FIXM User Manual, formerly known as Implementation Guidance, is developed an
 graph TD
 
 FIXM
+USERMANUAL{{FIXM<br>User Manual}}
 
-subgraph Documents
+subgraph Strategic Documents
 STRATEGY{{FIXM<br>Strategy}}
 CHARTER{{FIXM Change<br>Management Charter}}
 VERSIONING{{FIXM<br>Versioning Policy}}
@@ -15,9 +16,10 @@ RELEASEPLAN{{FIXM<br>Release Plan}}
 end
 
 STRATEGY-. defines<br>strategic requirements<br>for .-> FIXM
-CHARTER-.  formalizes<br>change management<br>and<br>operating procedures<br>for .-> FIXM
-VERSIONING-. describes<br>versioning policy .-> FIXM
+CHARTER-.  formalizes<br>change management and<br>operating procedures<br>for .-> FIXM
+VERSIONING-. describes<br>versioning policy<br>for .-> FIXM
 RELEASEPLAN-. describes<br>roadmap<br>for .-> FIXM
+USERMANUAL-. provides<br>implementation guidance<br>for .-> FIXM
 
 style STRATEGY fill:#F0FFFF,stroke:#333,stroke-width:3px
 style CHARTER fill:#F0FFFF,stroke:#333,stroke-width:3px
