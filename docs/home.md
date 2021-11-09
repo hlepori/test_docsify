@@ -2,6 +2,10 @@
 
 The FIXM User Manual, formerly known as Implementation Guidance, is developed and maintained by the FIXM Community. Content has been subject to FIXM CCB review and endorsement and is therefore the official recommendation of the FIXM CCB. 
 
+Note: The content of the FIXM User Manual is informative. The use of the words *shall* or *required* indicates a requirement to be strictly followed in order to conform to this guidance. The use of the words *should* or *recommended* indicates that there may may be valid reasons, in particular circumstances, to ignore a particular aspect of the guidance.
+
+## Strategic FIXM Documents
+
 ```mermaid
 graph TD
 
@@ -23,12 +27,13 @@ RELEASEPLAN-. describes<br>roadmap<br>for .-> FIXM
 %% style CHARTER fill:#F0FFFF,stroke:#333,stroke-width:3px
 %% style VERSIONING fill:#F0FFFF,stroke:#333,stroke-width:3px
 %% style RELEASEPLAN fill:#F0FFFF,stroke:#333,stroke-width:3px
-%% style RELEASEPLAN fill:#F0FFFF,stroke:#333,stroke-width:3px
+style FIXM fill:#F0FFFF,stroke:#333,stroke-width:3px
 
 click STRATEGY "https://ost.eurocontrol.int/sites/FIXM/Lists/Bug%20reports/AllItems.aspx" "Browse the FIXM Strategy"
+click STRATEGY "https://ost.eurocontrol.int/sites/FIXM/Lists/Bug%20reports/AllItems.aspx" "Browse the FIXM Change Management Charter"
+click STRATEGY "https://ost.eurocontrol.int/sites/FIXM/Lists/Bug%20reports/AllItems.aspx" "Browse the FIXM Versioning Policy"
+click STRATEGY "https://ost.eurocontrol.int/sites/FIXM/Lists/Bug%20reports/AllItems.aspx" "Browse the FIXM Release Plan"
 ```
-
-Note: The content of the FIXM User Manual is informative. The use of the words *shall* or *required* indicates a requirement to be strictly followed in order to conform to this guidance. The use of the words *should* or *recommended* indicates that there may may be valid reasons, in particular circumstances, to ignore a particular aspect of the guidance.
 
 ## Guidance on FIXM Releases
 
