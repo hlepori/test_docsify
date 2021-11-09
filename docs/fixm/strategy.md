@@ -1,5 +1,7 @@
 # FIXM Strategy
 
+> Version 2.0.x (xx-xx-2021) 
+
 ## 1	Introduction
 
 ### 1.1	Introduction to FIXM
