@@ -186,28 +186,30 @@ However, whilst needing to retain compatibility with the ATS Message content, `F
 
 ## 5	Abbreviations
 
-A-CDM		Airport Collaborative Decision Making
-ACRIS		Airport Community Recommended Information Services
-AIDX		Aviation Information Data Exchange
-AIRM		ATM Information Reference Model
-AIS		Aeronautical Information Services
-AIXM		Aeronautical Information Exchange Model
-ASBU		Aviation System Block Upgrade
-ATMRPP	Air Traffic Management Requirements and Performance Panel
-CCB		Change Control Board
-FF-ICE		Flight and Flow – Information for a Collaborative Environment
-FIXM		Flight Information Exchange Model
-IATA		International Air Transport Association
-ICAO		International Civil Aviation Organisation
-IMP		Information Management Panel
-ISO		International Standards Organisation
-OGC		Open geospatial Consortium
-PADIS		Passenger and Airport Data Interchange Standards
-SWIM		System Wide Information Management
-UML		Unified Modelling Language
-WXXM		Weather Information Exchange Model
-XML		Extensible Markup Language
-XSD		XML Schema Definition
+|  |  |
+|:-|:-|
+| A-CDM | Airport Collaborative Decision Making |
+| ACRIS | Airport Community Recommended Information Services |
+| AIDX | Aviation Information Data Exchange |
+| AIRM | ATM Information Reference Model |
+| AIS | Aeronautical Information Services |
+| AIXM | Aeronautical Information Exchange Model |
+| ASBU | Aviation System Block Upgrade |
+| ATMRPP | Air Traffic Management Requirements and Performance Panel |
+| CCB | Change Control Board |
+| FF-ICE | Flight and Flow – Information for a Collaborative Environment |
+| FIXM | Flight Information Exchange Model |
+| IATA | International Air Transport Association |
+| ICAO | International Civil Aviation Organisation |
+| IMP | Information Management Panel |
+| ISO | International Standards Organisation |
+| OGC | Open geospatial Consortium |
+| PADIS | Passenger and Airport Data Interchange Standards |
+| SWIM | System Wide Information Management |
+| UML | Unified Modelling Language |
+| WXXM | Weather Information Exchange Model |
+| XML | Extensible Markup Language |
+| XSD | XML Schema Definition |
 
 ## Appendix A – Eligibility criteria for FIXM Core
 
