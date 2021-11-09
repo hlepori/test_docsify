@@ -8,17 +8,12 @@ Note: The content of the FIXM User Manual is informative. The use of the words *
 
 ```mermaid
 graph TD
-STRATEGY([Strategy])
-CHARTER([Charter])
-VERSIONING([Versioning Policy])
-RELEASEPLAN([Release Plan])
+STRATEGY>FIXM Strategy]
+CHARTER([FIXM Change Management Charter])
+VERSIONING([FIXM Versioning Policy])
+RELEASEPLAN([FIXM Release Plan])
 
-subgraph click_here_to_report_a_bug [ ]
-STRATEGY
-CLICK_HERE>Click here to report a new bug]
-end click_here_to_report_a_bug
-
-click CLICK_HERE "https://ost.eurocontrol.int/sites/FIXM/Lists/Bug%20reports/AllItems.aspx" "Click to report a new bug" _blank
+click STRATEGY "https://ost.eurocontrol.int/sites/FIXM/Lists/Bug%20reports/AllItems.aspx" "Go to the FIXM Strategy" _blank
 ```
 
 
