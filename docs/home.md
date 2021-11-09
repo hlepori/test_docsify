@@ -1,11 +1,16 @@
 # Welcome to the FIXM User Manual
 
+The FIXM User Manual, formerly known as Implementation Guidance, is developed and maintained by the FIXM Community. Content has been subject to FIXM CCB review and endorsement and is therefore the official recommendation of the FIXM CCB. 
+
 ```mermaid
 graph TD
+
+subgraph main documents
 STRATEGY{{FIXM<br>Strategy}}
 CHARTER{{FIXM Change<br>Management Charter}}
 VERSIONING{{FIXM<br>Versioning Policy}}
 RELEASEPLAN{{FIXM<br>Release Plan}}
+end
 
 style STRATEGY fill:#87CEFA,stroke:#333,stroke-width:3px
 style CHARTER fill:#87CEFA,stroke:#333,stroke-width:3px
@@ -14,8 +19,6 @@ style RELEASEPLAN fill:#87CEFA,stroke:#333,stroke-width:3px
 
 click STRATEGY "https://ost.eurocontrol.int/sites/FIXM/Lists/Bug%20reports/AllItems.aspx" "Go to the FIXM Strategy" _blank
 ```
-
-The FIXM User Manual, formerly known as Implementation Guidance, is developed and maintained by the FIXM Community. Content has been subject to FIXM CCB review and endorsement and is therefore the official recommendation of the FIXM CCB. 
 
 Note: The content of the FIXM User Manual is informative. The use of the words *shall* or *required* indicates a requirement to be strictly followed in order to conform to this guidance. The use of the words *should* or *recommended* indicates that there may may be valid reasons, in particular circumstances, to ignore a particular aspect of the guidance.
 
