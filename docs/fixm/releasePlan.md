@@ -1,5 +1,7 @@
 # FIXM Release Plan
 
+!> UNDER EVALUATION BY THE FIXM CCB
+
 > REQUIRES AN UPDATE
 >
 > Extracts copied from "26-April-2018" version 
