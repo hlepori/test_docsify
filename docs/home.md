@@ -8,7 +8,7 @@ Note: The content of the FIXM User Manual is informative. The use of the words *
 
 ```mermaid
 graph TD
-STRATEGY{{FIXM<br>*STRATEGY*}}
+STRATEGY{{FIXM<br>Strategy}}
 CHARTER{{FIXM Change<br>Management Charter}}
 VERSIONING{{FIXM<br>Versioning Policy}}
 RELEASEPLAN{{FIXM<br>Release Plan}}
