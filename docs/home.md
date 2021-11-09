@@ -8,12 +8,15 @@ Note: The content of the FIXM User Manual is informative. The use of the words *
 
 ```mermaid
 graph TD
-STRATEGY>FIXM Strategy]
+STRATEGY{{FIXM Strategy}}
 CHARTER{{FIXM Change Management Charter}}
-VERSIONING>FIXM Versioning Policy]
-RELEASEPLAN>FIXM Release Plan]
+VERSIONING{{FIXM Versioning Policy}}
+RELEASEPLAN{{FIXM Release Plan}}
 
-style STRATEGY fill:#87CEFA,stroke:#333,stroke-width:4px
+style STRATEGY fill:#87CEFA,stroke:#333,stroke-width:3px
+style CHARTER fill:#87CEFA,stroke:#333,stroke-width:3px
+style VERSIONING fill:#87CEFA,stroke:#333,stroke-width:3px
+style RELEASEPLAN fill:#87CEFA,stroke:#333,stroke-width:3px
 
 click STRATEGY "https://ost.eurocontrol.int/sites/FIXM/Lists/Bug%20reports/AllItems.aspx" "Go to the FIXM Strategy" _blank
 ```
