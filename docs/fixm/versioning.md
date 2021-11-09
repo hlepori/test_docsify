@@ -1,5 +1,7 @@
 # FIXM Versioning Policy
 
+!> UNDER EVALUATION BY THE FIXM CCB
+
 > Last updated: 26-Apr-2018
 
 *Note: the versioning policy described below corresponds to the policy discussed and consolidated with the AIXM 
