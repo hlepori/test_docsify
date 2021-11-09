@@ -12,10 +12,10 @@ VERSIONING{{FIXM<br>Versioning Policy}}
 RELEASEPLAN{{FIXM<br>Release Plan}}
 end
 
-style STRATEGY fill:#87CEFA,stroke:#333,stroke-width:3px
-style CHARTER fill:#87CEFA,stroke:#333,stroke-width:3px
-style VERSIONING fill:#87CEFA,stroke:#333,stroke-width:3px
-style RELEASEPLAN fill:#87CEFA,stroke:#333,stroke-width:3px
+style STRATEGY fill:#F0FFFF,stroke:#333,stroke-width:3px
+style CHARTER fill:#F0FFFF,stroke:#333,stroke-width:3px
+style VERSIONING fill:#F0FFFF,stroke:#333,stroke-width:3px
+style RELEASEPLAN fill:#F0FFFF,stroke:#333,stroke-width:3px
 
 click STRATEGY "https://ost.eurocontrol.int/sites/FIXM/Lists/Bug%20reports/AllItems.aspx" "Go to the FIXM Strategy" _blank
 ```
