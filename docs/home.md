@@ -6,7 +6,6 @@ The FIXM User Manual, formerly known as Implementation Guidance, is developed an
 graph TD
 
 FIXM
-USERMANUAL{{FIXM<br>User Manual}}
 
 subgraph Strategic Documents
 STRATEGY{{FIXM<br>Strategy}}
@@ -19,14 +18,14 @@ STRATEGY-. defines<br>strategic requirements<br>for .-> FIXM
 CHARTER-.  formalizes<br>change management and<br>operating procedures<br>for .-> FIXM
 VERSIONING-. describes<br>versioning policy<br>for .-> FIXM
 RELEASEPLAN-. describes<br>roadmap<br>for .-> FIXM
-USERMANUAL-. provides<br>implementation guidance<br>for .-> FIXM
 
 style STRATEGY fill:#F0FFFF,stroke:#333,stroke-width:3px
 style CHARTER fill:#F0FFFF,stroke:#333,stroke-width:3px
 style VERSIONING fill:#F0FFFF,stroke:#333,stroke-width:3px
 style RELEASEPLAN fill:#F0FFFF,stroke:#333,stroke-width:3px
+style RELEASEPLAN fill:#F0FFFF,stroke:#333,stroke-width:3px
 
-click STRATEGY "https://ost.eurocontrol.int/sites/FIXM/Lists/Bug%20reports/AllItems.aspx" "Go to the FIXM Strategy" _blank
+click STRATEGY "https://ost.eurocontrol.int/sites/FIXM/Lists/Bug%20reports/AllItems.aspx" "Browse the FIXM Strategy"
 ```
 
 Note: The content of the FIXM User Manual is informative. The use of the words *shall* or *required* indicates a requirement to be strictly followed in order to conform to this guidance. The use of the words *should* or *recommended* indicates that there may may be valid reasons, in particular circumstances, to ignore a particular aspect of the guidance.
