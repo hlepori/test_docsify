@@ -1,5 +1,5 @@
 - **FIXM MANAGEMENT**
-  - [Strategy](fixm/Strategy.md)
+  - [Strategy](fixm/strategy.md)
   - [Change Management Charter](fixm/charter.md)
   - [Versioning Policy](fixm/versioning.md)
   - [Release Plan](fixm/releasePlan.md)
