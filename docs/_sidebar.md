@@ -1,3 +1,15 @@
+- **FIXM MANAGEMENT**
+  - [Strategy](fixm/Strategy.md)
+  - [Change Management Charter](fixm/charter.md)
+  - [Versioning Policy](fixm/versioning.md)
+  - [Release Plan](fixm/releasePlan.md)
+  
+- **FIXM COMPONENTS**
+  -  Introduction
+  -  FIXM Core
+  -  FIXM Applications
+  -  Extensions
+
 - **Candidate inputs to docs.fixm.aero**
   - [RouteTrajectory - Business Rules](fixm/RouteTrajectory.md)
   - [RouteTrajectory - Example Data](fixm/Example.md)
