@@ -1,17 +1,30 @@
 # FIXM Release Plan
 
-> Last updated : 26-April-2018
+> REQUIRES AN UPDATE
+>
+> Extracts copied from "26-April-2018" version 
 
 The FIXM Release Plan describes the roadmap for the FIXM core releases and for the verified 
 extensions  to  FIXM.  It provides information about the overall ICAO Information Management & 
 SWIM contexts that drive the FIXM development, identifies the planned release dates for FIXM core 
 versions and verified extensions, and outlines the general and specific aims of each version. 
+
 This document is developed and managed by the FIXM Change Control Board under the supervision 
 of the ICAO ATMRPP, as stated in the FIXM Strategy [1] and FIXM Change Management Charter [2]
 
 ## ICAO Roadmap for SWIM and Flight & Flow information exchanges
 
+> REQUIRES AN UPDATE
+>
+> Opportunity to create Gantt charts using mermaid
+
+
 ## Release Plan for FIXM
+
+> REQUIRES AN UPDATE
+>
+> Opportunity to create Gantt charts using mermaid
+
 
 ## General considerations about FIXM releases
 
