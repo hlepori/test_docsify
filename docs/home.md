@@ -5,7 +5,7 @@ The FIXM User Manual, formerly known as Implementation Guidance, is developed an
 ```mermaid
 graph TD
 
-subgraph main documents
+subgraph
 STRATEGY{{FIXM<br>Strategy}}
 CHARTER{{FIXM Change<br>Management Charter}}
 VERSIONING{{FIXM<br>Versioning Policy}}
