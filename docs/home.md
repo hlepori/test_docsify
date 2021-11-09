@@ -4,8 +4,22 @@ The FIXM User Manual, formerly known as Implementation Guidance, is developed an
 
 Note: The content of the FIXM User Manual is informative. The use of the words *shall* or *required* indicates a requirement to be strictly followed in order to conform to this guidance. The use of the words *should* or *recommended* indicates that there may may be valid reasons, in particular circumstances, to ignore a particular aspect of the guidance.
 
-## TITLE
+## FIXM Management
 
+```mermaid
+graph TD
+STRATEGY([Strategy])
+CHARTER([Charter])
+VERSIONING([Versioning Policy])
+RELEASEPLAN([Release Plan])
+
+subgraph click_here_to_report_a_bug [ ]
+STRATEGY
+CLICK_HERE>Click here to report a new bug]
+end click_here_to_report_a_bug
+
+click CLICK_HERE "https://ost.eurocontrol.int/sites/FIXM/Lists/Bug%20reports/AllItems.aspx" "Click to report a new bug" _blank
+```
 
 
 ## Guidance on FIXM Releases
