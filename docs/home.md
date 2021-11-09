@@ -18,16 +18,17 @@ VERSIONING{{FIXM<br>Versioning Policy}}
 RELEASEPLAN{{FIXM<br>Release Plan}}
 end
 
-STRATEGY-. defines<br>strategic requirements<br>for .-> FIXM
+STRATEGY-. defines<br>strategic requirements for .-> FIXM
 CHARTER-.  formalizes<br>change management and<br>operating procedures for .-> FIXM
-VERSIONING-. describes<br>versioning policy<br>for .-> FIXM
-RELEASEPLAN-. describes<br>roadmap<br>for .-> FIXM
+VERSIONING-. describes<br>versioning policy for .-> FIXM
+RELEASEPLAN-. describes<br>roadmap for .-> FIXM
 
 %% style STRATEGY fill:#F0FFFF,stroke:#333,stroke-width:3px
 %% style CHARTER fill:#F0FFFF,stroke:#333,stroke-width:3px
 %% style VERSIONING fill:#F0FFFF,stroke:#333,stroke-width:3px
 %% style RELEASEPLAN fill:#F0FFFF,stroke:#333,stroke-width:3px
-style FIXM fill:#F0FFFF,stroke:#333,stroke-width:3px
+%% style FIXM fill:#F0FFFF,stroke:#333,stroke-width:3px
+style FIXM stroke-width:3px
 
 click STRATEGY "https://ost.eurocontrol.int/sites/FIXM/Lists/Bug%20reports/AllItems.aspx" "Browse the FIXM Strategy"
 click CHARTER "https://ost.eurocontrol.int/sites/FIXM/Lists/Bug%20reports/AllItems.aspx" "Browse the FIXM Change Management Charter"
