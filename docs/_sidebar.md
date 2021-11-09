@@ -1,4 +1,4 @@
-  ***
+***
 
 - **STRATEGIC DOCUMENTS**
   - [Strategy](fixm/strategy.md)
@@ -6,7 +6,7 @@
   - [Versioning Policy](fixm/versioning.md)
   - [Release Plan](fixm/releasePlan.md)
   
-  ***
+***
   
 - **FIXM COMPONENTS**
   -  [Introduction](fixm/strategy.md)
