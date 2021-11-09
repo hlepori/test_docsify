@@ -1,4 +1,4 @@
-- **FIXM MANAGEMENT**
+- **STRATEGIC DOCUMENTS**
   - [Strategy](fixm/strategy.md)
   - [Change Management Charter](fixm/charter.md)
   - [Versioning Policy](fixm/versioning.md)
