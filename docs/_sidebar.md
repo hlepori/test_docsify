@@ -5,10 +5,10 @@
   - [Release Plan](fixm/releasePlan.md)
   
 - **FIXM COMPONENTS**
-  -  Introduction
-  -  FIXM Core
-  -  FIXM Applications
-  -  Extensions
+  -  [Introduction]()
+  -  [FIXM Core]()
+  -  [FIXM Applications]()
+  -  [Extensions]()
 
 - **Candidate inputs to docs.fixm.aero**
   - [RouteTrajectory - Business Rules](fixm/RouteTrajectory.md)
