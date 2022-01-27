@@ -16,6 +16,7 @@
   - [RouteTrajectory - Business Rules](fixm/RouteTrajectory.md)
   - [RouteTrajectory - Example Data](fixm/Example.md)
   - [FIXM Change Management Charter](fixm/charter.md)
+  - [Metadata](fixm/metadata.md)
   
   
 - **Testing docsify capabilities**  
