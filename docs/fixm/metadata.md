@@ -70,7 +70,7 @@ The name of the eAU is `My Airline`. The eAU uses the services from a CFSP calle
 ```
 
 ### Scenario 3
-The name of the eAU is `My Airline`. The eAU runs its own flight planning systems (i.e. does not use the services from a CFSP). A third-party service is used for the generation of the GUFI. The name of the service is `UUID Generation Service` and it is provided by the organisation called `My Support Organisation`. The overview of this third-party service  is available at the url "https://eur-registry.swim.aero/services/uuid_generation_service"
+The name of the eAU is `My Airline`. The eAU runs its own flight planning systems (i.e. does not use the services from a CFSP). A third-party service is used for the generation of the GUFI. The name of the service is `UUID Generation Service` and it is provided by the organisation called `My Support Organisation`. The overview of this third-party service  is available at the url `https://eur-registry.swim.aero/services/uuid_generation_service`.
 
 ```xml
 <fb:processStep>
