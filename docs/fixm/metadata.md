@@ -163,5 +163,5 @@ Applied to Scenario 1 above, the resulting encoding would look like this:
 ```
 |Pros|Cons|
 |:-|:-|
-|Easier to contraint the list of values e.g. for processStep.description (using a codelist), and possibly to enforce some cardinalities. | Not as scalable. If new needs for flight metdata are identified, this design may not be able to accomodate new items. Not fully consistent with AIM domain.|
+|Easier to contrain the list of values e.g. for processStep.description (using a codelist), and possibly to enforce some cardinalities. | Not as scalable. If new needs for flight metdata are identified, this design may not be able to accomodate new items. Not fully consistent with AIM domain.|
 
