@@ -108,20 +108,20 @@ Applied to Scenario 1 above, the resulting encoding would look like this:
   <ffice:flight>
     <fx:flightMetadata>
       <fb:resourceLineage>
-	<fb:processStep>
-	  <fb:description>GUFI Generation</fb:description>
-	  <fb:processor>
-	    <fb:organisationName>My Airline</fb:organisationName>
-	  </fb:processor>
-	  <fb:stepDateTime>2021-01-01T00:00:00Z</fb:stepDateTime>
-	</fb:processStep>
-	<fb:processStep>
-	  <fb:description>GUFI Assignment</fb:description>
-	  <fb:processor>
-	    <fb:organisationName>My Airline</fb:organisationName>
-	  </fb:processor>
-	  <fb:stepDateTime>2021-01-01T00:01:00Z</fb:stepDateTime>
-	</fb:processStep>
+        <fb:processStep>
+          <fb:description>GUFI Generation</fb:description>
+            <fb:processor>
+              <fb:organisationName>My Airline</fb:organisationName>
+            </fb:processor>
+          <fb:stepDateTime>2021-01-01T00:00:00Z</fb:stepDateTime>
+        </fb:processStep>
+        <fb:processStep>
+          <fb:description>GUFI Assignment</fb:description>
+        <fb:processor>
+          <fb:organisationName>My Airline</fb:organisationName>
+        </fb:processor>
+          <fb:stepDateTime>2021-01-01T00:01:00Z</fb:stepDateTime>
+        </fb:processStep>
       </fb:resourceLineage>
     </fx:flightMetadata>
     <fx:gufi codeSpace="urn:uuid">AAAAAAAA-AAAA-4AAA-8AAA-AAAAAAA23041</fx:gufi>
@@ -138,21 +138,21 @@ Applied to Scenario 1 above, the resulting encoding would look like this:
 <ffice:FficeMessage xmlns:ffice="http://www.fixm.aero/app/ffice/1.1" xmlns:fx="http://www.fixm.aero/flight/4.3" xmlns:fb="http://www.fixm.aero/base/4.3">
   <ffice:flight>
     <fx:gufi codeSpace="urn:uuid">AAAAAAAA-AAAA-4AAA-8AAA-AAAAAAA23041</fx:gufi>
-      <fx:gufiLineage>
-	<fb:processStep>
-	  <fb:description>GUFI Generation</fb:description>
-	  <fb:processor>
-	    <fb:organisationName>My Airline</fb:organisationName>
-	  </fb:processor>
-	  <fb:stepDateTime>2021-01-01T00:00:00Z</fb:stepDateTime>
-	</fb:processStep>
-	<fb:processStep>
-	  <fb:description>GUFI Assignment</fb:description>
-	  <fb:processor>
-	    <fb:organisationName>My Airline</fb:organisationName>
-	  </fb:processor>
-	  <fb:stepDateTime>2021-01-01T00:01:00Z</fb:stepDateTime>
-	</fb:processStep>
+    <fx:gufiLineage>
+      <fb:processStep>
+        <fb:description>GUFI Generation</fb:description>
+        <fb:processor>
+          <fb:organisationName>My Airline</fb:organisationName>
+        </fb:processor>
+        <fb:stepDateTime>2021-01-01T00:00:00Z</fb:stepDateTime>
+      </fb:processStep>
+      <fb:processStep>
+        <fb:description>GUFI Assignment</fb:description>
+        <fb:processor>
+          <fb:organisationName>My Airline</fb:organisationName>
+        </fb:processor>
+        <fb:stepDateTime>2021-01-01T00:01:00Z</fb:stepDateTime>
+      </fb:processStep>
     </fx:gufiLineage>
   </ffice:flight>
   <ffice:type>FILED_FLIGHT_PLAN</ffice:type>
