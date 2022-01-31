@@ -166,3 +166,23 @@ Applied to Scenario 1 above, the resulting encoding would look like this:
 |Easier to contrain the list of values e.g. for processStep.description (using a codelist), and possibly to enforce some cardinalities. | Not as scalable. If new needs for flight metdata are identified, this design may not be able to accomodate new items. Not fully consistent with AIM domain.|
 
 # Alternative
+
+The requirements in terms of enabling to trace   
+Rather than adding brand new fields to the GUFI, consider attaching to the GUFI a flight identification structure based on usual ICAO fields present in the Flight Plan.
+
+```xml
+<fx:flight>
+   <fx:flightIdentification>
+      <fx:gufi>
+         <fx:uuid codeSpace="urn:uuid">2b1bf9a9-c516-46be-bdc9-4926d9b84c8e</fx:uuid>
+         <fx:flightId>
+            <fx:aircraftIdentification>AFR3041</fx:aircraftIdentification>
+            <fx:eobt>2021-03-04T22:30:00.000Z</fx:eobt>
+            <fx:adep>LFPG</fx:adep>
+            <fx:ades>EGLL</fx:ades>
+         </fx:flightId>
+       <fx:gufi>
+   </fx:flightIdentification>
+</fx:flight>   
+```   
+
