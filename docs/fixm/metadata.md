@@ -124,7 +124,7 @@ Applied to Scenario 1 above, the resulting encoding would look like this:
         </fb:processStep>
       </fb:resourceLineage>
     </fx:flightMetadata>
-    <fx:gufi codeSpace="urn:uuid">AAAAAAAA-AAAA-4AAA-8AAA-AAAAAAA23041</fx:gufi>
+    <fx:gufi codeSpace="urn:uuid">2b1bf9a9-c516-46be-bdc9-4926d9b84c8e</fx:gufi>
   </ffice:flight>	
   <ffice:type>FILED_FLIGHT_PLAN</ffice:type>
 </ffice:FficeMessage>
@@ -137,7 +137,7 @@ Applied to Scenario 1 above, the resulting encoding would look like this:
 ```xml
 <ffice:FficeMessage xmlns:ffice="http://www.fixm.aero/app/ffice/1.1" xmlns:fx="http://www.fixm.aero/flight/4.3" xmlns:fb="http://www.fixm.aero/base/4.3">
   <ffice:flight>
-    <fx:gufi codeSpace="urn:uuid">AAAAAAAA-AAAA-4AAA-8AAA-AAAAAAA23041</fx:gufi>
+    <fx:gufi codeSpace="urn:uuid">2b1bf9a9-c516-46be-bdc9-4926d9b84c8e</fx:gufi>
     <fx:gufiLineage>
       <fb:processStep>
         <fb:description>GUFI Generation</fb:description>
