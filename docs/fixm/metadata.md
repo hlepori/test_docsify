@@ -129,6 +129,9 @@ Applied to Scenario 1 above, the resulting encoding would look like this:
   <ffice:type>FILED_FLIGHT_PLAN</ffice:type>
 </ffice:FficeMessage>
 ```
+|Pros|Cons|
+|:-|:-|
+|Scalable design that could support the exchange of additional flight metadata as new needs are identified. Also consistent with the AIM domain that defines metadata at the level of the dataset/feature, not at the level of properties| Because the metadata construct would be generically defined for Flight, it may be more difficult to enforce cardinalities or constraint some values for the specific case of the GUFI.|
 
 ### OPTION 2: specific `gufiLineage` property
 Use a specific property called `gufiLineage` defined under `fx:Flight`. This property would be of type `Lineage`, which would mimic the ISO 19115 `LI_Lineage` data element. 
@@ -158,3 +161,7 @@ Applied to Scenario 1 above, the resulting encoding would look like this:
   <ffice:type>FILED_FLIGHT_PLAN</ffice:type>
 </ffice:FficeMessage>
 ```
+|Pros|Cons|
+|:-|:-|
+|Easier to contraint the list of values e.g. for processStep.description (using a codelist), and possibly to enforce some cardinalities. | Not as scalable. If new needs for flight metdata are identified, this design may not be able to accomodate new items. Not fully consistent with AIM domain.|
+
