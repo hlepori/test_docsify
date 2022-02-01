@@ -169,7 +169,9 @@ Applied to Scenario 1 above, the resulting encoding would look like this:
 
 Adding new fields generally increases the complexity of the FF-ICE implementations as these new fields would need to be modelled again and again in client systems (i.e. primary keys on database, unique indexes, [in Europe] ADEXP for intra system communication). An alternative that may be considered could be to enrich the GUFI expressed as a UUID v4 with information already present in the eFPL that would still enable the tracing where the UUID has been misused. The benefits of the approach would be that it re-uses information and techniques in use today in terms of association, addresses the problem of identifying where the GUFI came from, and better, does not introduce new information to be stored. 
 
-Practically, this could be materialised as follows:
+Actually, Appendix F Association Checks of the FF-ICE/R1 Implementation Guidance Manual already provides guidance for determining if a received flight plan (with a unique GUFI) is in fact the same as an existing one (even with a different GUFI) and lists the key fields to be processed: acid, adep, ades, eobt and total estimated off block time.
+
+Based on this FF-ICE inputs, a candidate representation of the GUFI could be:
 
 ```xml
 <fx:flight>
