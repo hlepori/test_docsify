@@ -167,39 +167,20 @@ Applied to Scenario 1 above, the resulting encoding would look like this:
 
 # Alternative
 
-Adding new fields generally increases the complexity of the FF-ICE implementations as these new fields would need to be modelled again and again in client systems (i.e. primary keys on database, unique indexes, [in Europe] ADEXP for intra system communication). An alternative that may be considered could be to enrich the GUFI expressed as a UUID v4 with information already present in the eFPL that would still enable the tracing where the UUID has been misused. The benefits of the approach would be that it re-uses information and techniques in use today in terms of association, addresses the problem of identifying where the GUFI came from, and better, does not introduce new information to be stored. 
+It has been stated by system developers that adding new fields generally increases the complexity of the implementation as these new fields would need to be modelled again and again in client systems (i.e. primary keys on database, unique indexes, [in Europe] ADEXP for intra system communication). An alternative that may be considered could be to leverage the information already present in the eFPL, e.g. the aircraft identification, for tracing where the UUID has been misused. The benefits of the approach would be that it re-uses information and techniques in use today in terms of association. Actually, Appendix F "Association Checks" of the FF-ICE/R1 Implementation Guidance Manual already provides guidance for determining if a received flight plan (with a unique GUFI) is in fact the same as an existing one (even with a different GUFI) and lists the key fields to be processed in this context: acid, adep, ades, eobt and total estimated off block time.
 
-Actually, Appendix F Association Checks of the FF-ICE/R1 Implementation Guidance Manual already provides guidance for determining if a received flight plan (with a unique GUFI) is in fact the same as an existing one (even with a different GUFI) and lists the key fields to be processed: acid, adep, ades, eobt and total estimated off block time.
+The following could be therefore envisaged:
+- the UUID v4 could be paired with the aircraft identification already present in the eFPL as extra uniqueness insurance and to support investigation in case of issues encountered with UUID
+- the eobt already present in the eFPL could be used to help simplify the process for confirming a GUFI is unique over some timeframe.
 
-Based on this FF-ICE inputs, a candidate representation of the GUFI could be:
+In terms of changes in FIXM, the FIXM concept of Flight Identification, which is currently restricted to Aircraft Identification, could be extended in order to bring in the UUID v4, so that both are explicitly paired. 
 
 ```xml
 <fx:flight>
-  <fx:arrival>
-    <fx:destinationAerodrome>
-      <fb:locationIndicator>EGLL</fb:locationIndicator>
-    </fx:destinationAerodrome>
-  <fx:departure>
-    <fx:aerodrome>
-      <fb:locationIndicator>LFPG</fb:locationIndicator>
-    </fx:aerodrome>
-    <fx:estimatedOffBlockTime>2021-03-04T22:30:00.000Z</fx:estimatedOffBlockTime>
-  </fx:departure>
-  <fx:flightIdentification>
+  <fx:flightIdentifier>
     <fx:aircraftIdentification>AFR3041</fx:aircraftIdentification>
-  </fx:flightIdentification>
-  <!------------------------------------------------------------>
-  <!-- UUID V4 ENRICHED WITH INFO ALREADY PRESENT IN THE EFPL -->
-  <!------------------------------------------------------------>
-  <fx:gufi acid="AFR3041" adep="LFPG" ades="EGLL" eobt="2021-03-04T22:30:00.000Z" totalEstimatedElaspsedTime="P0Y0M0DT0H27M0.000S" codeSpace="urn:uuid">2b1bf9a9-c516-46be-bdc9-4926d9b84c8e</fx:gufi>
-  <!------------------------------------------------------------>  
-  <fx:routeTrajectoryGroup>
-    <fx:filed>
-       <fx:routeInformation>
-          <fx:totalEstimatedElapsedTime>P0Y0M0DT0H27M0.000S</fx:totalEstimatedElapsedTime>
-       </fx:routeInformation>   
-    </fx:filed>
-  </fx:routeTrajectoryGroup>
+    <fx:gufi codeSpace="urn:uuid">2b1bf9a9-c516-46be-bdc9-4926d9b84c8e</fx:gufi>
+  </fx:flightIdentifier>  
 </fx:flight>
 ```   
 
