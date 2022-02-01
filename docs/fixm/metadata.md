@@ -167,22 +167,34 @@ Applied to Scenario 1 above, the resulting encoding would look like this:
 
 # Alternative
 
-The requirements in terms of enabling to trace   
-Rather than adding brand new fields to the GUFI, consider attaching to the GUFI a flight identification structure based on usual ICAO fields present in the Flight Plan.
+Adding new fields generally increases the complexity of the FF-ICE implementations as these new fields would need to be modelled again and again in client systems (i.e. primary keys on database, unique indexes, [in Europe] ADEXP for intra system communication). An alternative that may be considered could be to enrich the GUFI expressed as a UUID v4 with information already present in the eFPL that would still enable the tracing where the UUID has been misused. The benefits of the approach would be that it re-uses information and techniques in use today in terms of association, addresses the problem of identifying where the GUFI came from, and better, does not introduce new information to be stored. 
+
+Practically, this could be materialised as follows:
 
 ```xml
 <fx:flight>
-   <fx:flightIdentification>
-      <fx:gufi>
-         <fx:uuid codeSpace="urn:uuid">2b1bf9a9-c516-46be-bdc9-4926d9b84c8e</fx:uuid>
-         <fx:flightId>
-            <fx:aircraftIdentification>AFR3041</fx:aircraftIdentification>
-            <fx:eobt>2021-03-04T22:30:00.000Z</fx:eobt>
-            <fx:adep>LFPG</fx:adep>
-            <fx:ades>EGLL</fx:ades>
-         </fx:flightId>
-       <fx:gufi>
-   </fx:flightIdentification>
-</fx:flight>   
+  <!---------------------------------------------->
+  <!-- REGULAR INFORMATION FROM THE FLIGHT PLAN -->
+  <!---------------------------------------------->
+  <fx:departure>
+    <fx:aerodrome>
+      <fb:locationIndicator>LFPG</fb:locationIndicator>
+    </fx:aerodrome>
+    <fx:estimatedOffBlockTime>2021-03-04T22:30:00.000Z</fx:estimatedOffBlockTime>
+  </fx:departure>
+  
+  <!--------------------------------------------------------->
+  <!-- GUFI ENRICHED WITH INFO ALREADY PRESENT IN THE EFPL -->
+  <!--------------------------------------------------------->
+  <fx:gufi acid="AFR3041" eobt="2021-03-04T22:30:00.000Z" adep="LFPG" codeSpace="urn:uuid">2b1bf9a9-c516-46be-bdc9-4926d9b84c8e</fx:gufi>
+  <!---------------------------------------------->
+  
+  <!---------------------------------------------->
+  <!-- REGULAR INFORMATION FROM THE FLIGHT PLAN --> 
+  <!---------------------------------------------->   
+  <fx:flightIdentification>
+    <fx:aircraftIdentification>AFR3041</fx:aircraftIdentification>
+  </fx:flightIdentification>
+</fx:flight>
 ```   
 
