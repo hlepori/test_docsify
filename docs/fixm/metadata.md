@@ -175,10 +175,10 @@ those GUFIs generated with the same aircraft identification. To do so, the FIXM 
 
 ```xml
 <fx:flight>
-  <fx:flightIdentifier>
+  <fx:flightIdentification>
     <fx:aircraftIdentification>AFR3041</fx:aircraftIdentification>
     <fx:gufi codeSpace="urn:uuid">2b1bf9a9-c516-46be-bdc9-4926d9b84c8e</fx:gufi>
-  </fx:flightIdentifier>  
+  </fx:flightIdentification>  
 </fx:flight>
 ```   
 
