@@ -173,20 +173,31 @@ Practically, this could be materialised as follows:
 
 ```xml
 <fx:flight>
+  <fx:arrival>
+    <fx:destinationAerodrome>
+      <fb:locationIndicator>EGLL</fb:locationIndicator>
+    </fx:destinationAerodrome>
   <fx:departure>
     <fx:aerodrome>
       <fb:locationIndicator>LFPG</fb:locationIndicator>
     </fx:aerodrome>
     <fx:estimatedOffBlockTime>2021-03-04T22:30:00.000Z</fx:estimatedOffBlockTime>
   </fx:departure>
-  <!------------------------------------------------------------>
-  <!-- UUID V4 ENRICHED WITH INFO ALREADY PRESENT IN THE EFPL -->
-  <!------------------------------------------------------------>
-  <fx:gufi acid="AFR3041" eobt="2021-03-04T22:30:00.000Z" adep="LFPG" codeSpace="urn:uuid">2b1bf9a9-c516-46be-bdc9-4926d9b84c8e</fx:gufi>
-  <!------------------------------------------------------------>  
   <fx:flightIdentification>
     <fx:aircraftIdentification>AFR3041</fx:aircraftIdentification>
   </fx:flightIdentification>
+  <!------------------------------------------------------------>
+  <!-- UUID V4 ENRICHED WITH INFO ALREADY PRESENT IN THE EFPL -->
+  <!------------------------------------------------------------>
+  <fx:gufi acid="AFR3041" adep="LFPG" ades="EGLL" eobt="2021-03-04T22:30:00.000Z" totalEstimatedElaspsedTime="P0Y0M0DT0H27M0.000S" codeSpace="urn:uuid">2b1bf9a9-c516-46be-bdc9-4926d9b84c8e</fx:gufi>
+  <!------------------------------------------------------------>  
+  <fx:routeTrajectoryGroup>
+    <fx:filed>
+       <fx:routeInformation>
+          <fx:totalEstimatedElapsedTime>P0Y0M0DT0H27M0.000S</fx:totalEstimatedElapsedTime>
+       </fx:routeInformation>   
+    </fx:filed>
+  </fx:routeTrajectoryGroup>
 </fx:flight>
 ```   
 
