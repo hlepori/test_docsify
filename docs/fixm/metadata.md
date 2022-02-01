@@ -6,7 +6,7 @@
 - A need is identified/confirmed to record and exchange the time at which the GUFI was generated to support some traceability objectives and to help simplify the process for confirming a GUFI is unique over some timeframe.         
 - A need is identified/confirmed to record and exchange information about the GUFI origination and assignment processes, to support investigation and resolution of issues in case of e.g. GUFI collisions or multiple GUFI assignments to the same flight.
 
-> Note: Recording and exchanging information about the GUFI origination AND assignment processes is considered important because for instance a GUFI could be rightfully originated by a trusted third-party service but still illegitimately assigned to the flight by an organisation.
+> Note: Recording and exchanging information about the GUFI origination AND assignment processes should be  considered because for instance a GUFI could be rightfully originated by a trusted third-party service but still illegitimately assigned to the flight by an organisation.
 
 ## Leveraging the ISO 19115 standard 
 The ISO 19115-1 standard defines the schema required for describing geographic information and services by means of metadata. It provides information about the identification, the extent, the quality, the spatial and temporal aspects, the content, the spatial reference, the portrayal, distribution, and other properties of digital geographic data and services.
