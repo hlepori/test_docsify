@@ -169,11 +169,9 @@ Applied to Scenario 1 above, the resulting encoding would look like this:
 
 It has been stated by system developers that adding new fields generally increases the complexity of the implementation as these new fields would need to be modelled again and again in client systems (i.e. primary keys on database, unique indexes, [in Europe] ADEXP for intra system communication). An alternative that may be considered could be to leverage the information already present in the eFPL, e.g. the aircraft identification, for tracing where the UUID has been misused. The benefits of the approach would be that it re-uses information and techniques in use today in terms of association. Actually, Appendix F "Association Checks" of the FF-ICE/R1 Implementation Guidance Manual already provides guidance for determining if a received flight plan (with a unique GUFI) is in fact the same as an existing one (even with a different GUFI) and lists the key fields to be processed in this context: acid, adep, ades, eobt and total estimated off block time.
 
-The following could be therefore envisaged:
-- the UUID v4 could be paired with the aircraft identification already present in the eFPL as extra uniqueness insurance and to support investigation in case of issues encountered with UUID
-- the eobt already present in the eFPL could be used to help simplify the process for confirming a GUFI is unique over some timeframe.
-
-In terms of changes in FIXM, the FIXM concept of Flight Identification, which is currently restricted to Aircraft Identification, could be extended in order to bring in the UUID v4, so that both are explicitly paired. 
+With the above in mind, the following could be therefore envisaged:
+- the UUID v4 could be explicitly paired in FIXM with the aircraft identification already present in the eFPL. This would also reduce the problem space for collisions to only 
+those GUFIs generated with the same aircraft identification. To do so, the FIXM concept of Flight Identification, which is currently restricted to Aircraft Identification, could be extended in order to bring in the UUID v4, so that both are explicitly paired. 
 
 ```xml
 <fx:flight>
@@ -184,3 +182,4 @@ In terms of changes in FIXM, the FIXM concept of Flight Identification, which is
 </fx:flight>
 ```   
 
+- the eobt already present in the eFPL could be used to help simplify the process for confirming a GUFI is unique over some timeframe.
