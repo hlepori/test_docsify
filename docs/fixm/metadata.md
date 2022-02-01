@@ -173,25 +173,17 @@ Practically, this could be materialised as follows:
 
 ```xml
 <fx:flight>
-  <!---------------------------------------------->
-  <!-- REGULAR INFORMATION FROM THE FLIGHT PLAN -->
-  <!---------------------------------------------->
   <fx:departure>
     <fx:aerodrome>
       <fb:locationIndicator>LFPG</fb:locationIndicator>
     </fx:aerodrome>
     <fx:estimatedOffBlockTime>2021-03-04T22:30:00.000Z</fx:estimatedOffBlockTime>
   </fx:departure>
-  
-  <!--------------------------------------------------------->
-  <!-- GUFI ENRICHED WITH INFO ALREADY PRESENT IN THE EFPL -->
-  <!--------------------------------------------------------->
+  <!------------------------------------------------------------>
+  <!-- UUID V4 ENRICHED WITH INFO ALREADY PRESENT IN THE EFPL -->
+  <!------------------------------------------------------------>
   <fx:gufi acid="AFR3041" eobt="2021-03-04T22:30:00.000Z" adep="LFPG" codeSpace="urn:uuid">2b1bf9a9-c516-46be-bdc9-4926d9b84c8e</fx:gufi>
-  <!---------------------------------------------->
-  
-  <!---------------------------------------------->
-  <!-- REGULAR INFORMATION FROM THE FLIGHT PLAN --> 
-  <!---------------------------------------------->   
+  <!------------------------------------------------------------>  
   <fx:flightIdentification>
     <fx:aircraftIdentification>AFR3041</fx:aircraftIdentification>
   </fx:flightIdentification>
