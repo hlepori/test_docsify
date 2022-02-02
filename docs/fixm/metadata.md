@@ -117,9 +117,9 @@ Applied to Scenario 1 above, the resulting encoding would look like this:
         </fb:processStep>
         <fb:processStep>
           <fb:description>GUFI Assignment</fb:description>
-        <fb:processor>
-          <fb:organisationName>My Airline</fb:organisationName>
-        </fb:processor>
+          <fb:processor>
+            <fb:organisationName>My Airline</fb:organisationName>
+          </fb:processor>
           <fb:stepDateTime>2021-01-01T00:01:00Z</fb:stepDateTime>
         </fb:processStep>
       </fb:resourceLineage>
