@@ -8,7 +8,7 @@ The introduction of the GUFI as a universally unique flight identifier comes wit
 -	The GUFI generation question: how to ensure that the GUFI is generated in a way that guarantees that it is universally unique, i.e. unique within the universe of the FF-ICE domain? 
   -	A corollary of this question is: how to manage/mitigate the case whereby two distinct participants would generate the same GUFI?
 -	The GUFI allocation question: how to ensure that a given real world flight is allocated only one GUFI? 
-  -	A corollary of this question is: how to manage/mitigate multiple UUIDs allocations to the same thing across different domain participants?
+  -	A corollary of this question is: how to manage/mitigate multiple GUFIs allocations to the same flight across different domain participants?
 
 ### GUFI generation
 
