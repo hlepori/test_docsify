@@ -14,11 +14,15 @@ The ISO UUID v4, without any modification, is a well-established and trusted sta
 
 |Associated risks|Mitigation|
 |:-|:-|
-|Proper generation of a UUID v4 cannot be strictly enforced.| Guidance is available on the FIXM User Manual about which off-the-shelf IT libraries should be used for proper UUID 4 generation.|
+|Proper generation of a UUID v4 cannot be strictly enforced.| - Guidance is available on the FIXM User Manual about which off-the-shelf IT libraries should be used for proper UUID 4 generation. <br> - |
 |||
 
 ### GUFI allocation
 Chapter xxx of the FF-ICE Manual indicates 
+
+|Associated risks|Mitigation|
+|:-|:-|
+| | |
 
 Appendix F - Association checks 
 
