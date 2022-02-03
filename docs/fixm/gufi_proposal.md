@@ -2,8 +2,6 @@
 
 ## Needs 
 
-
-
 The introduction of the GUFI as a universally unique flight identifier comes with two questions:
 -	The GUFI generation question: how to ensure that the GUFI is generated in a way that guarantees that it is universally unique, i.e. unique within the universe of the FF-ICE domain? 
   -	A corollary of this question is: how to manage/mitigate the case whereby two distinct participants would generate the same GUFI?
@@ -14,9 +12,10 @@ The introduction of the GUFI as a universally unique flight identifier comes wit
 
 The ISO UUID v4, without any modification, is a well-established and trusted standard for unique identifier creation. Therefore, the GUFI shall be an unaltered UUID v4.
 
-Risk mitigation: Proper generation of a UUID v4 cannot be strictly enforced. However, guidance is available on the FIXM User Manual about which off-the-shelf IT libraries should be used for proper UUID 4 generation.
-
-
+|Associated risks|Mitigation|
+|:-|:-|
+|Proper generation of a UUID v4 cannot be strictly enforced.| Guidance is available on the FIXM User Manual about which off-the-shelf IT libraries should be used for proper UUID 4 generation.|
+|||
 
 ### GUFI allocation
 Chapter xxx of the FF-ICE Manual indicates 
