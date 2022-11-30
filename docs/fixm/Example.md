@@ -64,6 +64,24 @@ Encoding Rules:
 
 Total EET `00:27:15`, Cruising Level `5000 ft`, Cruising Speed `160 kts`
 
+---
+
+`FIXM Core 4.3.0`
+
+```xml
+<fx:routeInformation>
+   <fx:cruisingLevel>
+      <fb:altitude uom="FT">5000</fb:altitude>
+   </fx:cruisingLevel>
+   <fx:cruisingSpeed uom="KT">160</fx:cruisingSpeed>
+   <fx:totalEstimatedElapsedTime>P0Y0M0DT0H27M15S</fx:totalEstimatedElapsedTime>
+</fx:routeInformation>
+```
+
+---
+
+`FIXM Core 4.2.0`
+
 ```xml
 <fx:routeInformation>
    <fx:cruisingLevel>
@@ -73,6 +91,8 @@ Total EET `00:27:15`, Cruising Level `5000 ft`, Cruising Speed `160 kts`
    <fx:totalEstimatedElapsedTime>P0Y0M0DT0H27M15.000S</fx:totalEstimatedElapsedTime>
 </fx:routeInformation>
 ```
+
+---
 
 Encoding Rules:
 * Rules for [`<fb:altitude>`](https://docs.fixm.aero/#/general-guidance/vertical-distances)
