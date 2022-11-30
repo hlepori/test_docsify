@@ -7,9 +7,26 @@ The FPL Item 15c reads `DCT HGR V268 EMI DCT`
 
 ## Content of `<fx:departure>`
 
-`Departure Aerodrome` `KHGR`
+Departure Aerodrome `KHGR`
 
-`EOBT` `07:00`
+EOBT `07:00`
+
+---
+
+`FIXM Core 4.3.0`
+
+```xml
+<fx:departure>
+   <fx:departureAerodrome>
+      <fb:locationIndicator>KHGR</fb:locationIndicator>
+   </fx:departureAerodrome>
+   <fx:estimatedOffBlockTime>2021-03-04T07:00:00Z</fx:estimatedOffBlockTime>
+</fx:departure>
+```
+
+---
+
+`FIXM Core 4.2.0`
 
 ```xml
 <fx:departure>
@@ -19,6 +36,8 @@ The FPL Item 15c reads `DCT HGR V268 EMI DCT`
    <fx:estimatedOffBlockTime>2021-03-04T07:00:00.000Z</fx:estimatedOffBlockTime>
 </fx:departure>
 ```
+
+---
 
 Encoding Rules:
 * Rules for [`<fx:aerodrome>`](https://docs.fixm.aero/#/general-guidance/references-to-published-aeronautical-information?id=references-to-aerodromes)
