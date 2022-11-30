@@ -7,9 +7,7 @@ The FPL Item 15c reads `DCT HGR V268 EMI DCT`
 
 ## Content of `<fx:departure>`
 
-Departure Aerodrome `KHGR`
-
-EOBT `07:00`
+Departure Aerodrome `KHGR`, EOBT `07:00`
 
 ---
 
@@ -46,7 +44,9 @@ Encoding Rules:
 
 ## Content of `<fx:arrival>`
 
-`Destination Aerodrome` `KBWI`
+Destination Aerodrome `KBWI`
+
+`FIXM Core 4.3.0` `FIXM Core 4.2.0`
 
 ```xml
 <fx:arrival>
@@ -62,11 +62,7 @@ Encoding Rules:
 
 ## Content of `<fx:routeInformation>`
 
-`Total EET` `00:27:15`
-
-`Cruising Level` `5000 ft`
-
-`Cruising Speed` `160 kts`
+Total EET `00:27:15`, Cruising Level `5000 ft`, Cruising Speed `160 kts`
 
 ```xml
 <fx:routeInformation>
@@ -83,6 +79,8 @@ Encoding Rules:
 
 
 ## Content of `<fx:routeTrajectoryGroup>` - FF-ICE Basic Route
+
+Route `DCT HGR V268 EMI DCT`
 
 <table>
 <thead>
