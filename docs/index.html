@@ -87,10 +87,15 @@
   <!-- Beta announcement -->
   <script src="//cdn.jsdelivr.net/npm/docsify-corner/dist/docsify-corner.js"></script>
 
-	<script src="//unpkg.com/mermaid/dist/mermaid.js"></script>
-	<script src="//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js"> 
-	<script>mermaid.initialize({ startOnLoad: true, flowchart: { useMaxWidth: false } });</script>
 
+<!--  mermaid -->
+  <script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({ startOnLoad: true });
+    window.mermaid = mermaid;
+  </script>
+  <script src="//unpkg.com/docsify-mermaid@2.0.0/dist/docsify-mermaid.js"></script>	
+	
   <script src="assets/js/prism.js"></script>
 </body>
 </html>
