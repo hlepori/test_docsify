@@ -4,7 +4,7 @@ The FIXM User Manual, formerly known as Implementation Guidance, is developed an
 
 Note: The content of the FIXM User Manual is informative. The use of the words *shall* or *required* indicates a requirement to be strictly followed in order to conform to this guidance. The use of the words *should* or *recommended* indicates that there may may be valid reasons, in particular circumstances, to ignore a particular aspect of the guidance.
 
-## Strategic FIXM Documents
+## Strategic FIXM Documents !
 
 ```mermaid
 graph TD
