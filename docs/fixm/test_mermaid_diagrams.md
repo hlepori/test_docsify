@@ -1,4 +1,4 @@
-# TEST DIAGRAMS 5
+# TEST DIAGRAMS 6
 
 ## HOME
 
@@ -23,11 +23,15 @@ HOW_TO{{How to...<br>sections}}
 FIXM_DEV_TOOLS_COMPATIBILITY{{Development tools<br>compatibility}}
 end
 
-STRATEGY-. defines<br>strategic requirements for .-> FIXM
-CHARTER-.  formalizes<br>change management and<br>operating procedures for .-> FIXM
-VERSIONING-.  details method<br>for versioning .-> FIXM 
+%% STRATEGY-. defines<br>strategic requirements for .-> FIXM
+%% CHARTER-.  formalizes<br>change management and<br>operating procedures for .-> FIXM
+%% VERSIONING-.  details method<br>for versioning .-> FIXM 
+FIXM <-. defines<br>strategic requirements for .- STRATEGY
+FIXM <-.  formalizes<br>change management and<br>operating procedures for .- CHARTER
+FIXM <-.  details method<br>for versioning .- VERSIONING
 
-FIXM <-. provides explanations<br>about the components of .- FIXM_COMPONENTS
+
+FIXM_COMPONENTS -. provides explanations<br>about the components of .-> FIXM
 GENERAL_GUIDANCE-. describes general<br>encoding rules for .-> FIXM
 FIXM_FOR_FFICE-. provides guidance<br>in support of<br>FF-ICE implementation<br>using .-> FIXM
 FIXM_FOR_OTHER_USE-. provides guidance<br>for non-ICAO use cases<br>using.-> FIXM
