@@ -1,3 +1,38 @@
+# AIRM Viewer
+
+## AIRM Subjects
+
+- **Aircraft**:
+  - Analysis diagrams: [Overview](./airm/cm/aircraft.md?id=overview) / Aircraft Capability / [Aircraft Characteristics](./airm/cm/aircraft.md?id=aircraft-characteristics) / [Aircraft Configuration](./airm/cm/aircraft.md?id=aircraft-configuration) / Aircraft Equipment / Aircraft Identifier / Aircraft Make, Model, Series / Aircraft Registration / Flight Configuration, Take-Off Configuration / Manufacturer Configuration / Operator Configuration
+  - Taxonomy diagrams: Aircraft Categories, Aircraft Configurations, Aircraft Equipments, Aircraft Weights
+
+- **AirspaceInfrastructure / Airspace**
+  - Analysis diagrams: ...
+  - Taxonomy diagrams: ...
+
+- **AirspaceInfrastructure / InfrastructurePoint**
+  - Analysis diagrams: ...
+  - Taxonomy diagrams: ...
+
+- **AirspaceInfrastructure / RouteAndProcedure**
+  - Analysis diagrams: ...
+  - Taxonomy diagrams: ...
+
+- **AirTrafficOperations / AerodromeOperations**
+  - Analysis diagrams: ...
+  - Taxonomy diagrams: ...
+
+...
+
+
+## Topics
+
+- **FF-ICE**:
+  - Analysis diagrams: FF-ICE/R1 Services, FF-ICE/R1 Messages, ATM Service Provider, Trajectory Synchronisation, FF-ICE Planning and Filing Statuses, FF-ICE/R1 Description of predicted movement
+  - Taxonomy diagrams: 
+
+
+<!---
 # Welcome to the FIXM User Manual
 
 The FIXM User Manual, formerly known as Implementation Guidance, is developed and maintained by the FIXM Community. Content has been subject to FIXM CCB review and endorsement and is therefore the official recommendation of the FIXM CCB. 
@@ -60,3 +95,5 @@ Guidance for previous releases is available on [FIXM.aero](https://www.fixm.aero
 - Use the side bar opposite to access the various sections of the FIXM User Manual;
 - Use the search engine to look for a specific entry;
 - Use the buttons *< Previous* and *Next >* at the bottom of each page to navigate across the different sections of the manual.
+
+-->
