@@ -12,10 +12,10 @@ Key concepts: [Aircraft](https://airm.aero/developers/advanced-search/1.2.0/Airc
 
 The diagram provides an overview of the Aircraft Characteristics concept, including Aircraft Categories and Weights.
 
-![Image](.//media/Aircraft Aircraft Characteristics.png)
+![Image](.//media/Aircraft_Characteristics.png)
 
 ## Aircraft Configuration
 
 The diagram provides an overview of the Aircraft Configuration concept.
 
-![Image](.//media/Aircraft Aircraft Configuration.png)
+![Image](.//media/Aircraft_Configuration.png)
