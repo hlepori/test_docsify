@@ -7,8 +7,10 @@ Used in: **`Filed Flight Plan`**, **`Preliminary Flight Plan`**, **`Trial Reques
 
 <details>
    <summary>FIXM XPATHs</summary> 
- 
- `FficeMessage\flight\aircraft\capabilities`
+
+  |XPATHS|
+  |:-|
+  |`FficeMessage\flight\aircraft\capabilities`|
 
 </details>
 
