@@ -1,5 +1,23 @@
 # TEST
 
+
+## B-2.10 Equipment and Capabilities
+
+### Used in 
+
+`Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
+
+### FIXM XPATHs
+ - `FficeMessage\flight\aircraft\capabilities`
+
+## B-2.10.1 Equipment and Capabilities [cont]
+
+Used in: Filed Flight Plan, Preliminary Flight Plan, Trial Request, Flight Plan Update, Flight Data Response
+
+`FficeMessage\flight\aircraft\capabilities\surveillance\surveillanceCapabilityCode`<br>`FficeMessage\flight\aircraft\capabilities\surveillance\surveillanceCapabilityCode@A`<br>`FficeMessage\flight\aircraft\capabilities\surveillance\surveillanceCapabilityCode@B1`<br>`FficeMessage\flight\aircraft\capabilities\surveillance\surveillanceCapabilityCode@B2`<br>`FficeMessage\flight\aircraft\capabilities\surveillance\surveillanceCapabilityCode@C`<br>`FficeMessage\flight\aircraft\capabilities\surveillance\surveillanceCapabilityCode@D1`<br>`FficeMessage\flight\aircraft\capabilities\surveillance\surveillanceCapabilityCode@E`<br>`FficeMessage\flight\aircraft\capabilities\surveillance\surveillanceCapabilityCode@G1`<br>`FficeMessage\flight\aircraft\capabilities\surveillance\surveillanceCapabilityCode@H`<br>`FficeMessage\flight\aircraft\capabilities\surveillance\surveillanceCapabilityCode@I`<br>`FficeMessage\flight\aircraft\capabilities\surveillance\surveillanceCapabilityCode@L`<br>`FficeMessage\flight\aircraft\capabilities\surveillance\surveillanceCapabilityCode@P`<br>`FficeMessage\flight\aircraft\capabilities\surveillance\surveillanceCapabilityCode@S`<br>`FficeMessage\flight\aircraft\capabilities\surveillance\surveillanceCapabilityCode@U1`<br>`FficeMessage\flight\aircraft\capabilities\surveillance\surveillanceCapabilityCode@U2`<br>`FficeMessage\flight\aircraft\capabilities\surveillance\surveillanceCapabilityCode@V1`<br>`FficeMessage\flight\aircraft\capabilities\surveillance\surveillanceCapabilityCode@V2`<br>`FficeMessage\flight\aircraft\capabilities\surveillance\surveillanceCapabilityCode@X`
+
+
+
 | Requirement | FIXM XPATHs |
 | :- | :------------ |
 | `B-2.10 Equipment and Capabilities` | `FficeMessage\flight\aircraft\capabilities` |
