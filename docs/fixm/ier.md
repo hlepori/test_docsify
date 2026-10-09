@@ -1,9 +1,8 @@
-# TEST
+# Appendix B - FF-ICE Model & Data
 
+## B-2 Data Conventions
 
-| Requirement | FIXM XPATHs |
-| :- | :------------ |
-## Equipment and Capabilities (B-2.10)
+### Equipment and Capabilities (B-2.10)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -16,7 +15,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Equipment and Capabilities [cont] (B-2.10.1)
+### Equipment and Capabilities [cont] (B-2.10.1)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -29,7 +28,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Equipment and Capabilities [cont] (B-2.10.1)
+### Equipment and Capabilities [cont] (B-2.10.1)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -42,7 +41,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Equipment and Capabilities [cont] (B-2.10.2)
+### Equipment and Capabilities [cont] (B-2.10.2)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -55,7 +54,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Equipment and Capabilities [cont] (B-2.10.5)
+### Equipment and Capabilities [cont] (B-2.10.5)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -68,7 +67,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Contact Information (B-2.12)
+### Contact Information (B-2.12)
 
 Used in: `Submission Response`, `Filed Flight Plan`, `Preliminary Flight Plan`, `Planning Status`, `Flight Cancellation`, `Flight Data Request`, `Flight Departure`, `Flight Arrival`, `Filing Status`, `Trial Request`, `Trial Response`, `Flight Plan Update`, `Flight Data Response`
 
@@ -81,7 +80,7 @@ Used in: `Submission Response`, `Filed Flight Plan`, `Preliminary Flight Plan`, 
 
 </details>
 
-## Flight Plan Originator (B-2.12&B-2.13)
+### Flight Plan Originator (B-2.12&B-2.13)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -94,7 +93,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## AFTN Address (B-2.13)
+### AFTN Address (B-2.13)
 
 Used in: `Submission Response`, `Filed Flight Plan`, `Preliminary Flight Plan`, `Planning Status`, `Flight Cancellation`, `Flight Data Request`, `Flight Departure`, `Flight Arrival`, `Filing Status`, `Trial Request`, `Trial Response`, `Flight Plan Update`, `Flight Data Response`
 
@@ -107,7 +106,7 @@ Used in: `Submission Response`, `Filed Flight Plan`, `Preliminary Flight Plan`, 
 
 </details>
 
-## Operator Flight Plan Version (B-2.14)
+### Operator Flight Plan Version (B-2.14)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Planning Status`, `Filing Status`, `Flight Plan Update`, `Flight Data Response`
 
@@ -120,7 +119,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Planning Status`, `Fil
 
 </details>
 
-## SELCAL Code (B-2.15)
+### SELCAL Code (B-2.15)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -133,7 +132,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Aircraft Address (B-2.16)
+### Aircraft Address (B-2.16)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -146,7 +145,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Registration (B-2.17)
+### Registration (B-2.17)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -159,7 +158,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Aircraft Approach Category (B-2.18)
+### Aircraft Approach Category (B-2.18)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -172,7 +171,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Type of Flight (B-2.19)
+### Type of Flight (B-2.19)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -185,7 +184,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Special Handling (B-2.20)
+### Special Handling (B-2.20)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -198,7 +197,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Actual Arrival Time (B-2.22)
+### Actual Arrival Time (B-2.22)
 
 Used in: `Flight Arrival`
 
@@ -211,7 +210,7 @@ Used in: `Flight Arrival`
 
 </details>
 
-## Actual Departure Time (B-2.22)
+### Actual Departure Time (B-2.22)
 
 Used in: `Flight Departure`
 
@@ -224,7 +223,7 @@ Used in: `Flight Departure`
 
 </details>
 
-## Estimated Off-Block Time (B-2.22)
+### Estimated Off-Block Time (B-2.22)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Flight Cancellation`, `Flight Data Request`, `Flight Departure`, `Flight Arrival`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -237,7 +236,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Flight Cancellation`, 
 
 </details>
 
-## Estimated Off-Block Time before change (B-2.22)
+### Estimated Off-Block Time before change (B-2.22)
 
 Used in: `Flight Plan Update`
 
@@ -250,7 +249,7 @@ Used in: `Flight Plan Update`
 
 </details>
 
-## Expected Evaluation Time (B-2.22)
+### Expected Evaluation Time (B-2.22)
 
 Used in: `Filing Status`
 
@@ -263,7 +262,7 @@ Used in: `Filing Status`
 
 </details>
 
-## Message Date-Time (B-2.22)
+### Message Date-Time (B-2.22)
 
 Used in: `Submission Response`, `Filed Flight Plan`, `Preliminary Flight Plan`, `Planning Status`, `Flight Cancellation`, `Flight Data Request`, `Flight Departure`, `Flight Arrival`, `Filing Status`, `Trial Request`, `Trial Response`, `Flight Plan Update`, `Flight Data Response`
 
@@ -276,7 +275,7 @@ Used in: `Submission Response`, `Filed Flight Plan`, `Preliminary Flight Plan`, 
 
 </details>
 
-## Respond-By (B-2.22)
+### Respond-By (B-2.22)
 
 Used in: `Planning Status`, `Filing Status`
 
@@ -289,7 +288,7 @@ Used in: `Planning Status`, `Filing Status`
 
 </details>
 
-## Planning Status (B-2.23.1)
+### Planning Status (B-2.23.1)
 
 Used in: `Planning Status`, `Trial Response`, `Flight Data Response`
 
@@ -302,7 +301,7 @@ Used in: `Planning Status`, `Trial Response`, `Flight Data Response`
 
 </details>
 
-## Filing Status (B-2.23.2)
+### Filing Status (B-2.23.2)
 
 Used in: `Filing Status`, `Flight Data Response`
 
@@ -315,7 +314,7 @@ Used in: `Filing Status`, `Flight Data Response`
 
 </details>
 
-## Type of Request/Response (Filed Flight Plan) (B-2.24)
+### Type of Request/Response (Filed Flight Plan) (B-2.24)
 
 Used in: `Filed Flight Plan`
 
@@ -328,7 +327,7 @@ Used in: `Filed Flight Plan`
 
 </details>
 
-## Type of Request/Response (Filing Status) (B-2.24)
+### Type of Request/Response (Filing Status) (B-2.24)
 
 Used in: `Filing Status`
 
@@ -341,7 +340,7 @@ Used in: `Filing Status`
 
 </details>
 
-## Type of Request/Response (Flight Arrival) (B-2.24)
+### Type of Request/Response (Flight Arrival) (B-2.24)
 
 Used in: `Flight Arrival`
 
@@ -354,7 +353,7 @@ Used in: `Flight Arrival`
 
 </details>
 
-## Type of Request/Response (Flight Cancellation) (B-2.24)
+### Type of Request/Response (Flight Cancellation) (B-2.24)
 
 Used in: `Flight Cancellation`
 
@@ -367,7 +366,7 @@ Used in: `Flight Cancellation`
 
 </details>
 
-## Type of Request/Response (Flight Data Request) (B-2.24)
+### Type of Request/Response (Flight Data Request) (B-2.24)
 
 Used in: `Flight Data Request`
 
@@ -380,7 +379,7 @@ Used in: `Flight Data Request`
 
 </details>
 
-## Type of Request/Response (Flight Data Response) (B-2.24)
+### Type of Request/Response (Flight Data Response) (B-2.24)
 
 Used in: `Flight Data Response`
 
@@ -393,7 +392,7 @@ Used in: `Flight Data Response`
 
 </details>
 
-## Type of Request/Response (Flight Departure) (B-2.24)
+### Type of Request/Response (Flight Departure) (B-2.24)
 
 Used in: `Flight Departure`
 
@@ -406,7 +405,7 @@ Used in: `Flight Departure`
 
 </details>
 
-## Type of Request/Response (Flight Plan Update) (B-2.24)
+### Type of Request/Response (Flight Plan Update) (B-2.24)
 
 Used in: `Flight Plan Update`
 
@@ -419,7 +418,7 @@ Used in: `Flight Plan Update`
 
 </details>
 
-## Type of Request/Response (Planning Status) (B-2.24)
+### Type of Request/Response (Planning Status) (B-2.24)
 
 Used in: `Planning Status`
 
@@ -432,7 +431,7 @@ Used in: `Planning Status`
 
 </details>
 
-## Type of Request/Response (Preliminary Flight Plan) (B-2.24)
+### Type of Request/Response (Preliminary Flight Plan) (B-2.24)
 
 Used in: `Preliminary Flight Plan`
 
@@ -445,7 +444,7 @@ Used in: `Preliminary Flight Plan`
 
 </details>
 
-## Type of Request/Response (Submission Response) (B-2.24)
+### Type of Request/Response (Submission Response) (B-2.24)
 
 Used in: `Submission Response`
 
@@ -458,7 +457,7 @@ Used in: `Submission Response`
 
 </details>
 
-## Type of Request/Response (Trial Request) (B-2.24)
+### Type of Request/Response (Trial Request) (B-2.24)
 
 Used in: `Trial Request`
 
@@ -471,7 +470,7 @@ Used in: `Trial Request`
 
 </details>
 
-## Type of Request/Response (Trial Response) (B-2.24)
+### Type of Request/Response (Trial Response) (B-2.24)
 
 Used in: `Trial Response`
 
@@ -484,7 +483,7 @@ Used in: `Trial Response`
 
 </details>
 
-## Mode A Code (B-2.25)
+### Mode A Code (B-2.25)
 
 Used in: `Filed Flight Plan`, `Flight Plan Update`
 
@@ -497,7 +496,7 @@ Used in: `Filed Flight Plan`, `Flight Plan Update`
 
 </details>
 
-## Message Identifier (B-2.26)
+### Message Identifier (B-2.26)
 
 Used in: `Submission Response`, `Filed Flight Plan`, `Preliminary Flight Plan`, `Planning Status`, `Flight Cancellation`, `Flight Data Request`, `Flight Departure`, `Flight Arrival`, `Filing Status`, `Trial Request`, `Trial Response`, `Flight Plan Update`, `Flight Data Response`
 
@@ -510,7 +509,7 @@ Used in: `Submission Response`, `Filed Flight Plan`, `Preliminary Flight Plan`, 
 
 </details>
 
-## Message Reference (B-2.26)
+### Message Reference (B-2.26)
 
 Used in: `Submission Response`, `Trial Response`, `Flight Data Response`
 
@@ -523,7 +522,7 @@ Used in: `Submission Response`, `Trial Response`, `Flight Data Response`
 
 </details>
 
-## Submission Status (B-2.27)
+### Submission Status (B-2.27)
 
 Used in: `Submission Response`
 
@@ -536,7 +535,7 @@ Used in: `Submission Response`
 
 </details>
 
-## Filing Status Originator (B-2.28)
+### Filing Status Originator (B-2.28)
 
 Used in: `Filing Status`
 
@@ -549,7 +548,7 @@ Used in: `Filing Status`
 
 </details>
 
-## Message Originator (B-2.28)
+### Message Originator (B-2.28)
 
 Used in: `Submission Response`, `Filed Flight Plan`, `Preliminary Flight Plan`, `Planning Status`, `Flight Cancellation`, `Flight Data Request`, `Flight Departure`, `Flight Arrival`, `Filing Status`, `Trial Request`, `Trial Response`, `Flight Plan Update`, `Flight Data Response`
 
@@ -562,7 +561,7 @@ Used in: `Submission Response`, `Filed Flight Plan`, `Preliminary Flight Plan`, 
 
 </details>
 
-## Recipents / List of Recipients (B-2.28)
+### Recipents / List of Recipients (B-2.28)
 
 Used in: `Submission Response`, `Filed Flight Plan`, `Preliminary Flight Plan`, `Planning Status`, `Flight Cancellation`, `Flight Data Request`, `Flight Departure`, `Flight Arrival`, `Filing Status`, `Trial Request`, `Trial Response`, `Flight Plan Update`, `Flight Data Response`
 
@@ -575,7 +574,7 @@ Used in: `Submission Response`, `Filed Flight Plan`, `Preliminary Flight Plan`, 
 
 </details>
 
-## Request for Forwarding (B-2.28)
+### Request for Forwarding (B-2.28)
 
 Used in: `Filed Flight Plan`, `Flight Cancellation`, `Flight Departure`, `Flight Arrival`, `Flight Plan Update`
 
@@ -588,7 +587,7 @@ Used in: `Filed Flight Plan`, `Flight Cancellation`, `Flight Departure`, `Flight
 
 </details>
 
-## Request for Translation and Delivery (B-2.28)
+### Request for Translation and Delivery (B-2.28)
 
 Used in: `Filed Flight Plan`, `Flight Cancellation`, `Flight Departure`, `Flight Arrival`, `Flight Plan Update`
 
@@ -601,7 +600,7 @@ Used in: `Filed Flight Plan`, `Flight Cancellation`, `Flight Departure`, `Flight
 
 </details>
 
-## Submission Response originator (B-2.28)
+### Submission Response originator (B-2.28)
 
 Used in: `Submission Response`
 
@@ -614,7 +613,7 @@ Used in: `Submission Response`
 
 </details>
 
-##  GUFI (B-2.29)
+###  GUFI (B-2.29)
 
 Used in: `Submission Response`, `Filed Flight Plan`, `Preliminary Flight Plan`, `Planning Status`, `Flight Cancellation`, `Flight Data Request`, `Flight Departure`, `Flight Arrival`, `Filing Status`, `Trial Request`, `Trial Response`, `Flight Plan Update`, `Flight Data Response`
 
@@ -627,7 +626,7 @@ Used in: `Submission Response`, `Filed Flight Plan`, `Preliminary Flight Plan`, 
 
 </details>
 
-## Filing Status Explanation (B-2.30)
+### Filing Status Explanation (B-2.30)
 
 Used in: `Filing Status`, `Flight Data Response`
 
@@ -640,7 +639,7 @@ Used in: `Filing Status`, `Flight Data Response`
 
 </details>
 
-## Information Requested (B-2.30)
+### Information Requested (B-2.30)
 
 Used in: `Flight Data Request`
 
@@ -653,7 +652,7 @@ Used in: `Flight Data Request`
 
 </details>
 
-## Planning Status Explanation (B-2.30)
+### Planning Status Explanation (B-2.30)
 
 Used in: `Planning Status`, `Trial Response`, `Flight Data Response`
 
@@ -666,7 +665,7 @@ Used in: `Planning Status`, `Trial Response`, `Flight Data Response`
 
 </details>
 
-## Remarks (B-2.30)
+### Remarks (B-2.30)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -679,7 +678,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Route String to Revised Destination (B-2.30)
+### Route String to Revised Destination (B-2.30)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -692,7 +691,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Submission Status Explanation (B-2.30)
+### Submission Status Explanation (B-2.30)
 
 Used in: `Submission Response`
 
@@ -705,7 +704,7 @@ Used in: `Submission Response`
 
 </details>
 
-## Operator (B-2.31)
+### Operator (B-2.31)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -718,7 +717,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Supplementary Information Source (B-2.32)
+### Supplementary Information Source (B-2.32)
 
 Used in: `Filed Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`, `Preliminary Flight Plan`
 
@@ -731,7 +730,7 @@ Used in: `Filed Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Dat
 
 </details>
 
-## Fuel Endurance (B-2.33.1)
+### Fuel Endurance (B-2.33.1)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -744,7 +743,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Persons on Board (B-2.33.2)
+### Persons on Board (B-2.33.2)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -757,7 +756,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Emergency Radio (B-2.33.3)
+### Emergency Radio (B-2.33.3)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -770,7 +769,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Life Jacket Characteristics (B-2.33.5)
+### Life Jacket Characteristics (B-2.33.5)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -783,7 +782,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Aircraft Colour and Markings (B-2.33.6)
+### Aircraft Colour and Markings (B-2.33.6)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -796,7 +795,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Pilot in Command (B-2.33.7)
+### Pilot in Command (B-2.33.7)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -809,7 +808,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Dinghies (B-2.33.8)
+### Dinghies (B-2.33.8)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -822,7 +821,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Remarks (B-2.33.9)
+### Remarks (B-2.33.9)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -835,7 +834,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Survival Capability (B-2.33-4)
+### Survival Capability (B-2.33-4)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -848,7 +847,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Relevant ASPs (B-2.35)
+### Relevant ASPs (B-2.35)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Flight Cancellation`, `Flight Departure`, `Flight Arrival`, `Flight Plan Update`, `Trial Request`
 
@@ -861,7 +860,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Flight Cancellation`, 
 
 </details>
 
-## Requested Recipients (B-2.35)
+### Requested Recipients (B-2.35)
 
 Used in: `Filed Flight Plan`, `Flight Cancellation`, `Flight Departure`, `Flight Arrival`, `Flight Plan Update`
 
@@ -874,7 +873,7 @@ Used in: `Filed Flight Plan`, `Flight Cancellation`, `Flight Departure`, `Flight
 
 </details>
 
-## Departure Airport Slot Identification (B-2.37)
+### Departure Airport Slot Identification (B-2.37)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -887,7 +886,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Destination Airport Slot Identification (B-2.37)
+### Destination Airport Slot Identification (B-2.37)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -900,7 +899,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## AIRAC Reference (Desired R/T) (B-2.38)
+### AIRAC Reference (Desired R/T) (B-2.38)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Flight Plan Update`, `Flight Data Response`
 
@@ -913,7 +912,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Flight Plan Update`, `
 
 </details>
 
-## AIRAC Reference (Negotiating R/T) (B-2.38)
+### AIRAC Reference (Negotiating R/T) (B-2.38)
 
 Used in: `Trial Request`
 
@@ -926,7 +925,7 @@ Used in: `Trial Request`
 
 </details>
 
-## Required Runway Visual Range (B-2.39)
+### Required Runway Visual Range (B-2.39)
 
 Used in: `Filed Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`, `Preliminary Flight Plan`
 
@@ -939,7 +938,7 @@ Used in: `Filed Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Dat
 
 </details>
 
-## Alternate Destination Aerodromes (B-2.4)
+### Alternate Destination Aerodromes (B-2.4)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -952,7 +951,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Alternate En-Route Aerodromes (B-2.4)
+### Alternate En-Route Aerodromes (B-2.4)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -965,7 +964,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Alternate Take-Off Aerodromes (B-2.4)
+### Alternate Take-Off Aerodromes (B-2.4)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -978,7 +977,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Arrival Aerodrome (B-2.4)
+### Arrival Aerodrome (B-2.4)
 
 Used in: `Flight Arrival`
 
@@ -991,7 +990,7 @@ Used in: `Flight Arrival`
 
 </details>
 
-## Departure Aerodrome (B-2.4)
+### Departure Aerodrome (B-2.4)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Flight Cancellation`, `Flight Data Request`, `Flight Departure`, `Flight Arrival`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -1004,7 +1003,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Flight Cancellation`, 
 
 </details>
 
-## Departure Aerodrome before change (B-2.4)
+### Departure Aerodrome before change (B-2.4)
 
 Used in: `Flight Plan Update`
 
@@ -1017,7 +1016,7 @@ Used in: `Flight Plan Update`
 
 </details>
 
-## Destination Aerodrome (B-2.4)
+### Destination Aerodrome (B-2.4)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Flight Cancellation`, `Flight Data Request`, `Flight Departure`, `Flight Arrival`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -1030,7 +1029,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Flight Cancellation`, 
 
 </details>
 
-## Destination Aerodrome before change (B-2.4)
+### Destination Aerodrome before change (B-2.4)
 
 Used in: `Flight Plan Update`
 
@@ -1043,7 +1042,7 @@ Used in: `Flight Plan Update`
 
 </details>
 
-## Revised Destination (B-2.4)
+### Revised Destination (B-2.4)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -1056,7 +1055,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Actual Arrival Reference Data (B-2.40)
+### Actual Arrival Reference Data (B-2.40)
 
 Used in: `Flight Arrival`
 
@@ -1069,7 +1068,7 @@ Used in: `Flight Arrival`
 
 </details>
 
-## Actual Departure Reference Data (B-2.41)
+### Actual Departure Reference Data (B-2.41)
 
 Used in: `Flight Departure`
 
@@ -1082,7 +1081,7 @@ Used in: `Flight Departure`
 
 </details>
 
-## Departure Runway (B-2.42)
+### Departure Runway (B-2.42)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Planning Status`, `Filing Status`, `Trial Request`, `Trial Response`, `Flight Plan Update`, `Flight Data Response`
 
@@ -1095,7 +1094,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Planning Status`, `Fil
 
 </details>
 
-## Destination Runway (B-2.42)
+### Destination Runway (B-2.42)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Planning Status`, `Filing Status`, `Trial Request`, `Trial Response`, `Flight Plan Update`, `Flight Data Response`
 
@@ -1108,7 +1107,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Planning Status`, `Fil
 
 </details>
 
-## Trajectory Purpose (B-2.43)
+### Trajectory Purpose (B-2.43)
 
 Used in: `Filing Status`
 
@@ -1121,7 +1120,7 @@ Used in: `Filing Status`
 
 </details>
 
-## Number and type of aircraft (B-2.5)
+### Number and type of aircraft (B-2.5)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -1134,7 +1133,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Aircraft Identification (B-2.6)
+### Aircraft Identification (B-2.6)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Planning Status`, `Flight Cancellation`, `Flight Data Request`, `Flight Departure`, `Flight Arrival`, `Filing Status`, `Trial Request`, `Trial Response`, `Flight Plan Update`, `Flight Data Response`
 
@@ -1147,7 +1146,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Planning Status`, `Fli
 
 </details>
 
-## Flight Rules (B-2.7)
+### Flight Rules (B-2.7)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -1160,7 +1159,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Dangerous Goods Information (B-2.8)
+### Dangerous Goods Information (B-2.8)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -1173,7 +1172,7 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
-## Wake Turbulence Category (B-2.9)
+### Wake Turbulence Category (B-2.9)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
 
@@ -1186,4 +1185,635 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
+## B-3 Flight Route/Trajectory Group
+
+### General Flight Constraint (B-3.1.7)
+
+Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Planning Status`, `Filing Status`, `Trial Request`, `Trial Response`, `Flight Data Response`, `Flight Plan Update`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\flightConstraint\applicability`<br>`FficeMessage\flight\flightConstraint\impact`<br>`FficeMessage\flight\flightConstraint\restrictionReference\restrictionIdentifier`<br>`FficeMessage\flight\flightConstraint\restrictionReference\restrictionType` |
+
+</details>
+
+## Agreed Route/Trajectory Group (B-3)
+
+### Agreed Route/Trajectory Group (B-3)
+
+Used in: `Planning Status`, `Flight Data Response`, `Filing Status`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\agreed` |
+
+</details>
+
+### Aircraft Take-off Mass (Agreed R/T) (B-3.1.3)
+
+Used in: `Planning Status`, `Filing Status`, `Flight Data Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\agreed\takeoffMass`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\takeoffMass\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\takeoffMass\uom@KG`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\takeoffMass\uom@LB` |
+
+</details>
+
+### Requested Cruising Speed (Agreed R/T) (B-3.1.4)
+
+Used in: `Planning Status`, `Filing Status`, `Flight Data Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\agreed\routeInformation\cruisingSpeed`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\routeInformation\cruisingSpeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\routeInformation\cruisingSpeed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\routeInformation\cruisingSpeed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\routeInformation\cruisingSpeed\uom@MACH` |
+
+</details>
+
+### Requested Cruising Level (Agreed R/T) (B-3.1.5)
+
+Used in: `Planning Status`, `Filing Status`, `Flight Data Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\agreed\routeInformation\cruisingLevel\altitude`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\routeInformation\cruisingLevel\altitude\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\routeInformation\cruisingLevel\altitude\uom@FT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\routeInformation\cruisingLevel\altitude\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\routeInformation\cruisingLevel\flightLevel`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\routeInformation\cruisingLevel\flightLevel\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\routeInformation\cruisingLevel\flightLevel\uom@FL`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\routeInformation\cruisingLevel\flightLevel\uom@SM`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\routeInformation\cruisingLevel\visualFlightRules`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\routeInformation\cruisingLevel\visualFlightRules@VFR` |
+
+</details>
+
+### Total Estimated Elapsed Time (Agreed R/T) (B-3.1.6)
+
+Used in: `Planning Status`, `Filing Status`, `Flight Data Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\agreed\routeInformation\totalEstimatedElapsedTime` |
+
+</details>
+
+### Along Route Distance (Agreed R/T) (B-3.2.2)
+
+Used in: `Planning Status`, `Filing Status`, `Flight Data Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\agreed\element\alongRouteDistance`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\alongRouteDistance\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\alongRouteDistance\uom@KM`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\alongRouteDistance\uom@NM` |
+
+</details>
+
+### Modified Route Indicator (Agreed R/T) (B-3.2.3)
+
+Used in: `Planning Status`, `Filing Status`, `Flight Data Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\agreed\element\modified`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\modified@MODIFIED_ROUTE_ITEM`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\modifiedRouteItemReference` |
+
+</details>
+
+### Route Truncation Indicator (Agreed R/T) (B-3.2.4)
+
+Used in: `Planning Status`, `Filing Status`, `Flight Data Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeTruncationIndicator`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeTruncationIndicator@ROUTE_TRUNCATION` |
+
+</details>
+
+### Route Element Start Point (Agreed R/T) (B-3.2.5)
+
+Used in: `Planning Status`, `Filing Status`, `Flight Data Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\agreed\element\elementStartPoint\aerodromeReferencePoint\iataDesignator`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\elementStartPoint\aerodromeReferencePoint\locationIndicator`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\elementStartPoint\aerodromeReferencePoint\name`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\elementStartPoint\aerodromeReferencePoint\referencePoint\pos`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\elementStartPoint\aerodromeReferencePoint\referencePoint\srsName`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\elementStartPoint\designatedPoint\designator`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\elementStartPoint\designatedPoint\position\pos`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\elementStartPoint\designatedPoint\position\pos`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\elementStartPoint\designatedPoint\position\srsName`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\elementStartPoint\designatedPoint\position\srsName`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\elementStartPoint\navaid\designator`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\elementStartPoint\navaid\position\pos`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\elementStartPoint\navaid\position\srsName`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\elementStartPoint\position\pos`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\elementStartPoint\position\srsName`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\elementStartPoint\relativePoint\bearing`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\elementStartPoint\relativePoint\bearing\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\elementStartPoint\relativePoint\bearing\uom@DEG`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\elementStartPoint\relativePoint\bearing\zeroBearingType`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\elementStartPoint\relativePoint\bearing\zeroBearingType@MAGNETIC_NORTH`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\elementStartPoint\relativePoint\bearing\zeroBearingType@TRUE_NORTH`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\elementStartPoint\relativePoint\distance`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\elementStartPoint\relativePoint\distance\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\elementStartPoint\relativePoint\distance\uom@NM`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\elementStartPoint\relativePoint\referencePoint\designator` |
+
+</details>
+
+### Route to Next Element (Agreed R/T) (B-3.2.6)
+
+Used in: `Planning Status`, `Filing Status`, `Flight Data Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeDesignatorToNextElement\otherRouteDesignator`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeDesignatorToNextElement\otherRouteDesignator@DIRECT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeDesignatorToNextElement\otherRouteDesignator@UNSPECIFIED`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeDesignatorToNextElement\routeDesignator`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeDesignatorToNextElement\standardInstrumentArrival\abbreviatedDesignator`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeDesignatorToNextElement\standardInstrumentArrival\designator`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeDesignatorToNextElement\standardInstrumentDeparture\abbreviatedDesignator`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeDesignatorToNextElement\standardInstrumentDeparture\designator` |
+
+</details>
+
+### Requested Change (Agreed R/T) (B-3.3)
+
+Used in: `Planning Status`, `Filing Status`, `Flight Data Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\agreed\element\flightRulesChange`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\flightRulesChange@IFR`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\flightRulesChange@VFR`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\cruiseClimbStart\lowerLevel\altitude`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\cruiseClimbStart\lowerLevel\altitude\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\cruiseClimbStart\lowerLevel\altitude\uom@FT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\cruiseClimbStart\lowerLevel\altitude\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\cruiseClimbStart\lowerLevel\flightLevel`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\cruiseClimbStart\lowerLevel\flightLevel\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\cruiseClimbStart\lowerLevel\flightLevel\uom@FL`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\cruiseClimbStart\lowerLevel\flightLevel\uom@SM`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\cruiseClimbStart\speed`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\cruiseClimbStart\speed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\cruiseClimbStart\speed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\cruiseClimbStart\speed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\cruiseClimbStart\speed\uom@MACH`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\cruiseClimbStart\upperLevel\altitude`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\cruiseClimbStart\upperLevel\altitude\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\cruiseClimbStart\upperLevel\altitude\uom@FT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\cruiseClimbStart\upperLevel\altitude\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\cruiseClimbStart\upperLevel\atOrAbove`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\cruiseClimbStart\upperLevel\atOrAbove@AT_OR_ABOVE_LOWER_LEVEL`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\cruiseClimbStart\upperLevel\flightLevel`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\cruiseClimbStart\upperLevel\flightLevel\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\cruiseClimbStart\upperLevel\flightLevel\uom@FL`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\cruiseClimbStart\upperLevel\flightLevel\uom@SM`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\level\activation@PLAN_TO_ATTAIN`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\level\activation@PLAN_TO_COMMENCE`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\level\level\altitude`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\level\level\altitude\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\level\level\altitude\uom@FT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\level\level\altitude\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\level\level\flightLevel`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\level\level\flightLevel\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\level\level\flightLevel\uom@FL`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\level\level\flightLevel\uom@SM`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\speed\activation@PLAN_TO_ATTAIN`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\speed\activation@PLAN_TO_COMMENCE`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\speed\speed`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\speed\speed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\speed\speed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\routeChange\speed\speed\uom@MACH` |
+
+</details>
+
+### Route/Trajectory Constraints (Agreed R/T) (B-3.4)
+
+Used in: `Planning Status`, `Filing Status`, `Flight Data Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\departureOrArrivalIndicator`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\departureOrArrivalIndicator@ARRIVAL`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\departureOrArrivalIndicator@DEPARTURE`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\description`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\level\activation`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\level\activation@PLAN_TO_ATTAIN`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\level\activation@PLAN_TO_COMMENCE`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\level\level\altitude`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\level\level\altitude\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\level\level\altitude\uom@FT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\level\level\altitude\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\level\level\flightLevel`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\level\level\flightLevel\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\level\level\flightLevel\uom@FL`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\level\level\flightLevel\uom@SM`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\level\level\range\lowerBound\altitude`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\level\level\range\lowerBound\altitude\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\level\level\range\lowerBound\altitude\uom@FT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\level\level\range\lowerBound\altitude\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\level\level\range\lowerBound\flightLevel`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\level\level\range\lowerBound\flightLevel\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\level\level\range\lowerBound\flightLevel\uom@FL`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\level\level\range\lowerBound\flightLevel\uom@SM`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\level\level\range\upperBound\altitude`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\level\level\range\upperBound\altitude\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\level\level\range\upperBound\altitude\uom@FT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\level\level\range\upperBound\altitude\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\level\level\range\upperBound\flightLevel`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\level\level\range\upperBound\flightLevel\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\level\level\range\upperBound\flightLevel\uom@FL`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\level\level\range\upperBound\flightLevel\uom@SM`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\restrictionReference\restrictionIdentifier`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\restrictionReference\restrictionType`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\speed\activation@PLAN_TO_ATTAIN`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\speed\activation@PLAN_TO_COMMENCE`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\speed\speed\range\lowerSpeed`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\speed\speed\range\lowerSpeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\speed\speed\range\lowerSpeed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\speed\speed\range\lowerSpeed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\speed\speed\range\lowerSpeed\uom@MACH`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\speed\speed\range\upperSpeed`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\speed\speed\range\upperSpeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\speed\speed\range\upperSpeed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\speed\speed\range\upperSpeed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\speed\speed\range\upperSpeed\uom@MACH`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\speed\speed\value`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\speed\speed\value\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\speed\speed\value\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\speed\speed\value\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\speed\speed\value\uom@MACH`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\time\timeSpecification\range\earliest`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\time\timeSpecification\range\latest`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\constraint\time\timeSpecification\value` |
+
+</details>
+
+### Trajectory Point (Agreed R/T) (B-3.5)
+
+Used in: `Planning Status`, `Filing Status`, `Flight Data Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\altimeterSetting`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\altimeterSetting\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\altimeterSetting\uom@HPA`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\level\altitude`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\level\altitude\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\level\altitude\uom@FT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\level\altitude\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\level\flightLevel`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\level\flightLevel\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\level\flightLevel\uom@FL`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\level\flightLevel\uom@SM`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\metData\temperature`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\metData\temperature\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\metData\temperature\uom@C`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\metData\windDirection`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\metData\windDirection\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\metData\windDirection\uom@DEG`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\metData\windSpeed`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\metData\windSpeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\metData\windSpeed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\metData\windSpeed\uom@M_SEC`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\description`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@AIRPORT_REFERENCE_LOCATION`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@BEGIN_STAY`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@CONSTRAINT_POINT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@CROSSING_CONSTRAINED_AIRSPACE`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@CROSSOVER_ALTITUDE`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@DEPARTURE_RUNWAY_END`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@END_EXPECT_VECTORS`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@END_LANDING_ROLL`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@END_PREDICTION_POINT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@END_STAY`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@ENTRY_CONSTRAINED_AIRSPACE`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@ENTRY_RESTRICTED_OR_RESERVED_AIRSPACE`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@EXIT_CONSTRAINED_AIRSPACE`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@EXIT_RESTRICTED_OR_RESERVED_AIRSPACE`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@FIR_BOUNDARY_CROSSING_POINT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@HOLD_ENTRY`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@HOLD_EXIT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@IN_BLOCKS`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@INITIAL_PREDICTION_POINT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@OFF_BLOCKS`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@PRESCRIBED_EET_POINT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@RUNWAY_THRESHOLD`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@START_EXPECT_VECTORS`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@START_TAKEOFF_ROLL`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@TCP_LATERAL`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@TCP_SPEED`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@TCP_VERTICAL`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@TOP_OF_CLIMB`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@TOP_OF_DESCENT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@TRANSITION_ALTITUDE_OR_LEVEL`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@WHEELS_OFF`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\propertyType@WHEELS_ON`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\reference\identifier`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\pointProperty\reference\type`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\position\pos`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\position\srsName`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\predictedAirspeed`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\predictedAirspeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\predictedAirspeed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\predictedAirspeed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\predictedAirspeed\uom@MACH`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\predictedGroundspeed`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\predictedGroundspeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\predictedGroundspeed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\predictedGroundspeed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\time\absoluteTime`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\point4D\time\relativeTimeFromInitialPredictionPoint` |
+
+</details>
+
+### Planned Delay (Agreed R/T) (B-3.6)
+
+Used in: `Planning Status`, `Filing Status`, `Flight Data Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\agreed\element\plannedDelay\delayReason`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\plannedDelay\delayReference`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\plannedDelay\delayType`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\plannedDelay\delayType@ATFM`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\plannedDelay\delayType@OPERATOR_REQUEST_AERODROME`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\plannedDelay\delayType@OPERATOR_REQUEST_AIRSPACE`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\plannedDelay\delayType@OPERATOR_REQUEST_HOLDING`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\plannedDelay\delayType@OPERATOR_REQUEST_POINT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\plannedDelay\delayType@OPERATOR_REQUEST_SEGMENT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\element\plannedDelay\delayValue` |
+
+</details>
+
+### Performance Profile (Agreed R/T) (B-3.7.2)
+
+Used in: `Planning Status`, `Filing Status`, `Flight Data Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\agreed\climbProfile\profilePoint\airspeed`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\climbProfile\profilePoint\airspeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\climbProfile\profilePoint\airspeed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\climbProfile\profilePoint\airspeed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\climbProfile\profilePoint\airspeed\uom@MACH`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\climbProfile\profilePoint\distance`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\climbProfile\profilePoint\distance\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\climbProfile\profilePoint\distance\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\climbProfile\profilePoint\distance\uom@NM`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\climbProfile\profilePoint\level\altitude`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\climbProfile\profilePoint\level\altitude\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\climbProfile\profilePoint\level\altitude\uom@FT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\climbProfile\profilePoint\level\altitude\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\climbProfile\profilePoint\level\flightLevel`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\climbProfile\profilePoint\level\flightLevel\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\climbProfile\profilePoint\level\flightLevel\uom@FL`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\climbProfile\profilePoint\level\flightLevel\uom@SM`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\climbProfile\profilePoint\time`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\descentProfile\profilePoint\airspeed`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\descentProfile\profilePoint\airspeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\descentProfile\profilePoint\airspeed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\descentProfile\profilePoint\airspeed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\descentProfile\profilePoint\airspeed\uom@MACH`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\descentProfile\profilePoint\distance`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\descentProfile\profilePoint\distance\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\descentProfile\profilePoint\distance\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\descentProfile\profilePoint\distance\uom@NM`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\descentProfile\profilePoint\level\altitude`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\descentProfile\profilePoint\level\altitude\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\descentProfile\profilePoint\level\altitude\uom@FT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\descentProfile\profilePoint\level\altitude\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\descentProfile\profilePoint\level\flightLevel`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\descentProfile\profilePoint\level\flightLevel\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\descentProfile\profilePoint\level\flightLevel\uom@FL`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\descentProfile\profilePoint\level\flightLevel\uom@SM`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\descentProfile\profilePoint\time` |
+
+</details>
+
+### Speed Schedule (Agreed R/T) (B-3.7.7)
+
+Used in: `Planning Status`, `Filing Status`, `Flight Data Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\agreed\climbSchedule\initialSpeed`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\climbSchedule\initialSpeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\climbSchedule\initialSpeed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\climbSchedule\initialSpeed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\climbSchedule\subsequentSpeed`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\climbSchedule\subsequentSpeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\climbSchedule\subsequentSpeed\uom@MACH`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\descentSchedule\initialSpeed`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\descentSchedule\initialSpeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\descentSchedule\initialSpeed\uom@MACH`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\descentSchedule\subsequentSpeed`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\descentSchedule\subsequentSpeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\descentSchedule\subsequentSpeed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\agreed\descentSchedule\subsequentSpeed\uom@KT` |
+
+</details>
+
+## Desired Route/Trajectory Group (B-3)
+
+### Desired Route/Trajectory Group (B-3)
+
+Used in: `Filed Flight Plan`, `Flight Plan Update`, `Flight Data Response`, `Preliminary Flight Plan`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\desired` |
+
+</details>
+
+### Aircraft Take-off Mass (Desired R/T) (B-3.1.3)
+
+Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Flight Plan Update`, `Flight Data Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\desired\takeoffMass`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\takeoffMass\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\takeoffMass\uom@KG`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\takeoffMass\uom@LB` |
+
+</details>
+
+### Requested Cruising Speed (Desired R/T) (B-3.1.4)
+
+Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Flight Plan Update`, `Flight Data Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\desired\routeInformation\cruisingSpeed`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\routeInformation\cruisingSpeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\routeInformation\cruisingSpeed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\routeInformation\cruisingSpeed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\routeInformation\cruisingSpeed\uom@MACH` |
+
+</details>
+
+### Requested Cruising Level (Desired R/T) (B-3.1.5)
+
+Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Flight Plan Update`, `Flight Data Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\desired\routeInformation\cruisingLevel\altitude`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\routeInformation\cruisingLevel\altitude\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\routeInformation\cruisingLevel\altitude\uom@FT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\routeInformation\cruisingLevel\altitude\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\routeInformation\cruisingLevel\flightLevel`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\routeInformation\cruisingLevel\flightLevel\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\routeInformation\cruisingLevel\flightLevel\uom@FL`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\routeInformation\cruisingLevel\flightLevel\uom@SM`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\routeInformation\cruisingLevel\visualFlightRules`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\routeInformation\cruisingLevel\visualFlightRules@VFR` |
+
+</details>
+
+### Total Estimated Elapsed Time (Desired R/T) (B-3.1.6)
+
+Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Flight Plan Update`, `Flight Data Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\desired\routeInformation\totalEstimatedElapsedTime` |
+
+</details>
+
+### Along Route Distance (Desired R/T) (B-3.2.2)
+
+Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Flight Plan Update`, `Flight Data Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\desired\element\alongRouteDistance`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\alongRouteDistance\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\alongRouteDistance\uom@KM`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\alongRouteDistance\uom@NM` |
+
+</details>
+
+### Route Truncation Indicator (Desired R/T) (B-3.2.4)
+
+Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Flight Plan Update`, `Flight Data Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\desired\element\routeTruncationIndicator`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeTruncationIndicator@ROUTE_TRUNCATION` |
+
+</details>
+
+### Route Element Start Point (Desired R/T) (B-3.2.5)
+
+Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Flight Plan Update`, `Flight Data Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\desired\element\elementStartPoint\aerodromeReferencePoint\iataDesignator`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\elementStartPoint\aerodromeReferencePoint\locationIndicator`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\elementStartPoint\aerodromeReferencePoint\name`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\elementStartPoint\aerodromeReferencePoint\referencePoint\pos`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\elementStartPoint\aerodromeReferencePoint\referencePoint\srsName`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\elementStartPoint\designatedPoint\designator`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\elementStartPoint\designatedPoint\position\pos`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\elementStartPoint\designatedPoint\position\pos`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\elementStartPoint\designatedPoint\position\srsName`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\elementStartPoint\designatedPoint\position\srsName`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\elementStartPoint\navaid\designator`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\elementStartPoint\navaid\position\pos`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\elementStartPoint\navaid\position\srsName`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\elementStartPoint\position\pos`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\elementStartPoint\position\srsName`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\elementStartPoint\relativePoint\bearing`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\elementStartPoint\relativePoint\bearing\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\elementStartPoint\relativePoint\bearing\uom@DEG`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\elementStartPoint\relativePoint\bearing\zeroBearingType`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\elementStartPoint\relativePoint\bearing\zeroBearingType@MAGNETIC_NORTH`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\elementStartPoint\relativePoint\bearing\zeroBearingType@TRUE_NORTH`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\elementStartPoint\relativePoint\distance`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\elementStartPoint\relativePoint\distance\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\elementStartPoint\relativePoint\distance\uom@NM`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\elementStartPoint\relativePoint\referencePoint\designator` |
+
+</details>
+
+### Route to Next Element (Desired R/T) (B-3.2.6)
+
+Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Flight Plan Update`, `Flight Data Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\desired\element\routeDesignatorToNextElement\otherRouteDesignator`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeDesignatorToNextElement\otherRouteDesignator@DIRECT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeDesignatorToNextElement\otherRouteDesignator@UNSPECIFIED`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeDesignatorToNextElement\routeDesignator`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeDesignatorToNextElement\standardInstrumentArrival\abbreviatedDesignator`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeDesignatorToNextElement\standardInstrumentArrival\designator`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeDesignatorToNextElement\standardInstrumentDeparture\abbreviatedDesignator`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeDesignatorToNextElement\standardInstrumentDeparture\designator` |
+
+</details>
+
+### Requested Change (Desired R/T) (B-3.3)
+
+Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Flight Plan Update`, `Flight Data Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\desired\element\flightRulesChange`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\flightRulesChange@IFR`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\flightRulesChange@VFR`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\cruiseClimbStart\lowerLevel\altitude`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\cruiseClimbStart\lowerLevel\altitude\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\cruiseClimbStart\lowerLevel\altitude\uom@FT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\cruiseClimbStart\lowerLevel\altitude\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\cruiseClimbStart\lowerLevel\flightLevel`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\cruiseClimbStart\lowerLevel\flightLevel\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\cruiseClimbStart\lowerLevel\flightLevel\uom@FL`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\cruiseClimbStart\lowerLevel\flightLevel\uom@SM`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\cruiseClimbStart\speed`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\cruiseClimbStart\speed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\cruiseClimbStart\speed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\cruiseClimbStart\speed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\cruiseClimbStart\speed\uom@MACH`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\cruiseClimbStart\upperLevel\altitude`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\cruiseClimbStart\upperLevel\altitude\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\cruiseClimbStart\upperLevel\altitude\uom@FT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\cruiseClimbStart\upperLevel\altitude\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\cruiseClimbStart\upperLevel\atOrAbove`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\cruiseClimbStart\upperLevel\atOrAbove@AT_OR_ABOVE_LOWER_LEVEL`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\cruiseClimbStart\upperLevel\flightLevel`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\cruiseClimbStart\upperLevel\flightLevel\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\cruiseClimbStart\upperLevel\flightLevel\uom@FL`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\cruiseClimbStart\upperLevel\flightLevel\uom@SM`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\level\activation@PLAN_TO_ATTAIN`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\level\activation@PLAN_TO_COMMENCE`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\level\level\altitude`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\level\level\altitude\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\level\level\altitude\uom@FT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\level\level\altitude\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\level\level\flightLevel`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\level\level\flightLevel\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\level\level\flightLevel\uom@FL`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\level\level\flightLevel\uom@SM`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\speed\activation@PLAN_TO_ATTAIN`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\speed\activation@PLAN_TO_COMMENCE`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\speed\speed`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\speed\speed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\speed\speed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\routeChange\speed\speed\uom@MACH` |
+
+</details>
+
+### Route/Trajectory Constraints (Desired R/T) (B-3.4)
+
+Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Flight Plan Update`, `Flight Data Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\departureOrArrivalIndicator`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\departureOrArrivalIndicator@ARRIVAL`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\departureOrArrivalIndicator@DEPARTURE`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\description`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\level\activation`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\level\activation@PLAN_TO_ATTAIN`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\level\activation@PLAN_TO_COMMENCE`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\level\level\altitude`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\level\level\altitude\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\level\level\altitude\uom@FT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\level\level\altitude\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\level\level\flightLevel`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\level\level\flightLevel\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\level\level\flightLevel\uom@FL`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\level\level\flightLevel\uom@SM`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\level\level\range\lowerBound\altitude`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\level\level\range\lowerBound\altitude\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\level\level\range\lowerBound\altitude\uom@FT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\level\level\range\lowerBound\altitude\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\level\level\range\lowerBound\flightLevel`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\level\level\range\lowerBound\flightLevel\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\level\level\range\lowerBound\flightLevel\uom@FL`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\level\level\range\lowerBound\flightLevel\uom@SM`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\level\level\range\upperBound\altitude`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\level\level\range\upperBound\altitude\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\level\level\range\upperBound\altitude\uom@FT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\level\level\range\upperBound\altitude\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\level\level\range\upperBound\flightLevel`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\level\level\range\upperBound\flightLevel\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\level\level\range\upperBound\flightLevel\uom@FL`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\level\level\range\upperBound\flightLevel\uom@SM`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\restrictionReference\restrictionIdentifier`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\restrictionReference\restrictionType`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\speed\activation@PLAN_TO_ATTAIN`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\speed\activation@PLAN_TO_COMMENCE`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\speed\speed\range\lowerSpeed`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\speed\speed\range\lowerSpeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\speed\speed\range\lowerSpeed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\speed\speed\range\lowerSpeed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\speed\speed\range\lowerSpeed\uom@MACH`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\speed\speed\range\upperSpeed`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\speed\speed\range\upperSpeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\speed\speed\range\upperSpeed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\speed\speed\range\upperSpeed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\speed\speed\range\upperSpeed\uom@MACH`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\speed\speed\value`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\speed\speed\value\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\speed\speed\value\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\speed\speed\value\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\speed\speed\value\uom@MACH`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\time\timeSpecification\range\earliest`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\time\timeSpecification\range\latest`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\constraint\time\timeSpecification\value` |
+
+</details>
+
+### Trajectory Point (Desired R/T) (B-3.5)
+
+Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Flight Plan Update`, `Flight Data Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\altimeterSetting`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\altimeterSetting\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\altimeterSetting\uom@HPA`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\level\altitude`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\level\altitude\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\level\altitude\uom@FT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\level\altitude\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\level\flightLevel`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\level\flightLevel\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\level\flightLevel\uom@FL`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\level\flightLevel\uom@SM`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\metData\temperature`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\metData\temperature\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\metData\temperature\uom@C`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\metData\windDirection`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\metData\windDirection\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\metData\windDirection\uom@DEG`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\metData\windSpeed`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\metData\windSpeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\metData\windSpeed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\metData\windSpeed\uom@M_SEC`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\description`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@AIRPORT_REFERENCE_LOCATION`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@BEGIN_STAY`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@CONSTRAINT_POINT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@CROSSING_CONSTRAINED_AIRSPACE`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@CROSSOVER_ALTITUDE`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@DEPARTURE_RUNWAY_END`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@END_EXPECT_VECTORS`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@END_LANDING_ROLL`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@END_PREDICTION_POINT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@END_STAY`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@ENTRY_CONSTRAINED_AIRSPACE`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@ENTRY_RESTRICTED_OR_RESERVED_AIRSPACE`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@EXIT_CONSTRAINED_AIRSPACE`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@EXIT_RESTRICTED_OR_RESERVED_AIRSPACE`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@FIR_BOUNDARY_CROSSING_POINT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@HOLD_ENTRY`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@HOLD_EXIT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@IN_BLOCKS`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@INITIAL_PREDICTION_POINT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@OFF_BLOCKS`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@PRESCRIBED_EET_POINT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@RUNWAY_THRESHOLD`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@START_EXPECT_VECTORS`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@START_TAKEOFF_ROLL`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@TCP_LATERAL`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@TCP_SPEED`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@TCP_VERTICAL`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@TOP_OF_CLIMB`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@TOP_OF_DESCENT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@TRANSITION_ALTITUDE_OR_LEVEL`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@WHEELS_OFF`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\propertyType@WHEELS_ON`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\reference\identifier`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\pointProperty\reference\type`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\position\pos`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\position\srsName`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\predictedAirspeed`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\predictedAirspeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\predictedAirspeed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\predictedAirspeed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\predictedAirspeed\uom@MACH`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\predictedGroundspeed`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\predictedGroundspeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\predictedGroundspeed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\predictedGroundspeed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\time\absoluteTime`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\point4D\time\relativeTimeFromInitialPredictionPoint` |
+
+</details>
+
+### Planned Delay (Desired R/T) (B-3.6)
+
+Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Flight Plan Update`, `Flight Data Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\desired\element\plannedDelay\delayReason`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\plannedDelay\delayReference`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\plannedDelay\delayType`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\plannedDelay\delayType@ATFM`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\plannedDelay\delayType@OPERATOR_REQUEST_AERODROME`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\plannedDelay\delayType@OPERATOR_REQUEST_AIRSPACE`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\plannedDelay\delayType@OPERATOR_REQUEST_HOLDING`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\plannedDelay\delayType@OPERATOR_REQUEST_POINT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\plannedDelay\delayType@OPERATOR_REQUEST_SEGMENT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\element\plannedDelay\delayValue` |
+
+</details>
+
+### Performance Profile (Desired R/T) (B-3.7.2)
+
+Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Flight Plan Update`, `Flight Data Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\desired\climbProfile\profilePoint\airspeed`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\climbProfile\profilePoint\airspeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\climbProfile\profilePoint\airspeed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\climbProfile\profilePoint\airspeed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\climbProfile\profilePoint\airspeed\uom@MACH`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\climbProfile\profilePoint\distance`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\climbProfile\profilePoint\distance\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\climbProfile\profilePoint\distance\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\climbProfile\profilePoint\distance\uom@NM`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\climbProfile\profilePoint\level\altitude`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\climbProfile\profilePoint\level\altitude\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\climbProfile\profilePoint\level\altitude\uom@FT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\climbProfile\profilePoint\level\altitude\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\climbProfile\profilePoint\level\flightLevel`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\climbProfile\profilePoint\level\flightLevel\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\climbProfile\profilePoint\level\flightLevel\uom@FL`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\climbProfile\profilePoint\level\flightLevel\uom@SM`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\climbProfile\profilePoint\time`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\descentProfile\profilePoint\airspeed`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\descentProfile\profilePoint\airspeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\descentProfile\profilePoint\airspeed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\descentProfile\profilePoint\airspeed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\descentProfile\profilePoint\airspeed\uom@MACH`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\descentProfile\profilePoint\distance`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\descentProfile\profilePoint\distance\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\descentProfile\profilePoint\distance\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\descentProfile\profilePoint\distance\uom@NM`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\descentProfile\profilePoint\level\altitude`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\descentProfile\profilePoint\level\altitude\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\descentProfile\profilePoint\level\altitude\uom@FT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\descentProfile\profilePoint\level\altitude\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\descentProfile\profilePoint\level\flightLevel`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\descentProfile\profilePoint\level\flightLevel\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\descentProfile\profilePoint\level\flightLevel\uom@FL`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\descentProfile\profilePoint\level\flightLevel\uom@SM`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\descentProfile\profilePoint\time` |
+
+</details>
+
+### Speed Schedule (Desired R/T) (B-3.7.7)
+
+Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Flight Plan Update`, `Flight Data Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\desired\climbSchedule\initialSpeed`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\climbSchedule\initialSpeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\climbSchedule\initialSpeed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\climbSchedule\initialSpeed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\climbSchedule\subsequentSpeed`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\climbSchedule\subsequentSpeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\climbSchedule\subsequentSpeed\uom@MACH`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\descentSchedule\initialSpeed`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\descentSchedule\initialSpeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\descentSchedule\initialSpeed\uom@MACH`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\descentSchedule\subsequentSpeed`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\descentSchedule\subsequentSpeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\descentSchedule\subsequentSpeed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\desired\descentSchedule\subsequentSpeed\uom@KT` |
+
+</details>
+
+## Negotiating Route/Trajectory Group (B-3)
+
+### Negotiating Route/Trajectory Group (B-3)
+
+Used in: `Planning Status`, `Trial Request`, `Trial Response`, `Filing Status`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\negotiating` |
+
+</details>
+
+### Aircraft Take-off Mass (Negotiating R/T) (B-3.1.3)
+
+Used in: `Filing Status`, `Planning Status`, `Trial Request`, `Trial Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\negotiating\takeoffMass`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\takeoffMass\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\takeoffMass\uom@KG`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\takeoffMass\uom@LB` |
+
+</details>
+
+### Requested Cruising Speed (Negotiating R/T) (B-3.1.4)
+
+Used in: `Filing Status`, `Planning Status`, `Trial Request`, `Trial Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\negotiating\routeInformation\cruisingSpeed`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\routeInformation\cruisingSpeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\routeInformation\cruisingSpeed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\routeInformation\cruisingSpeed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\routeInformation\cruisingSpeed\uom@MACH` |
+
+</details>
+
+### Requested Cruising Level (Negotiating R/T) (B-3.1.5)
+
+Used in: `Filing Status`, `Planning Status`, `Trial Request`, `Trial Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\negotiating\routeInformation\cruisingLevel\altitude`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\routeInformation\cruisingLevel\altitude\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\routeInformation\cruisingLevel\altitude\uom@FT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\routeInformation\cruisingLevel\altitude\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\routeInformation\cruisingLevel\flightLevel`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\routeInformation\cruisingLevel\flightLevel\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\routeInformation\cruisingLevel\flightLevel\uom@FL`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\routeInformation\cruisingLevel\flightLevel\uom@SM`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\routeInformation\cruisingLevel\visualFlightRules`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\routeInformation\cruisingLevel\visualFlightRules@VFR` |
+
+</details>
+
+### Total Estimated Elapsed Time (Negotiating R/T) (B-3.1.6)
+
+Used in: `Filing Status`, `Planning Status`, `Trial Request`, `Trial Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\negotiating\routeInformation\totalEstimatedElapsedTime` |
+
+</details>
+
+### Along Route Distance (Negotiating R/T) (B-3.2.2)
+
+Used in: `Filing Status`, `Planning Status`, `Trial Request`, `Trial Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\negotiating\element\alongRouteDistance`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\alongRouteDistance\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\alongRouteDistance\uom@KM`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\alongRouteDistance\uom@NM` |
+
+</details>
+
+### Modified Route Indicator (Negotiating R/T) (B-3.2.3)
+
+Used in: `Filing Status`, `Planning Status`, `Trial Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\negotiating\element\modified`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\modified@MODIFIED_ROUTE_ITEM`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\modifiedRouteItemReference` |
+
+</details>
+
+### Route Truncation Indicator (Negotiating R/T) (B-3.2.4)
+
+Used in: `Filing Status`, `Planning Status`, `Trial Request`, `Trial Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeTruncationIndicator`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeTruncationIndicator@ROUTE_TRUNCATION` |
+
+</details>
+
+### Route Element Start Point (Negotiating R/T) (B-3.2.5)
+
+Used in: `Filing Status`, `Planning Status`, `Trial Request`, `Trial Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\negotiating\element\elementStartPoint\aerodromeReferencePoint\iataDesignator`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\elementStartPoint\aerodromeReferencePoint\locationIndicator`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\elementStartPoint\aerodromeReferencePoint\name`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\elementStartPoint\aerodromeReferencePoint\referencePoint\pos`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\elementStartPoint\aerodromeReferencePoint\referencePoint\srsName`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\elementStartPoint\designatedPoint\designator`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\elementStartPoint\designatedPoint\position\pos`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\elementStartPoint\designatedPoint\position\pos`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\elementStartPoint\designatedPoint\position\srsName`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\elementStartPoint\designatedPoint\position\srsName`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\elementStartPoint\navaid\designator`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\elementStartPoint\navaid\position\pos`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\elementStartPoint\navaid\position\srsName`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\elementStartPoint\position\pos`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\elementStartPoint\position\srsName`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\elementStartPoint\relativePoint\bearing`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\elementStartPoint\relativePoint\bearing\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\elementStartPoint\relativePoint\bearing\uom@DEG`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\elementStartPoint\relativePoint\bearing\zeroBearingType`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\elementStartPoint\relativePoint\bearing\zeroBearingType@MAGNETIC_NORTH`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\elementStartPoint\relativePoint\bearing\zeroBearingType@TRUE_NORTH`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\elementStartPoint\relativePoint\distance`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\elementStartPoint\relativePoint\distance\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\elementStartPoint\relativePoint\distance\uom@NM`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\elementStartPoint\relativePoint\referencePoint\designator` |
+
+</details>
+
+### Route to Next Element (Negotiating R/T) (B-3.2.6)
+
+Used in: `Filing Status`, `Planning Status`, `Trial Request`, `Trial Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeDesignatorToNextElement\otherRouteDesignator`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeDesignatorToNextElement\otherRouteDesignator@DIRECT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeDesignatorToNextElement\otherRouteDesignator@UNSPECIFIED`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeDesignatorToNextElement\routeDesignator`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeDesignatorToNextElement\standardInstrumentArrival\abbreviatedDesignator`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeDesignatorToNextElement\standardInstrumentArrival\designator`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeDesignatorToNextElement\standardInstrumentDeparture\abbreviatedDesignator`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeDesignatorToNextElement\standardInstrumentDeparture\designator` |
+
+</details>
+
+### Requested Change (Negotiating R/T) (B-3.3)
+
+Used in: `Filing Status`, `Planning Status`, `Trial Request`, `Trial Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\negotiating\element\flightRulesChange`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\flightRulesChange@IFR`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\flightRulesChange@VFR`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\cruiseClimbStart\lowerLevel\altitude`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\cruiseClimbStart\lowerLevel\altitude\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\cruiseClimbStart\lowerLevel\altitude\uom@FT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\cruiseClimbStart\lowerLevel\altitude\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\cruiseClimbStart\lowerLevel\flightLevel`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\cruiseClimbStart\lowerLevel\flightLevel\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\cruiseClimbStart\lowerLevel\flightLevel\uom@FL`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\cruiseClimbStart\lowerLevel\flightLevel\uom@SM`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\cruiseClimbStart\speed`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\cruiseClimbStart\speed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\cruiseClimbStart\speed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\cruiseClimbStart\speed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\cruiseClimbStart\speed\uom@MACH`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\cruiseClimbStart\upperLevel\altitude`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\cruiseClimbStart\upperLevel\altitude\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\cruiseClimbStart\upperLevel\altitude\uom@FT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\cruiseClimbStart\upperLevel\altitude\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\cruiseClimbStart\upperLevel\atOrAbove`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\cruiseClimbStart\upperLevel\atOrAbove@AT_OR_ABOVE_LOWER_LEVEL`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\cruiseClimbStart\upperLevel\flightLevel`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\cruiseClimbStart\upperLevel\flightLevel\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\cruiseClimbStart\upperLevel\flightLevel\uom@FL`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\cruiseClimbStart\upperLevel\flightLevel\uom@SM`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\level\activation@PLAN_TO_ATTAIN`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\level\activation@PLAN_TO_COMMENCE`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\level\level\altitude`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\level\level\altitude\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\level\level\altitude\uom@FT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\level\level\altitude\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\level\level\flightLevel`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\level\level\flightLevel\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\level\level\flightLevel\uom@FL`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\level\level\flightLevel\uom@SM`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\speed\activation@PLAN_TO_ATTAIN`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\speed\activation@PLAN_TO_COMMENCE`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\speed\speed`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\speed\speed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\speed\speed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\routeChange\speed\speed\uom@MACH` |
+
+</details>
+
+### Route/Trajectory Constraints (Negotiating R/T) (B-3.4)
+
+Used in: `Filing Status`, `Planning Status`, `Trial Request`, `Trial Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\departureOrArrivalIndicator`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\departureOrArrivalIndicator@ARRIVAL`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\departureOrArrivalIndicator@DEPARTURE`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\description`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\level\activation`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\level\activation@PLAN_TO_ATTAIN`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\level\activation@PLAN_TO_COMMENCE`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\level\level\altitude`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\level\level\altitude\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\level\level\altitude\uom@FT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\level\level\altitude\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\level\level\flightLevel`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\level\level\flightLevel\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\level\level\flightLevel\uom@FL`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\level\level\flightLevel\uom@SM`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\level\level\range\lowerBound\altitude`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\level\level\range\lowerBound\altitude\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\level\level\range\lowerBound\altitude\uom@FT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\level\level\range\lowerBound\altitude\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\level\level\range\lowerBound\flightLevel`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\level\level\range\lowerBound\flightLevel\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\level\level\range\lowerBound\flightLevel\uom@FL`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\level\level\range\lowerBound\flightLevel\uom@SM`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\level\level\range\upperBound\altitude`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\level\level\range\upperBound\altitude\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\level\level\range\upperBound\altitude\uom@FT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\level\level\range\upperBound\altitude\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\level\level\range\upperBound\flightLevel`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\level\level\range\upperBound\flightLevel\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\level\level\range\upperBound\flightLevel\uom@FL`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\level\level\range\upperBound\flightLevel\uom@SM`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\restrictionReference\restrictionIdentifier`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\restrictionReference\restrictionType`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\speed\activation@PLAN_TO_ATTAIN`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\speed\activation@PLAN_TO_COMMENCE`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\speed\speed\range\lowerSpeed`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\speed\speed\range\lowerSpeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\speed\speed\range\lowerSpeed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\speed\speed\range\lowerSpeed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\speed\speed\range\lowerSpeed\uom@MACH`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\speed\speed\range\upperSpeed`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\speed\speed\range\upperSpeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\speed\speed\range\upperSpeed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\speed\speed\range\upperSpeed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\speed\speed\range\upperSpeed\uom@MACH`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\speed\speed\value`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\speed\speed\value\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\speed\speed\value\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\speed\speed\value\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\speed\speed\value\uom@MACH`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\time\timeSpecification\range\earliest`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\time\timeSpecification\range\latest`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\constraint\time\timeSpecification\value` |
+
+</details>
+
+### Trajectory Point (Negotiating R/T) (B-3.5)
+
+Used in: `Filing Status`, `Planning Status`, `Trial Request`, `Trial Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\altimeterSetting`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\altimeterSetting\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\altimeterSetting\uom@HPA`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\level\altitude`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\level\altitude\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\level\altitude\uom@FT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\level\altitude\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\level\flightLevel`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\level\flightLevel\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\level\flightLevel\uom@FL`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\level\flightLevel\uom@SM`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\metData\temperature`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\metData\temperature\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\metData\temperature\uom@C`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\metData\windDirection`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\metData\windDirection\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\metData\windDirection\uom@DEG`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\metData\windSpeed`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\metData\windSpeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\metData\windSpeed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\metData\windSpeed\uom@M_SEC`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\description`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@AIRPORT_REFERENCE_LOCATION`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@BEGIN_STAY`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@CONSTRAINT_POINT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@CROSSING_CONSTRAINED_AIRSPACE`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@CROSSOVER_ALTITUDE`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@DEPARTURE_RUNWAY_END`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@END_EXPECT_VECTORS`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@END_LANDING_ROLL`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@END_PREDICTION_POINT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@END_STAY`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@ENTRY_CONSTRAINED_AIRSPACE`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@ENTRY_RESTRICTED_OR_RESERVED_AIRSPACE`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@EXIT_CONSTRAINED_AIRSPACE`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@EXIT_RESTRICTED_OR_RESERVED_AIRSPACE`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@FIR_BOUNDARY_CROSSING_POINT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@HOLD_ENTRY`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@HOLD_EXIT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@IN_BLOCKS`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@INITIAL_PREDICTION_POINT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@OFF_BLOCKS`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@PRESCRIBED_EET_POINT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@RUNWAY_THRESHOLD`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@START_EXPECT_VECTORS`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@START_TAKEOFF_ROLL`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@TCP_LATERAL`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@TCP_SPEED`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@TCP_VERTICAL`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@TOP_OF_CLIMB`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@TOP_OF_DESCENT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@TRANSITION_ALTITUDE_OR_LEVEL`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@WHEELS_OFF`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\propertyType@WHEELS_ON`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\reference\identifier`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\pointProperty\reference\type`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\position\pos`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\position\srsName`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\predictedAirspeed`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\predictedAirspeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\predictedAirspeed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\predictedAirspeed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\predictedAirspeed\uom@MACH`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\predictedGroundspeed`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\predictedGroundspeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\predictedGroundspeed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\predictedGroundspeed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\time\absoluteTime`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\point4D\time\relativeTimeFromInitialPredictionPoint` |
+
+</details>
+
+### Planned Delay (Negotiating R/T) (B-3.6)
+
+Used in: `Filing Status`, `Planning Status`, `Trial Request`, `Trial Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\negotiating\element\plannedDelay\delayReason`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\plannedDelay\delayReference`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\plannedDelay\delayType`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\plannedDelay\delayType@ATFM`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\plannedDelay\delayType@OPERATOR_REQUEST_AERODROME`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\plannedDelay\delayType@OPERATOR_REQUEST_AIRSPACE`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\plannedDelay\delayType@OPERATOR_REQUEST_HOLDING`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\plannedDelay\delayType@OPERATOR_REQUEST_POINT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\plannedDelay\delayType@OPERATOR_REQUEST_SEGMENT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\element\plannedDelay\delayValue` |
+
+</details>
+
+### Performance Profile (Negotiating R/T) (B-3.7.2)
+
+Used in: `Filing Status`, `Planning Status`, `Trial Request`, `Trial Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\negotiating\climbProfile\profilePoint\airspeed`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\climbProfile\profilePoint\airspeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\climbProfile\profilePoint\airspeed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\climbProfile\profilePoint\airspeed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\climbProfile\profilePoint\airspeed\uom@MACH`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\climbProfile\profilePoint\distance`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\climbProfile\profilePoint\distance\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\climbProfile\profilePoint\distance\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\climbProfile\profilePoint\distance\uom@NM`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\climbProfile\profilePoint\level\altitude`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\climbProfile\profilePoint\level\altitude\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\climbProfile\profilePoint\level\altitude\uom@FT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\climbProfile\profilePoint\level\altitude\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\climbProfile\profilePoint\level\flightLevel`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\climbProfile\profilePoint\level\flightLevel\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\climbProfile\profilePoint\level\flightLevel\uom@FL`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\climbProfile\profilePoint\level\flightLevel\uom@SM`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\climbProfile\profilePoint\time`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\descentProfile\profilePoint\airspeed`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\descentProfile\profilePoint\airspeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\descentProfile\profilePoint\airspeed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\descentProfile\profilePoint\airspeed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\descentProfile\profilePoint\airspeed\uom@MACH`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\descentProfile\profilePoint\distance`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\descentProfile\profilePoint\distance\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\descentProfile\profilePoint\distance\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\descentProfile\profilePoint\distance\uom@NM`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\descentProfile\profilePoint\level\altitude`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\descentProfile\profilePoint\level\altitude\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\descentProfile\profilePoint\level\altitude\uom@FT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\descentProfile\profilePoint\level\altitude\uom@M`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\descentProfile\profilePoint\level\flightLevel`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\descentProfile\profilePoint\level\flightLevel\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\descentProfile\profilePoint\level\flightLevel\uom@FL`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\descentProfile\profilePoint\level\flightLevel\uom@SM`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\descentProfile\profilePoint\time` |
+
+</details>
+
+### Speed Schedule (Negotiating R/T) (B-3.7.7)
+
+Used in: `Filing Status`, `Planning Status`, `Trial Request`, `Trial Response`
+
+<details>
+  <summary>FIXM XPATHs</summary>
+
+|  |
+|:-|
+| `FficeMessage\flight\routeTrajectoryGroup\negotiating\climbSchedule\initialSpeed`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\climbSchedule\initialSpeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\climbSchedule\initialSpeed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\climbSchedule\initialSpeed\uom@KT`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\climbSchedule\subsequentSpeed`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\climbSchedule\subsequentSpeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\climbSchedule\subsequentSpeed\uom@MACH`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\descentSchedule\initialSpeed`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\descentSchedule\initialSpeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\descentSchedule\initialSpeed\uom@MACH`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\descentSchedule\subsequentSpeed`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\descentSchedule\subsequentSpeed\uom`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\descentSchedule\subsequentSpeed\uom@KM_H`<br>`FficeMessage\flight\routeTrajectoryGroup\negotiating\descentSchedule\subsequentSpeed\uom@KT` |
+
+</details>
 
