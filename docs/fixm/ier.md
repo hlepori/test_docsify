@@ -15,6 +15,8 @@ Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Fligh
 
 </details>
 
+---
+
 ### Equipment and Capabilities [cont] (B-2.10.1)
 
 Used in: `Filed Flight Plan`, `Preliminary Flight Plan`, `Trial Request`, `Flight Plan Update`, `Flight Data Response`
